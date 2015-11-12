@@ -1,7 +1,7 @@
 # Dependencies:
-- node
-- node express
-- anaconda (python)
+- [node + npm](https://nodejs.org/en/)
+- node express (npm install express)
+- [anaconda (python)](https://www.continuum.io/downloads) for ipython notebook and pandas 
 
 # Resources: 
 
