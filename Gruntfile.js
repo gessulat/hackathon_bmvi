@@ -128,7 +128,8 @@ module.exports = function (grunt) {
         connect: {
             server: {
                 options: {
-                    base: "hana_repo"
+                    port: 1337,
+                    base: "ui"
                 }
             }
         }
