@@ -1,1 +1,12 @@
 node_modules
+ui/vendor/ui5
+
+# Generated OpenUI5 preload files
+ui/app/Component-preload.js
+ui/app/controller/*-dbg.controller.js
+ui/app/lib/library-preload.json
+ui/app/lib/*-dbg.js
+ui/app/lib/themes/**/library.css
+ui/app/lib/themes/**/library-RTL.css
+ui/app/lib/themes/**/library-parameters.json
+ui/app/css/style.css

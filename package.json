@@ -1,13 +1,26 @@
 {
-  "name": "google-maps-javascript-example",
+  "name": "bmvi",
   "version": "0.0.1",
-  "description": "A code sample using client-side JavaScript Google Maps API",
-  "dependencies": {
-    "express": "*"
-   },
+  "description": "Hackathon App",
+  "license": "GPL-2.0",
   "engine": "node 0.6.x",
   "repository": {
-  "type": "git",
-  "url": "git://github.com/gessulat/hackathon_bmvi.git"
+    "type": "git",
+    "url": "git://github.com/gessulat/hackathon_bmvi.git"
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-less": "^1.1.0",
+    "grunt-contrib-rename": "0.0.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-curl": "^2.2.0",
+    "grunt-openui5": "^0.8.0",
+    "grunt-zip": "^0.17.1"
   }
 }
