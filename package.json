@@ -1,0 +1,13 @@
+{
+  "name": "google-maps-javascript-example",
+  "version": "0.0.1",
+  "description": "A code sample using client-side JavaScript Google Maps API",
+  "dependencies": {
+    "express": "*"
+   },
+  "engine": "node 0.6.x",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/gessulat/hackathon_bmvi.git"
+  }
+}
