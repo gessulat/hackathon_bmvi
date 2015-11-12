@@ -1,13 +1,12 @@
-# Dependencies:
+## Dependencies
 - [node + npm](https://nodejs.org/en/)
 - node express (npm install express)
 - [anaconda (python)](https://www.continuum.io/downloads) for ipython notebook and pandas 
 
-# Resources: 
+## Resources
 
-## Maps 
+### Maps 
 Google Maps API: https://developers.google.com/maps/
 
-## Data Munging
-
+### Data Munging
 Pandas: http://pandas.pydata.org/
