@@ -20,10 +20,7 @@ sap.ui.define([
      * @param {sap.ui.base.Event} oEvent Tile press Event
      */
     HomeController.prototype.onTilePressed = function (oEvent) {
-        // TODO: Handle other Tiles
-        if (oEvent.getSource().getTitle() === this.getView().getModel("i18n").getResourceBundle().getText("PLACES")) {
-            this.getRouter().navTo("places");
-        }
+        this.getRouter().navTo(oEvent.getSource().getKey());
     };
 
     return HomeController;

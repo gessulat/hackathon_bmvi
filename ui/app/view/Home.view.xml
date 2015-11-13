@@ -1,8 +1,8 @@
-<mvc:View controllerName="bmvi.ui.app.controller.Home" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<mvc:View controllerName="bmvi.ui.app.controller.Home" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:bmvi="bmvi.ui.app.lib">
     <Page title="{i18n>HOME_TITLE}">
         <TileContainer>
-            <StandardTile icon="sap-icon://map" title="{i18n>PLACES}" press=".onTilePressed" />
-            <StandardTile icon="sap-icon://action" title="{i18n>OTHER}" press=".onTilePressed" />
+            <bmvi:Tile icon="sap-icon://map" key="routes" title="{i18n>TILE_ROUTES}" press=".onTilePressed" />
+            <bmvi:Tile icon="sap-icon://action" key="other" title="{i18n>TILE_MONITOR}" press=".onTilePressed" />
         </TileContainer>
     </Page>
 </mvc:View>

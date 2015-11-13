@@ -84,9 +84,9 @@
                     "name": "home",
                     "target": "home"
                 }, {
-                    "pattern": "places/:place:",
-                    "name": "places",
-                    "target": "places"
+                    "pattern": "routes/:route:",
+                    "name": "routes",
+                    "target": "routes"
                 }
             ],
             "targets": {
@@ -94,8 +94,8 @@
                     "viewName": "Home",
                     "viewLevel": 1
                 },
-                "places": {
-                    "viewName": "Places",
+                "routes": {
+                    "viewName": "Routes",
                     "viewLevel": 2
                 },
                 "notFound": {

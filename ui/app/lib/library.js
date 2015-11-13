@@ -7,8 +7,9 @@
 sap.ui.define([
     "jquery.sap.global",
     "sap/m/library",
+    "sap/ui/base/DataType",
     "sap/ui/core/library"
-], function () {
+], function (jQuery, library, DataType) {
     "use strict";
 
     sap.ui.getCore().initLibrary({
@@ -18,7 +19,9 @@ sap.ui.define([
             "sap.m",
             "sap.ui.core"
         ],
-        types: [],
+        types: [
+            "bmvi.ui.app.lib.Position"
+        ],
         interfaces: [],
         controls: [
             "bmvi.ui.app.lib.Map"
@@ -27,6 +30,16 @@ sap.ui.define([
             "bmvi.ui.app.lib.Marker"
         ]
     });
+
+    /**
+     * @class A string type that represents a GPS Position.
+     * @static
+     */
+    bmvi.ui.app.lib.Position = DataType.createType("bmvi.ui.app.lib.Position", {
+        isValid: function (vValue) {
+            return /^\d+\.\d+, ?\d+\.\d+$/.test(vValue);
+        }
+    }, DataType.getType("string"));
 
     return bmvi.ui.app.lib;
 });
