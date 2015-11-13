@@ -83,12 +83,20 @@
                     "pattern": "",
                     "name": "home",
                     "target": "home"
+                }, {
+                    "pattern": "places/:place:",
+                    "name": "places",
+                    "target": "places"
                 }
             ],
             "targets": {
                 "home": {
                     "viewName": "Home",
                     "viewLevel": 1
+                },
+                "places": {
+                    "viewName": "Places",
+                    "viewLevel": 2
                 },
                 "notFound": {
                     "viewName": "NotFound",

@@ -1,0 +1,7 @@
+<mvc:View controllerName="bmvi.ui.app.controller.Map" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:bmvi="bmvi.ui.app.lib">
+    <Page title="{title}">
+        <bmvi:Map markers="{markers}">
+            <bmvi:Marker lat="{lat}" lng="{lng}" title="{title}" />
+        </bmvi:Map>
+    </Page>
+</mvc:View>

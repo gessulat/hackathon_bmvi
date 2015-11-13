@@ -1,13 +1,32 @@
 {
-    "markers": [
-        {
-            "lat": 52.529526,
-            "lng": 13.378539,
-            "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
-        }, {
-            "lat": 52.523165,
-            "lng": 13.376061,
-            "title": "Bundesministerium für Bildung und Forschung"
+    "places": {
+        "Ministerien": {
+            "title": "Ministerien",
+            "markers": [
+                {
+                    "lat": 52.529526,
+                    "lng": 13.378539,
+                    "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
+                }, {
+                    "lat": 52.523165,
+                    "lng": 13.376061,
+                    "title": "Bundesministerium für Bildung und Forschung"
+                }
+            ]
+        },
+        "Restaurants:": {
+            "title": "Restaurants",
+            "markers": [
+                {
+                    "lat": 52.525305,
+                    "lng": 13.403392,
+                    "title": "COME BUY - Bubble Tea"
+                }, {
+                    "lat": 52.528633,
+                    "lng": 13.402467,
+                    "title": "Transit"
+                }
+            ]
         }
-    ]
+    }
 }
