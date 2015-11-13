@@ -1,6 +1,7 @@
 node_modules
 data
 ui/vendor/ui5
+.ipynb_checkpoints
 
 # Generated OpenUI5 preload files
 ui/app/Component-preload.js
