@@ -21,19 +21,19 @@ sap.ui.define([
      * @override
      */
     MapController.prototype.onInit = function () {
-        this.getRouter().getTargets().getTarget("places").attachDisplay(this._onTargetDisplay, this);
+        this.getRouter().getTargets().getTarget("routes").attachDisplay(this._onTargetDisplay, this);
     };
 
     /**
-     * Handle `places`-Target displayed.
-     * Bind the view to the selected "place".
+     * Handle `routes`-Target displayed.
+     * Bind the view to the selected "route".
      * @private
      * @param {sap.ui.base.Event} oEvent Target display Event
      */
     MapController.prototype._onTargetDisplay = function (oEvent) {
-        var sPlace = oEvent.getParameter("data").place;
-        if (sPlace) {
-            this.getView().bindElement("/places/" + sPlace);
+        var sRoute = oEvent.getParameter("data").route;
+        if (sRoute) {
+            this.getView().bindElement("/routes/" + sRoute);
         }
     };
 

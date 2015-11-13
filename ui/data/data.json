@@ -1,32 +1,94 @@
 {
-    "places": {
-        "Ministerien": {
-            "title": "Ministerien",
-            "markers": [
-                {
+    "routes": {
+        "a2": {
+            "key": "a2",
+            "title": "Bremen - Berlin",
+            "center": "52.80356660165128,11.092962499999999",
+            "zoom": 8,
+            "markers": {
+                "start": {
+                    "point": "53.075891,8.807386",
+                    "lat": 53.075891,
+                    "lng": 8.807386,
+                    "title": "Bremen Roland"
+                },
+                "end": {
+                    "point": "52.529526,13.378539",
                     "lat": 52.529526,
                     "lng": 13.378539,
                     "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
-                }, {
-                    "lat": 52.523165,
-                    "lng": 13.376061,
-                    "title": "Bundesministerium für Bildung und Forschung"
+                }
+            },
+            "routes": [
+                {
+                    "start": "53.075891,8.807386",
+                    "end": "52.529526,13.378539",
+                    "points": [],
+                    "type": "Blue"
                 }
             ]
         },
-        "Snacks": {
-            "title": "Snacks",
-            "markers": [
+        "a93": {
+            "key": "a93",
+            "title": "Frankenschnellweg",
+            "info": "Achtung",
+            "center": "50.423242210110814,12.501510499999995",
+            "zoom": 7,
+            "markers": {
+                "start": {
+                    "point": "52.529526,13.378539",
+                    "lat": 52.529526,
+                    "lng": 13.378539,
+                    "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
+                },
+                "end": {
+                    "point": "48.218936,11.624482",
+                    "lat": 48.218936,
+                    "lng": 11.624482,
+                    "title": "Allianz Arena"
+                }
+            },
+            "routes": [
                 {
-                    "lat": 52.525305,
-                    "lng": 13.403392,
-                    "title": "COME BUY - Bubble Tea"
+                    "start": "52.529526,13.378539",
+                    "end": "50.331555,11.789035",
+                    "points": [],
+                    "type": "Blue"
                 }, {
-                    "lat": 52.528633,
-                    "lng": 13.402467,
-                    "title": "Transit"
+                    "start": "50.331555,11.789035",
+                    "end": "48.579930,11.590296",
+                    "points": [],
+                    "type": "Red"
+                }, {
+                    "start": "50.331555,11.789035",
+                    "end": "48.579930,11.590296",
+                    "points": [
+                        "49.252858,12.125769"
+                    ],
+                    "type": "Green"
+                }, {
+                    "start": "48.579930,11.590296",
+                    "end": "48.218936,11.624482",
+                    "points": [],
+                    "type": "Blue"
                 }
             ]
+        },
+        "a7": {
+            "key": "a7",
+            "title": "Hamburg - Frankfurt"
+        },
+        "ds": {
+            "key": "ds",
+            "title": "Düsseldorf - Saarbrücken"
+        },
+        "mh": {
+            "key": "mh",
+            "title": "Mannheim - Hamburg"
+        },
+        "sm": {
+            "key": "sm",
+            "title": "Stuttgart - München"
         }
     }
 }

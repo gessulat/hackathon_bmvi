@@ -1,0 +1,20 @@
+<mvc:View controllerName="bmvi.ui.app.controller.Routes" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:bmvi="bmvi.ui.app.lib">
+    <SplitContainer>
+        <detailPages>
+            <mvc:XMLView viewName="bmvi.ui.app.view.Map" />
+        </detailPages>
+        <masterPages>
+            <Page showNavButton="true" title="{i18n>ROUTES_TITLE}" navButtonPress=".onNavBack">
+                <List mode="SingleSelectMaster" items="{/routes}" selectionChange=".onItemSelected">
+                    <StandardListItem info="{info}" infoState="{= !!${info} ? 'Warning' : 'Warning'}" selected="{= ${/selectedRoute} === ${key}}" title="{title}" />
+                </List>
+                <footer>
+                    <Toolbar>
+                        <ToolbarSpacer />
+                        <Button icon="sap-icon://add" text="{i18n>ADD_ROUTE}" />
+                    </Toolbar>
+                </footer>
+            </Page>
+        </masterPages>
+    </SplitContainer>
+</mvc:View>

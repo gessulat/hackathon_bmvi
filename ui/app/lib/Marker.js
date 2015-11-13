@@ -42,6 +42,13 @@ sap.ui.define([
                     group: "Data"
                 },
                 /**
+                 * Position of the Marker as point.
+                 */
+                point: {
+                    type: "bmvi.ui.app.lib.Position",
+                    group: "Data"
+                },
+                /**
                  * Rollover text.
                  */
                 title: {
