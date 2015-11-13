@@ -45,8 +45,8 @@ The server responds with a JSON-object containing the route options with pricing
   "maut_cost_eur": 10.92,
     },
     {
-      "distance_m": 577123,
-      "duration_s": 18194,
+      "distance_m": 616345,
+      "duration_s": 20040,
       "start_location": {
         "lat": 52.5167,
         "lon": 13.3833,
