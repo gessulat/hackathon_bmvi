@@ -15,7 +15,6 @@ sap.ui.define([
      * @extends sap.ui.core.Control
      *
      * @constructor
-     * @public
      * @alias bmvi.ui.app.lib.Map
      */
     var MapControl = Control.extend("bmvi.ui.app.lib.Map", {
@@ -53,27 +52,54 @@ sap.ui.define([
         }
     });
 
+    /**
+     * Initializes the Map Control.
+     * @override
+     */
     MapControl.prototype.init = function () {
-        this._aMarkers = [];
+        this._mMarkers = {};
     };
 
+    /**
+     * Function is called when the rendering of the control is completed.
+     * Creates the Google Map and places it in the DOM.
+     * @override
+     */
     MapControl.prototype.onAfterRendering = function () {
         this._oMap = new google.maps.Map(this.getDomRef(), {
             center: new google.maps.LatLng(52.529208, 13.378254),
             zoom: 13,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
+    };
 
-        this._aMarkers = this.getMarkers().map(function (oMarker) {
-            return new google.maps.Marker({
-                position: {
-                    lat: oMarker.getLat(),
-                    lng: oMarker.getLng()
-                },
-                map: this._oMap,
-                title: oMarker.getTitle()
-            });
-        }, this);
+    /**
+     * Add an Element to the aggregation `markers`.
+     * Adds the Marker to the map.
+     * @override
+     * @param {bmvi.ui.app.lib.Marker} oMarker Marker Element to be displayed on the map
+     */
+    MapControl.prototype.addMarker = function (oMarker) {
+        this._mMarkers[oMarker.getId()] = new google.maps.Marker({
+            position: {
+                lat: oMarker.getLat(),
+                lng: oMarker.getLng()
+            },
+            map: this._oMap,
+            title: oMarker.getTitle()
+        });
+        this.addAggregation("markers", oMarker, true);
+    };
+
+    /**
+     * Remove an Element from the aggregation `markers`.
+     * Also removes the Marker from the map.
+     * @param {bmvi.ui.app.lilb.Marker} oMarker Marker Element to be removed
+     */
+    MapControl.prototype.removeMarker = function (oMarker) {
+        this._mMarkers[oMarker.getId()].setMap(null);
+        delete this._mMarkers[oMarker.getId()];
+        this.removeAggregation("markers", oMarker, true);
     };
 
     return MapControl;

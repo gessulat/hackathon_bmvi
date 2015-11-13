@@ -15,7 +15,6 @@ sap.ui.define([
      * @extends sap.ui.core.Element
      *
      * @constructor
-     * @public
      * @alias bmvi.ui.app.lib.Marker
      */
     var Marker = Element.extend("bmvi.ui.app.lib.Marker", {
