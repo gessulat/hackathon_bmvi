@@ -12,6 +12,27 @@
 		8798F8461BF672A000A4C680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8798F8441BF672A000A4C680 /* Main.storyboard */; };
 		8798F8481BF672A000A4C680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8798F8471BF672A000A4C680 /* Assets.xcassets */; };
 		8798F84B1BF672A000A4C680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8798F8491BF672A000A4C680 /* LaunchScreen.storyboard */; };
+		8798F8531BF674B300A4C680 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8521BF674B300A4C680 /* MapKit.framework */; };
+		8798F8551BF6764F00A4C680 /* PathProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798F8541BF6764F00A4C680 /* PathProvider.swift */; };
+		8798F8591BF6776100A4C680 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8581BF6776100A4C680 /* GoogleMaps.framework */; };
+		8798F85C1BF6803B00A4C680 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F85B1BF6803B00A4C680 /* Accelerate.framework */; };
+		8798F85E1BF6803F00A4C680 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F85D1BF6803F00A4C680 /* AVFoundation.framework */; };
+		8798F8601BF6804800A4C680 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F85F1BF6804800A4C680 /* CoreBluetooth.framework */; };
+		8798F8621BF6808F00A4C680 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8611BF6808F00A4C680 /* CoreData.framework */; };
+		8798F8641BF6809700A4C680 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8631BF6809700A4C680 /* CoreLocation.framework */; };
+		8798F8661BF6809E00A4C680 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8651BF6809E00A4C680 /* CoreText.framework */; };
+		8798F8681BF680A600A4C680 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8671BF680A600A4C680 /* GLKit.framework */; };
+		8798F86A1BF680AE00A4C680 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8691BF680AE00A4C680 /* ImageIO.framework */; };
+		8798F86C1BF680B600A4C680 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F86B1BF680B600A4C680 /* OpenGLES.framework */; };
+		8798F86E1BF680BD00A4C680 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F86D1BF680BD00A4C680 /* QuartzCore.framework */; };
+		8798F8701BF680C400A4C680 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F86F1BF680C400A4C680 /* Security.framework */; };
+		8798F8721BF680CB00A4C680 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8711BF680CB00A4C680 /* SystemConfiguration.framework */; };
+		8798F8741BF680D200A4C680 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8731BF680D200A4C680 /* CoreGraphics.framework */; };
+		8798F8761BF680FE00A4C680 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8751BF680FE00A4C680 /* libz.tbd */; };
+		8798F8781BF6810600A4C680 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8771BF6810600A4C680 /* libc++.tbd */; };
+		8798F87A1BF6810D00A4C680 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8791BF6810D00A4C680 /* libicucore.tbd */; };
+		8798F87C1BF682EA00A4C680 /* routes.json in Resources */ = {isa = PBXBuildFile; fileRef = 8798F87B1BF682EA00A4C680 /* routes.json */; };
+		8798F87E1BF6833300A4C680 /* BadmapAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798F87D1BF6833300A4C680 /* BadmapAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +43,27 @@
 		8798F8471BF672A000A4C680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8798F84A1BF672A000A4C680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8798F84C1BF672A000A4C680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8798F8521BF674B300A4C680 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8798F8541BF6764F00A4C680 /* PathProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathProvider.swift; sourceTree = "<group>"; };
+		8798F8581BF6776100A4C680 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		8798F85B1BF6803B00A4C680 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8798F85D1BF6803F00A4C680 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8798F85F1BF6804800A4C680 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8798F8611BF6808F00A4C680 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8798F8631BF6809700A4C680 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8798F8651BF6809E00A4C680 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8798F8671BF680A600A4C680 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8798F8691BF680AE00A4C680 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		8798F86B1BF680B600A4C680 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8798F86D1BF680BD00A4C680 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8798F86F1BF680C400A4C680 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8798F8711BF680CB00A4C680 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8798F8731BF680D200A4C680 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8798F8751BF680FE00A4C680 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8798F8771BF6810600A4C680 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8798F8791BF6810D00A4C680 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		8798F87B1BF682EA00A4C680 /* routes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routes.json; sourceTree = "<group>"; };
+		8798F87D1BF6833300A4C680 /* BadmapAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadmapAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8798F87A1BF6810D00A4C680 /* libicucore.tbd in Frameworks */,
+				8798F8781BF6810600A4C680 /* libc++.tbd in Frameworks */,
+				8798F8761BF680FE00A4C680 /* libz.tbd in Frameworks */,
+				8798F8741BF680D200A4C680 /* CoreGraphics.framework in Frameworks */,
+				8798F8721BF680CB00A4C680 /* SystemConfiguration.framework in Frameworks */,
+				8798F8701BF680C400A4C680 /* Security.framework in Frameworks */,
+				8798F86E1BF680BD00A4C680 /* QuartzCore.framework in Frameworks */,
+				8798F86C1BF680B600A4C680 /* OpenGLES.framework in Frameworks */,
+				8798F86A1BF680AE00A4C680 /* ImageIO.framework in Frameworks */,
+				8798F8681BF680A600A4C680 /* GLKit.framework in Frameworks */,
+				8798F8661BF6809E00A4C680 /* CoreText.framework in Frameworks */,
+				8798F8641BF6809700A4C680 /* CoreLocation.framework in Frameworks */,
+				8798F8621BF6808F00A4C680 /* CoreData.framework in Frameworks */,
+				8798F8601BF6804800A4C680 /* CoreBluetooth.framework in Frameworks */,
+				8798F85E1BF6803F00A4C680 /* AVFoundation.framework in Frameworks */,
+				8798F85C1BF6803B00A4C680 /* Accelerate.framework in Frameworks */,
+				8798F8591BF6776100A4C680 /* GoogleMaps.framework in Frameworks */,
+				8798F8531BF674B300A4C680 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +100,7 @@
 			children = (
 				8798F83F1BF672A000A4C680 /* badmap */,
 				8798F83E1BF672A000A4C680 /* Products */,
+				8798F85A1BF6776700A4C680 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +121,36 @@
 				8798F8471BF672A000A4C680 /* Assets.xcassets */,
 				8798F8491BF672A000A4C680 /* LaunchScreen.storyboard */,
 				8798F84C1BF672A000A4C680 /* Info.plist */,
+				8798F8541BF6764F00A4C680 /* PathProvider.swift */,
+				8798F87B1BF682EA00A4C680 /* routes.json */,
+				8798F87D1BF6833300A4C680 /* BadmapAPIClient.swift */,
 			);
 			path = badmap;
+			sourceTree = "<group>";
+		};
+		8798F85A1BF6776700A4C680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8798F8791BF6810D00A4C680 /* libicucore.tbd */,
+				8798F8771BF6810600A4C680 /* libc++.tbd */,
+				8798F8751BF680FE00A4C680 /* libz.tbd */,
+				8798F8731BF680D200A4C680 /* CoreGraphics.framework */,
+				8798F8711BF680CB00A4C680 /* SystemConfiguration.framework */,
+				8798F86F1BF680C400A4C680 /* Security.framework */,
+				8798F86D1BF680BD00A4C680 /* QuartzCore.framework */,
+				8798F86B1BF680B600A4C680 /* OpenGLES.framework */,
+				8798F8691BF680AE00A4C680 /* ImageIO.framework */,
+				8798F8671BF680A600A4C680 /* GLKit.framework */,
+				8798F8651BF6809E00A4C680 /* CoreText.framework */,
+				8798F8631BF6809700A4C680 /* CoreLocation.framework */,
+				8798F8611BF6808F00A4C680 /* CoreData.framework */,
+				8798F85F1BF6804800A4C680 /* CoreBluetooth.framework */,
+				8798F85D1BF6803F00A4C680 /* AVFoundation.framework */,
+				8798F85B1BF6803B00A4C680 /* Accelerate.framework */,
+				8798F8581BF6776100A4C680 /* GoogleMaps.framework */,
+				8798F8521BF674B300A4C680 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8798F84B1BF672A000A4C680 /* LaunchScreen.storyboard in Resources */,
+				8798F87C1BF682EA00A4C680 /* routes.json in Resources */,
 				8798F8481BF672A000A4C680 /* Assets.xcassets in Resources */,
 				8798F8461BF672A000A4C680 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8798F8551BF6764F00A4C680 /* PathProvider.swift in Sources */,
 				8798F8431BF672A000A4C680 /* ViewController.swift in Sources */,
+				8798F87E1BF6833300A4C680 /* BadmapAPIClient.swift in Sources */,
 				8798F8411BF672A000A4C680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +339,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = badmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fifteenjugglers.badmap;
@@ -258,6 +354,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = badmap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fifteenjugglers.badmap;

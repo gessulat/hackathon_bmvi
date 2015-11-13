@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var mapview: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        BadmapAPIClient.fetchPath { (maybeData) -> () in
+            guard let data = maybeData else { return }
+            
+            let json = try! NSJSONSerialization.JSONObjectWithData(data, options: [])
+            
+            guard let resultsArray = json as? [[String:AnyObject]] else { return }
+            
+            let paths = PathProvider(apiKey: "AIzaSyDVh7Mwoa2LPKzCo3ngFnVcGl46ByNMHCk", routes: resultsArray)
+            
+            let path = paths.pathAtIndex(0)
+            
+            guard let polyline = path?.polyline else { return }
+            
+            self.mapview.addAnnotation(polyline)
+        }
     }
 
     override func didReceiveMemoryWarning() {
