@@ -71,35 +71,17 @@ sap.ui.define([
             zoom: 13,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
-    };
 
-    /**
-     * Add an Element to the aggregation `markers`.
-     * Adds the Marker to the map.
-     * @override
-     * @param {bmvi.ui.app.lib.Marker} oMarker Marker Element to be displayed on the map
-     */
-    MapControl.prototype.addMarker = function (oMarker) {
-        this._mMarkers[oMarker.getId()] = new google.maps.Marker({
-            position: {
-                lat: oMarker.getLat(),
-                lng: oMarker.getLng()
-            },
-            map: this._oMap,
-            title: oMarker.getTitle()
-        });
-        this.addAggregation("markers", oMarker, true);
-    };
-
-    /**
-     * Remove an Element from the aggregation `markers`.
-     * Also removes the Marker from the map.
-     * @param {bmvi.ui.app.lilb.Marker} oMarker Marker Element to be removed
-     */
-    MapControl.prototype.removeMarker = function (oMarker) {
-        this._mMarkers[oMarker.getId()].setMap(null);
-        delete this._mMarkers[oMarker.getId()];
-        this.removeAggregation("markers", oMarker, true);
+        this.getMarkers().forEach(function (oMarker) {
+            oMarker.googleMarker = new google.maps.Marker({
+                position: {
+                    lat: oMarker.getLat(),
+                    lng: oMarker.getLng()
+                },
+                map: this._oMap,
+                title: oMarker.getTitle()
+            });
+        }, this);
     };
 
     return MapControl;

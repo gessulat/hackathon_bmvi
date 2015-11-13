@@ -14,8 +14,8 @@
                 }
             ]
         },
-        "Restaurants:": {
-            "title": "Restaurants",
+        "Snacks": {
+            "title": "Snacks",
             "markers": [
                 {
                     "lat": 52.525305,
