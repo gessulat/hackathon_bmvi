@@ -4,7 +4,7 @@
             <Style id="styleWhite">
                 <LineStyle>
                     <width>1.5</width>
-                    <color>55000000</color>
+                    <color>ffc07c00</color>
                 </LineStyle>
                 <PolyStyle>
                     <color>00ffffff</color>

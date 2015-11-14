@@ -10,13 +10,13 @@
                 </contentRight>
             </Bar>
         </customHeader>
-        <bmvi:Map center="{center}" zoom="{zoom}" drivers="{drivers}" routes="{routes}">
+        <bmvi:Map center="{center}" simplified="true" zoom="{zoom}" drivers="{drivers}" routes="{routes}">
             <bmvi:markers>
                 <bmvi:Marker point="{markers/start/point}" title="{markers/start/title}" />
                 <bmvi:Marker point="{markers/end/point}" title="{markers/end/title}" />
             </bmvi:markers>
             <bmvi:routes>
-                <bmvi:Route end="{end}" start="{start}" points="{points}" type="{type}" />
+                <bmvi:Route end="{end}" start="{start}" points="{points}" type="{type}" window="{window}" />
             </bmvi:routes>
             <bmvi:drivers>
                 <bmvi:Driver point="{point}" name="{name}" />

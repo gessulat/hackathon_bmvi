@@ -72,8 +72,8 @@
             "title": "Frankenschnellweg",
             "count": 1,
             "action": true,
-            "center": "50.423242210110814,12.501510499999995",
-            "zoom": 7,
+            "center": "49.554733129230016,12.028609522245457",
+            "zoom": 8,
             "markers": {
                 "start": {
                     "point": "52.529526,13.378539",
@@ -94,14 +94,34 @@
                     "start": "50.331555,11.789035",
                     "end": "48.579930,11.590296",
                     "points": [],
-                    "type": "#cc1919"
+                    "type": "#cc1919",
+                    "window": {
+                        "position": "49.076628, 11.293862",
+                        "data": {
+                            "base": "24,97€",
+                            "axles": "Kategorie C",
+                            "wheather": "Regen",
+                            "traffic": "427 LKW",
+                            "result": "53,34€"
+                        }
+                    }
                 }, {
                     "start": "50.331555,11.789035",
                     "end": "48.579930,11.590296",
                     "points": [
                         "49.252858,12.125769"
                     ],
-                    "type": "#007833"
+                    "type": "#007833",
+                    "window": {
+                        "position": "49.570429, 12.122520",
+                        "data": {
+                            "base": "28,38€",
+                            "axles": "Kategorie C",
+                            "wheather": "Klar",
+                            "traffic": "397 LKW",
+                            "result": "39,99€"
+                        }
+                    }
                 }, {
                     "start": "48.579930,11.590296",
                     "end": "48.218936,11.624482",
@@ -111,8 +131,8 @@
             ],
             "drivers": [
                 {
-                    "point": "50.592889,11.783458",
-                    "name": "Engin"
+                    "point": "50.661135, 11.813378",
+                    "name": "Engin<br />B VI-768"
                 }
             ]
         },

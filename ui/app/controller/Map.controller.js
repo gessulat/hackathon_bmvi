@@ -47,18 +47,12 @@ sap.ui.define([
         this._oDialog.setModel(new JSONModel({
             driver: "Engin",
             route: this.getView().getBindingContext().getProperty("title"),
-            comment: ""
+            comment: this.getView().getModel("i18n").getResourceBundle().getText("NOTIFICATION_COMMENT")
         }), "dialog");
         this._oDialog.open();
     };
 
     MapController.prototype.onNotificationSend = function () {
-        // TODO: Send request?
-        //        jQuery.ajax({
-        //            url: "",
-        //            type: "POST",
-        //            data: this._oDialog.getModel("dialog").getProperty("comment")
-        //        }).done(function () {});
         MessageToast.show(this.getView().getModel("i18n").getResourceBundle().getText("NOTIFICATION_SENT"));
         this._oDialog.close();
     };

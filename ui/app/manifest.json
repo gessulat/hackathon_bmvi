@@ -14,6 +14,10 @@
             "default": {
                 "uri": "../data/data.json",
                 "type": "JSON"
+            },
+            "mapstyle": {
+                "uri": "../data/mapstyle.json",
+                "type": "JSON"
             }
         }
     },
@@ -63,6 +67,10 @@
             "": {
                 "type": "sap.ui.model.json.JSONModel",
                 "dataSource": "default"
+            },
+            "mapstyle": {
+                "type": "sap.ui.model.json.JSONModel",
+                "dataSource": "mapstyle"
             }
         },
         "rootView": "bmvi.ui.app.view.App",

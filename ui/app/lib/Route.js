@@ -55,6 +55,13 @@ sap.ui.define([
                 type: {
                     type: "string",
                     group: "Appearance"
+                },
+                /**
+                 * InfoWindow to show pricing data.
+                 */
+                window: {
+                    type: "object",
+                    group: "Appearance"
                 }
             }
         }
