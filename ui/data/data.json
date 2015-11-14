@@ -140,199 +140,344 @@
     "toll": {
         "center": "49.131959, 10.960904",
         "zoom": 8,
-        "lines": [{
-            "start": "50.876163, 11.847291",
-            "end": "50.315659, 11.798817",
-            "name": "9 aus sachsen",
-            "line": "_wouHs|hgAtbB}e@|FeBvO{Ft_@oS|VmN|QeK`JuGbIiIfMePh^ge@rMoP`HeGjEoC`EmBdPiHxP{HlBiAlI_HlO_SpRsWtDkElFaEzCyAxGcBrBS~e@DrcA\\rBBzODxF^jGdBnE|BfGrFrCxDlGrL`Rv_@dFjI`EnEdEzCzGvC|Dv@`CTxR`BvD\\lUrBzD|@jDtAzE~CdC`CvDvEvYpa@p_@~h@vIrJlFpE~VnQnb@jZjPnLpFfEpBfBvE`CbIhCfEp@`G^zJUfGcA`D_AbOqGhQeIzLkFlDaA|IkArDIbEDnH~@jI~BfHtDxB|AfFtEpIxIfPlPfD`DfL|H~MrIfRtLjl@d_@pVvOld@p[lQ|LtKfGlFdCrm@rYbN|GfJzGpElEfLxNp_@hg@vD~DhL`JdFpCfFvB|cB`d@f_@tJlDn@bIt@j]tAth@fCzFx@vM|CxKbEvb@pRhLfFr{@b`@jl@vWdKdErH`BbAL~DFvFa@zFyAbGqC|HqGtDsE`Ua_@`OoVjCqDzBaCbD_CrDaBfb@}JjGgB`EqBlDgChCgCtCwDrJcQ`JsN`HuHxHaG|GoDdH_C`HmA`E[zECrEP`Ed@xGxAtGdCfIzE`RhO~EjCvF`BpFj@pFTbK\\|GThPj@`G\\|Dl@|C`ArCrApEzCxO`MnFxCtE|A~Ch@dERzDIzBWlDw@pEiBnD}B`EuDjE_G~@_BhCyFzE_NfEqKtEyG~CqCbBgAjD{AtFeAdFAdCV`JtC`Y~KrIxC|Dl@hDJ|DW~A]bBc@lA]tPeF~JsAhIQrGRbLhB~NvE|QlGlRfG`IhAvFJbFMdJuAbKwC~OcGpG}BvGiBlFaAnD_@lEInDPhDf@rG|B`S~MzB`AnCfAvG|CdHnF|LjNfFdFlI|FlSrKhFnDtDrDtBnC~D|GlO~[xB`E~BzCfErCtHvDvFhF`FdFvElCnKzC`B|@vBlBvAzBlA~C~@hEf@vE`@nGr@fGfB|GxAdD`BdCdCbC`CtApCt@rCPxAG|UoChDiAvCkBnAmA~B{CvBeErAcEvAaGfEuShAwD~B{FpEkHdCqCjFeErFgEhGaHrBiDxCmGfKkWdEyIpB_D`DsDvGeF|EsBxFiA`DQvDDlDb@~Cv@|CpAtEvCxDtDp`@pe@zGvFlGvCxGlAhGFlFk@hCs@dDuA|BwAtF}EhLqLzD}CxCeBvDqAlDq@lCQtD@hCNtSdDbBTfFV~CIlDc@jIoBtMaDnTmFr^}I~GyBhFeDzEkEnWiVlGuEzDgB"
-        }, {
-            "start": "50.386176, 11.969659",
-            "end": "50.315659, 11.798817",
-            "name": "72",
-            "line": "o`prHmy`hAxBhGdAzCjBnHh@rCnAbI`BjKz@|En@rCbArDdA|CpBfFpChHlJjV~AxE|@bDd@hB`AlEfAlGl@zDr@~Gj@tHt@nK\\hFzClc@NlCNpDHdHG`HSpEQhCgD~[m@nGQbCOlDIhE?bDDlCJ`DPhDZnDd@tDb@nC\\dBhUzdA`Ip^tHb]v@hD`AdDl@fBbAfCr@~Av@xAz@~AnAjBl@z@fJnMzBfDtA~BzBdEhJbStBrEtTte@~Sld@lHxOxAjDpAzD\\lAz@rDj@fDxDpZ|@hFtAtF|@pC~@fC|BxE`AdBpDdFbJfMz@nA~@dBrArCr@pBv@pCx@nDl@xDTnBR`CP|DFpFC|C}@~`@E|AInIDbFF~ALxCNrBf@tEj@rD|@nEx@vCfAfDxAhDbArBpAxBpBjChAnAvD`D~IrH~DfD~BnB|@|@|AjBjBlC|AtClApC|ArEv@zCx@vD|@pGx@xGn@`FVxAR`Al@lCr@|B`AlCx@bBdAlBxLnRfLvQZ\\hAlAdAz@|@f@xAn@xA\\nANrAD|AM|@O`AWxAm@x@g@`As@jAoAr@_AbEoGp@aAhAuA`B_BdBsA|@g@nAo@FKLUVK"
-        }, {
-            "start": "50.386176, 11.969659",
-            "end": "49.522781, 12.158347",
-            "name": "93 1",
-            "line": "o`prHmy`hAnJjd@nBhCzExBnLqBdHcF|GcJrMq[fGoJvGaGtHkDvKkApDLhDh@tMpF~TzNxRnGbOa@nMoFrIqIrHoNxFiSxUmwAvTmlAjIaX`NaZ|OoUvR}QtUsMlT{FlW{AjIH~]hDpOGtW_Efc@}RrIeA~I\\zMxDfPxHhL|ElUfGxMtAfVI`VeEvNuHnSqSrQwZ|k@ajAb_@ql@tVyXvPiM~]_Sp\\{NrToGb]gB|HaCrHcGlIcOxHcV`IiPfIoJlRqTrGcL|HeW~CcRvIwaAdHyXrLwNnFeC`H{@lNfBrP~NtVbZhGlDtGrAdGAvG}AhF_DlGoIzHoT~Jkr@nGaVrJuMjFuCrGw@|LnCpKhNdJn^lHtVxDfG|FxEtCfArIx@jGC|X_CdLGnIfDjUxXzFpIfO~\\lRln@dJzPlJxIfJtClI@jJeDvGyFlJmNvK}GpLwBdSiBzViOva@sJrZiI~Ng@bNjBfTnIzHbBtIQ|LaFhS}ShJiD|LSvKz@fH}@lWwPbKsGpGwAbHNvJnDxIdF|GxAlJW~IuAzIBnLnEjTrSxF~AdGHnI}BnMcJzRwKpWoHl]q@rSw@~QkFh[uCnJwD~HuInG_PvBqJzFuNjKqMjJgExDe@hKb@fK`FvZrV|OvMvStNhKnB~G]vFkB`K}IhNgXpVg]dTqTvHkJlMqIdLsGrZaJhQgK|HqI|EiJzDcQx@mOu@aUcKc|@y@}\\`AuXbD}VxFoTlHsPtIaMt`@c[|U}QrHuJj_@ag@hKmG~GcFbEeGzCsHpFa\\tHgd@~Lwa@zRmc@fKkP`MoJxNuDf_@}FxSyCdKClWrHx{@x\\tJdAbGKjY}EtZaBlWbBnVnGjS~J~M`K|Yj]pSz_@hSbd@vO|ZfRvYxR|UlWxUzQnK`QrFxTlC|ZrAb\\dEdT~GdTbLb^vXpQzN|PnKjKtDtIhA`N[tJmCzOwLlFoHzFaL|Rqf@vM{O|MoHdQaC~O|AjLhE`UlMff@hc@r`BdcBfXrTzJ`ExI~A`IZbNu@|^gG`UkB`QIxn@fBfUgBfKyBhWiIzO}CpLHdKtC~i@l_@h[pPvUdPlo@fm@zMpIjXdIha@fJp]pO~Y~ObQ~B`G_@zIgCrXyPba@}YbYyd@fHgGrIqDtL}BrJ}DtNoI`QeFfXsAp[`A`_@Rb`@}Ati@oHfSsExj@oKlUy@vWjBfU`GvTvKfVhRfVxV|o@|v@bKtKt_@h[r]tP~^vIdLbA~WXf`@mEnj@cS`i@qYlc@i[dY}XjL}P~Wel@~\\az@"
-        }, {
-            "start": "49.522781, 12.158347",
-            "end": "49.642258, 12.521638",
-            "name": "6",
-            "line": "mlgmHyteiAvAiCRMd@g@rAcBf@g@hA_A`BkA~AuAt@eAh@cAtAwDf@aAr@aAnBwB`CeCt@GVHZXVr@Ft@Cp@Qn@UZYP]B_@GQAk@][UaDcCmAcBi@sAQs@_@eA_@k@c@a@cBaAc@_@q@aAa@u@c@c@Wq@s@mBeAeDeCcJgB_JaAyFoBkKaBkHiBsG_EmLiE}JeC{EkCqEmC}D_C_D{CqDwEsEeCwBiDeCsEwCsE{BuFyByDgA}D{@mCc@yC]{Hg@gU}@wE]eD]gEs@uFkAoIgC{HaDcEuB_DiByGqEuDyCsFcFiGwGuGoIeGiJuDyGuC}F{D{IkDgJ_CeHqBcH}AcGyAmG{AsHkA{Gu@qFu@qGg@aHU{FIuE?gDReKNoCd@_Gj@_Fj@wDjEiThG{YzA{HXqBp@iH\\kHF_HIqGS}Dc@wFu@}Fm@gDw@mDqAoEuBsFaAqBcByC_CaDaIeJ{BkDcBcDyBqF}CcJaOkb@_HeRmAwCaAoB}AeCgBwBiC_CgBmAkAm@yAk@aBa@wCw@wDoA_EsBiCiBsAkAcBeBoBaCsAqBqCiFcBiEiAoDkAqE_BuHyB{M_DmSwFq\\wKkk@{AaIs@eFg@oF[iGg@cLOuB_@mDY}Bq@}DaAgEs@iCsB_GsBkEeDiFkB}BkCmCwD}CoCmBuCeBkJ_FoHuD_DgBwFuDgDoCyFaGcBuBmC_EeAaBqBwDsCoGqAgD}C}J}@sD{AoHoBqMk@aFc@yFg@kIy@gQi@eGo@oEgAsFcA_EaAuCwDoKkAwDw@cD}@sFu@uIUuLCyQF{IRyGPwC`@qEr@sE`A_EdAkDxA}DhBkDtBoDdE}G|C}E|AwClAsChAaDbA}D~@qEl@mE`@sEh@wHd@sJf@cMFkDBwPM_JU}H{@aQ}A_PiAeJ{AgJcBsHgBaGuBuF_EiIwBiDoEuG}HuKgBmCwCaFyC}Fs@{AqB}E{BkGeBaGuC{LgBiJuAuIyB_PmDmVgEgYcBkJ{BwKqB_J}AkGaBqFyCiIiFiM_BmEs@aC}@yDe@gCc@uDUsCSeECaB?gHZaJv@gNToHBsDIaDMmCa@uEm@mEsAaIaCyN}AuMu@qLOsFCaEHqLXcJn@}IpAgKlA_HdFiUrB{JdAkGl@sEZ_EVmFHuFGyISqEYgE[qCs@_FaB{HmBgGmAyC}A{CmBaDoAcBgBqBoF_FsHeGsE_E{DkEkAaBaBoCqAgCqBoFy@cCU}@"
-        }, {
-            "start": "49.522781, 12.158347",
-            "end": "49.048105, 12.093258",
-            "name": "93 2",
-            "line": "mlgmHyteiA|EkI~CyEdDoE~GgIlI_J|IsJ~JuL|CcEnI_MzFmJrGmL|DeHfC_ElIiLxAeBbFuFpF_FxJqHbGmDlE{BhGaCbIsBvDk@dE]hEOdBAdK\\`EPtMV~IYrGq@zDo@nD{@hJuC|EgBtM}EjLuDnDaA`IiBtJaBhJiAfIm@~ESzMOlLRtLr@bJbArJzAtJvBjLfDjLjE|JrEjJfF~JpG~MhKpHxGpHhHxIdJj[d\\dJtIjJ~HvHxFzIbG`KbGfIdEfMtFrGbCtInC~GhBrJnBxKbBvHbAhHz@`L`B~G|AjDfAxGtClDnBpDdCxFzEnGbHhGxItHlMnF`J~B~C~BdCx@t@hDdCvBjAtB|@`Ct@|Dt@pCTnD@~BKzC]|HaBfS{GdP}EbL_CtIiAdGi@xEU~JIhKX`t@hE~]vBb^xB|DTjNj@|FHnGA~JU~EWnJ}@jHaAdLwB|MgDjTwFlLsBdI_AxLo@lHGbHFtNl@jNdAnEb@`Fl@bMlBxQtDvMhDrGpB`IlCnLpExNrGnM|G~LdHhNlJ|KjInPdNtMnLp^p]pTlSlLlJdD|BnEpCpGhDrEnBrIjClIxAnFb@hDFzGK~BO|HgAlG_BfGaCxDmBlC}AzIaGfOuKrE}CxFgDxFsCvFwBrEuAjGuAbH{@lEY`GMbGDjMj@vMlArH~@|GfA~RbEpPxEjGvB~HxCfJ~DpHtDjG|CtFhD|CrBxFlExHbHpKlLxEbFvDfDlClBvBlAxCpAhDdAvBb@vBTdDN~D?dFa@dGeAhGaBzEcBvFgCdFwCvFyDvNyKbDwB`DkBzEqBtEsAxEy@dF]lEAtCNnDh@xBh@dFlBxEvC`ClBpCnCfE|ErHrItBnB`ChB|BrArCpA~CdAhE|@~C\\~Kl@vLj@|Fn@rGtAzC~@~CjArDdBhI`FdJbHtKnI|EfDhC|AhB~@`DxAjDlA`InBnEr@rEb@xDR~DBhFEvDS~JkAlHcBzIkCbH{BlFaB|EoAxGsA`Gs@fI_@xCAxFN`F\\|Ft@xAV|HjBrIhCjJbDnNxFbJdEhHrDtLxGvPvKtLtI`NdK|G|ElF`DnFzBpCv@`Ep@zDTzC@pDSlDg@|A_@nFqBpCuA|IiF|P}KvJcGrFoCtHqC|D{@zCc@lDQvBA`DLpBPhGpApDnAzF|C~FxEpFtFfHlHdDvC`CfBzFdDxB`AxCbA|GvA`F`@`EDbEKtGm@hNcBlG]dEBrFf@lFn@|B^dFd@fDDxCOrDm@zC}@nD_Bx@g@"
-        }, {
-            "start": "49.048105, 12.093258",
-            "end": "48.998353, 12.063492",
-            "name": "93 3",
-            "line": "sujjH{}xhAjAw@vBeBhEsDnA_AnAs@jAi@t@Wr@Q`AO|@K|@CxBD~@Jr@LbAXz@XtAr@dBjAhAdAdBzBx@nA^v@f@dAv@tBxAlF~@jDx@rCf@zAPXLZbAdClAfC`BjC`D~DxAfB|AzAnDzC~G~GfA~@bCdC~BdDj@z@d@hAt@zB|@jDjD|OfB~H`ArDp@xBl@dBv@hBr@rAn@dAhBlBz@v@p@d@~@j@~@b@x@ZvA^t@LzAR~Gd@xBV|AVp@LdEdB|Ax@vG`ExCnBnCnBdDdClC`CpJvI|BfBbCdBp@^vAp@pAh@x@VfAZl@J~AVfBNpCFxBErCY`Ce@lCu@jDoA~CoAnCgAnCcAhCw@tCq@hBWx@KjBKzCEXB"
-        }, {
-            "start": "48.998353, 12.063492",
-            "end": "48.582759, 11.597094",
-            "name": "93 4",
-            "line": "u~`jH{cshAzDPnF|@pFbB~M~ErG~A~Cf@|Hh@fCD~FOjEa@nHuApIaC~JkDrHsCrJuEnH}D|NyIzEeEfEmFnDqGrCsHtBuIvA}Iv@qJdAeUfAeMnBmK|AuFxA{DjDeH~DsFvEgEfFwCpFaBxFs@|CAzCLlW`C~DPnNTrYPtUb@pKn@xLtAbPrCb]zGnM~A`CPvDLxGBvPc@lHQlMI|Ml@pKpArI~AxGdBfIvC|KxF`MdIhNzIdI~DbHnCnHzBxInBlIbBxFvAzBz@pDtBbKxHfDbDdDxDfDxEhChEtDhHfD`IlChHxDnN~AvHbBpKzCbT~@~EjAtExAnEtD`IvExGrHfIfFbGnEfHbC|FtAlErCzMtCjOdB~GhAdD`BxDnBpD`EvFhExEzFvGjEdHzCnH~BlIpFpW~CfM~C~ItEjJlDrFlFdGxFxEdFzCzJlE~W`KfYnKlEhBpC~AlBvAhC`CxEpGvAlCrB|EdBrFrAxFpBrNdFna@fCfQdEhR`ErOpPto@|Q`n@~Tlt@fD`JlGjMxF~IhIpJvEdE`FnDpRjM~EfEfNnP`[``@hOlQ|QtRrOxPnYzZnFzGpD|F~IzQzMnXzD|HtEzH|c@~l@hWh]tCjEfCtErAzCxBvG`J~^|BlGfBrDnCjE|EpFlHhFhWnO|[tRbDlBlGpEpFxF~ErHjJzQpFvJrIjNzCnEhKdNtIvJtFxFxGfGxGtFfPhLfMlIhHhFbIdHvGzHtCjE~CxF|D~IxEnN~DxNnJb^bElNzDnLdM|[xRve@vWno@|DpLjBdJbArIj@fJVbIh@fN`@bFf@lEbAtF`BzGtO~a@bEvNz@zDdZ`_B`C`RxDl\\vEv`@nC|NpCzJbCpGlGnMtWjg@lRx^jEjHtAdBhDjD`DzBvFfCtEdAtOhAhP`A`HTdEEdIk@`d@}F`CQ~BAdDRzCl@xBt@xBjAnBzAjBhBdB|BxAfCnFbLjQb_@rBlDrI|L~HvIbEpD`GlEfHbExd@jTvJfEzFpAbN|AtFtA|BfAtBxApE|E~HhMtB`DhBrB`EdDnDbB|GvBlU|G|^|KxB~@tBpAdCzBjBrBtQdXhErHzD~IdCzHtBvI~AhJvAtMj@zJRhQ@fQNnFfAdLlB~I|ExOx@`Ej@bFT~Fc@xUB|Id@vGhApGvAvEvAxCfk@lz@zBxD|AlDrB|F|BdKbPd_AjD~RhJhi@jAfIbA|Jj@xIvBx`@jA|KfClKnCpGxBnDvBfCjEpDbG|DxFnDhCrBxB`CxArBbBbD"
-        }, {
-            "start": "48.582759, 11.597094",
-            "end": "48.322635, 11.617198",
-            "name": "Holledau - Neufarn",
-            "line": "ayogHaaxeA`AzBzAvDt@lBnIpTbCxG^`BJnA?bAI~@Qh@Wb@]Xc@L]@UC_@WWYQc@Q_AAe@Bo@Py@x@aC`BgB|ByBzA_A~BiA|Ai@x@U`AS|ASfAEvBChQRdAB`NPtBF~BRhC\\zD|@hCx@|YfLdEzAnBf@zBb@vCZhCFrA@~CKbCY|AWhCs@rCmAtBgAdBeAbCwAnAu@jMeH|CaBtBaAvDqAlA[jAS`D_@vf@aEhIu@tCQ~@EzB@hBJxARfDr@dDlA`Bz@xBvAfCxBzBbC|CpDbMdOdM`OjBhBrBbBzB`B~BvA~C|AvChAdD`AjDp@~D`@dCJnCBrISvIWfAM~Di@xDaAlBm@tAg@tCuAfCyApBwAlDwC^[pViTrMcLtFmEp@e@|BoAx@a@xB_AvCaAnCq@~Do@pCUzCGtAAdBFjBHrCZ~Cj@t@PvDlA`C`AvAr@zAz@`GjDfGnDfNfItX`P|BnAhChAhC|@vCr@|Ch@bDZ~CJrC?`CKpCWbC]~A]~@W~DoAdJkCrQkFhYoIjEoA`Du@~Cg@jEg@bBMlAE|DC|@?hCFzDThJp@xIn@tMbAvANjJr@bG`@pFXpEL|FDzB@dWOjb@Q`ZItnAc@dSGfg@U|DStCYnEq@~D}@tDiAtB{@rB}@zCaBlCaBbHeFtF_EjBkAlCwAtBcAjDsArFaBpDu@pBY|Ee@~EMrB?nBDpFZ~Q`Ax^pBtLj@`Kj@be@dCjCL~BBlBCvAE|AItD[zCa@rCm@hGgBhEcBxCyA`HkDlZmOnh@{WdIaE|GeDva@}RhJmEjMkGhHiD~C{AhLiFz@]xL{E~CuA`LgF"
-        }, {
-            "start": "50.315659, 11.798817",
-            "end": "50.027946, 11.605879",
-            "name": "9: Vogtland - Bayreuth",
-            "line": "}gbrHym_gA`TaJ~FcClf@yShMqFrH}CzBeArS{IpKqEzH{CdC{@rIeCfH{AxFm@zBMnBGxBAdDD~@F~CVfBRfDj@jCn@nBj@lBl@xCfArClA|@`@pFnCzC`BfGfDj\\rQzJrF~`@pTf\\rQbSrKdGlDhE|BrGlDbDjBfD|BvC`CpChCpD~DfB`ClCtDrCfEdHfKpHdLbCpDxCvD~ChDpAnArAjArCrBrC~AvDdBzAh@vBp@dAXnATnBXzANvCNzAB~A?~AGfBKjBQhC_@n@MfBc@|Ag@xCmAdCiArAy@zDcCxGuD~DoB|Ao@~Ak@rAa@|Bi@vCg@pBWpFc@zDKnAAtCF~ADbBL~AR`C^~AZzDfAnCz@`EbBhE`BtMfF`FrBjIfDdI`DdHrCnBz@dBx@xBnAjD~B`F|DbUdRfKrIhSpPdP~MxT`RfDtCxDpDvEtEhDpDhFbGxF|GvHhJlDfE~DlEpEtEnBfBtAjAjE~CnBnAvBjAtD~A|@Z|Bn@rB^fDb@~CNbBB`BClCO~Ca@hAUbDw@fJ{CdNuEnMkE`Ck@h@KjAOzAKjBGvBDxBRdCf@dBf@tBx@pDfBrDlBbKhFtUvLtDjB~BbAfDhArCt@~Cj@jBVpAL|BLbFFtGBpEBnGNtDR|D`@zCj@nBh@nC~@bDxA~Ax@hBhAlDdCzCpCbDlDdDnEh@v@zA`CnCfF~ChHvBhFzH|Q`EhJzEnL~EvLfExJzFbNbGfOlBtFpCjIfBzEpDnIvDzGhC~DnCpDtBbCnBnBdCzBtBbBnBrAhG`EpDzBbHvE`IhFlBrA|BpBzBvBpB|B`BxBjAdB`IdM~Q|YdCtEzBfFz@xBvAlEbAhDrBtH|CdLbCxIlBbGnBlFbBfE`DnH~BpFjDnInAnDlKn\\~EvOxF~QhIlW~AxFj@nCd@hCl@jERlBv@dKzCzc@j@pGtAdKn@bEpAnGfA~E`A`F|@zGzAtMVbBp@pDlA|Ev@dCnAfDj@rAz@~AzAjCvGtKxKrQjCxDbDxDbDxCfBpAfC|A|At@fBp@`Bh@lBd@~B^~AP`DLfB?zAAbFQtEIdG@fGNvF\\|Ef@|En@|Ex@vGzA~Bf@xBn@vC`AjGbCrEpBlDfBpDpBpCdBrA~@fExClBxAnBfBtF~EdFfEpA~@tBlAtEnB`Cn@zBf@zGhA~KjBzFbA"
-        }, {
-            "start": "50.027946, 11.605879",
-            "end": "49.465219, 11.249741",
-            "name": "9: Bayreuth - Nürnberg",
-            "line": "uajpHswyeApY~E~NrBbHJ`F[zJwBnJsChSgGtFyBfCcBpHwGhDaC|DgAzBKpCR`DdAhExC~ExDfFdDtGxBzEn@~GAvQcAhZaB`Mc@bK?bQr@p\\fC|p@dFzPdAjJHdIK`OaAbNoBbUmEhJwApDO|IJzGr@jf@nIru@tM`LpBpJlAdKT|Ly@|}@gMxJgAxI_@fLD`Lz@nJzAtJ~Bh\\bJr}@zVnHdDhHxFhHzJfDdH`CfH`CnK`BzMh@lKNj}AJbr@p@|TvB`WtBxM|BlInF~KnPrTpFpKdC|I`BnLn@~O\\`^h@pKp@vGvAfI`D~KhDtH`FlHrG~FnDtB|DvAxHlAfXb@rXj@vG|@zH~BvFtC~CxBjHfHdN~R~JjOnDvEdIdIxF|D~IzDlFpAdHdAxMdCnKrEdI|DxE|ArFt@zHDnJPnHfAhJxC|IfD|D`AdCZtDHrDQnFaAlGeC|PgIpFoBpEq@xGDbF~@rDzA`ErC|B|B~MtRhEfE|EtC`EjArEb@lDEdDc@~C_A`E{B~EoEvFeJ~CiJz@_ExEsYpDgPpBqFbCaF~E{GnDcDnDyBxCoAtHwAhEGxFh@~EvA|FdDrGlG`EvE|BjB|DvB`Cx@bIhA`Gj@tHhCxGpAbI[fBc@rDaBvK}HpFwBvFo@lO]rOgDbl@gNxg@uLxIqB|Fw@bG?zDd@|EvAbH|DjM|IrF`EzCbD`CfDhC~EhBzE~C|LpZ|vBxAzGtBdHbC~FlDfGnHjI|KrKhg@ze@rJ~I`GfEpGrDzD`BzGnBlJzA~BRjKL`WuAbRyAtm@sErw@cGxUiBlF]vGF|IvA~DpAbF`C~CrBzDfDdOpRdWp\\zQtVnDlGvCpH~AfG~@dGn@~HTrJl@bOtAhKbBjHfC~GjC|EfFhG`DbC`CpAjL|EhE`DvDhE`LlRzBvCzElEpUzQ`HjG`QdSfYx^lR|VpFvK~@jCvIz]jPxr@hF`ZxB~R`Fhi@vA~J~BrLnArEvCbIlGzKrDrE|DxD|EzD`SrMdKlI`FfGxEvJfCpIfE~UfC`KfD`H`DdDtBnAvDzAlDtBvIbLzBrBtBjA~EfA~GD~BXzBv@rGdC`JT~Fb@tEjAdHvDrB|AfHlH|WfYph@fk@nM`MxJbHbLvFvKjD|bA|Sl}@fRji@zKtNrDbInD`HlElHlGlIzIzPrQrW~Xlq@ft@vRtYlGrJfGdIhLjMpR`Qvg@fd@~n@pj@rQxQxNpQpSzYhUt[dJxJnLtK"
-        }, {
-            "start": "49.465682, 11.250184",
-            "end": "49.400363, 11.197242",
-            "name": "9: Nürnberg - N Ost",
-            "line": "kg|lH_itcAhE|DrCdCP`@JJdG`Gd@ZnCbC|JbJh@j@rEbEf@`@Xb@d@t@Tx@HfAEt@Kp@Ob@_@h@YRUFYDUCYGUQUUQ]UcAEe@Ag@Dk@LgA|CmKTcA`BoFzEiPv@qCP]hAoEb@aBH{@xF{RhBcGzCiJ`BiEjCaGvB}DfCeE|B}CbCuClCqCxCgCvCuBzA_A`Ag@fCoA|Ao@`DgAnEkAlWkFtIqBf@MvK{C|IiCvJsDnJ}DlFeC|Au@rDqBzCcB~JkGhD{BlFoDnByAvAcArB{BlCwBjB{AfDuCpGaGbIaItDcEzDoElIaKpFcHxByC|BaDtDuF"
-        }, {
-            "start": "49.465682, 11.250184",
-            "end": "49.408975, 11.291952",
-            "name": "3: Nürnberg - Altdorf",
-            "line": "ceqlHgn|cAnV_a@~PwU|MsNlVaTnJaJhKgL`JyLvGwKdI_QlH}StGoYbFu^tGql@~DiVbOir@hDyXvAsZBmRYog@r@cY|A}SpDmVpDmO`Omd@vOsg@nJwc@|Kcw@hJao@`Gk]|DyQ|EgQnE{LjFsKpFeIpEeF`FkEfGuDnJeErO{H|EsDbJaJjGkItKuRbIyM~G}HrFoEnGoDpIsCl[iHfPaIfJqHxLiNpP{WdJ{QrIiUnJ{^jFm[|BoTn@mLZu^_AoXeBiX_@_R`@mY|@_LrBuNfGyVpI_[zAgMP}JYgJ_AgIkG}_@u@{M?mL\\uIpAkLhB{IdDyJnFwJbF}FlGmEnEeBfJ_BrIw@zGuApGaCxIoFzFkF~OuSzEiElIoElGqDtEoE~DuFzEsJhFeOfIw[lDgSrCmUhCs`@vAe\\pAaLxAmHbDaK|HwNpKuL~HcGbIyEbMeFza@_LhKyDhK}GdPuKhJaIbQaRlJqMlI}M`IcPhP{d@xDgKvFsLhJoN`HyHhL_JjKkFtIkC|E_AvMgCrFiBdIoE~J_JnKsMrGoGzI{FbJmDlMuBpJaA|KsBpDmAnHyDjFaEhFsFrJ{NrDeIzFyR~DyVxD{ZjEiUfHoSdIqN|KsLrLkHpVeJfMmHxFoFbFwGxFoKnDkJdF{S`CgP|AaPbCi_@~Ayd@TmNP}r@Xi_@`AiWl@iItGsm@lAmUB_a@e@{g@xAeYpEa[fL_m@lCuSxBoWjBwg@Jg]aA{{@tAw[xBqP`DyRbBaQl@aPL}Xl@mNrAeNnFuXfHiS|EgJxDsF~GoHfLgIvFaCrJiCzKmCpFiCxDkCbH}GzG_KrEaKbDgK|HmWbH_OpFcIhE{EhHcGxEmCnOeHpM_I`LkKpLoJbF_DdJuDbLgChIy@zN_AtNiBzJsBrM}DhPcHtP}Jlf@s`@vRgKnTuG|QmCtHyArFwBrFuDnEuErEmHlCmGbCgItD_QlEeOnDyGhDeEzHeFjJmCvFmAnHoCzFmDnJkJhJwOnKcTrHoKbH{G|IuFrOeG|R{JdQ_NjUcUrJaGjHoCtEcAdUuAxLiAtEsA`FwB~FsDhJmJjFcIlEgJ|GcU~Hqa@`DuKhDuH|K}PtQaVjLoS|G}OdHaThIiZvHcUpIoR`MsYfEyMnHuZtEyXdE}RvD_LvGaMbFqGvGyFhIkEzFcBnKqAlF}@bC_AtCgBvB{BxEuI`C_Jr@wFXsL_@{IuDmWgAkQ[e_@_BkNiEmS_Mci@uLif@sAsIk@yIBkPjBuPjEwNxEcI"
-        }, {
-            "start": "49.408975, 11.291952",
-            "end": "48.998558, 12.058475",
-            "name": "3: Altdorf - Regensburg",
-            "line": "kg|lH_itcAhE|DrCdCbEpDfEvDxW`V~BxBnBnBhB`C|A~BnAnBnCzErArBn@|@xAfBbB`B|@v@lA|@fBdAtB`AnGjCbBz@|@h@nCrBZRZLZXfD~CpCdCtDlDlDpDpCtCfHfIpGtH``@tc@|g@xl@bHtIlGlHlEbFnDtDzDvDtHvHpEtEvDtDpSvStFvFvBjBpB~AjBpAxCfBrCtAvCjAvBr@pEdAdBZrD^vEPhE?lBIrE]xB[nB_@bCm@vEaBzGqC"
-        }, {
-            "start": "49.404424, 11.300190",
-            "end": "49.517853, 12.163414",
-            "name": "6: Altdorf - Oberpfälzer Wald",
-            "line": "_dklHif~bAiYqh@o@kA_BeD{@}AyJ}QwCaGoCoGgDiJs@{BaBwF}AgGuAmGyA{HkAwHgAsIi@oF]uDYcEc@oISyFUiIQgGsAaf@WaI[}Fi@}G]iDwAkMIu@u@cHcDeY_CySwDs]"
-        }, {
-            "start": "49.395544, 11.199193",
-            "end": "49.404049, 11.298685",
-            "name": "6: Nürnberg Ost - Altdorf",
-            "line": "shplHea~cAsGeg@_E{a@cByUyAkX_B_j@]m[?u]r@ch@fAm\\nBi`@jCo]zC}U`DiQfBaIhEePxFaStEkRdCsOp@yH\\yHBiKg@gM_AgIwA{HmDaMuBwEmCmE_DqDmJoHoJaHwDgEkDkFmB}DqBqFyCiMw@wFo@wHcAcRyAeOmBiLgGgXcB}JaCuSiAiTOoRLe\\g@aV{A}SmBkOoCoQmCkS{AkRi@_PmBiaAYa[\\}^pEibB|AoWzBaRpD{QtLce@zCePzAsL~AaTzB_b@|A{N`Ga_@lGa`@`AgLXsI@gJW{I}AaQcAkGiBcIoI}XcCiIgBwH}AcLm@cKKiHFsFr@eMtBqNtDuM|HoRrEkLrDgLjAeFnAkIhAcOHeGMmJa@oH}@iI{A{IgBcHqDkKiEmKyCiI{C_KaCmKsBuNaC_VcCoPkCcLwDcLkJ_U_DeJaDwM_EiYoDuTeBqGmBmF}BuEyC{EmLyOkEkIyDyLqAuG{@}Go@oI[_KAcLR_KdA{NnAiKfGya@tC_Z|@_P^wLbAoi@tAwWlDe_@rA}Nr@mL\\wLFgQFu[`@oLz@gK`BcLpBgJbD}KbFoQxAgInAgLj@sLb@aSj@{Op@oIrBgOfCiLlCyIbFgNpDuKtCoL|AoJbAuIr@yKb@uP^iMp@cKpA}KpAuHhGkVxA_GzAaIx@mGv@aKv@a`@XiHl@_IbCaP~CmLpBiFnDeHlEyGxGoIvKgNrEqH|B_FhBwF~BcKz@oGp@_JNwF?uIWqHw@cJ_BeLiEuQaIuVwD{PyBiQ_AuSEcGLgMlA{RtAwKjEkWhB{MhAgMnAuZ~Aeg@xBk]`Ey^lKat@|CcX~BcZbA{Ud@_V?uZg@kYqA{XkDqc@wFen@{NwcBwCad@cAc^KiQFkRXmPzCacAr@wa@M{Zy@cSwBqTaDcRwEcQgCuGqCyF{DoGiDwEmJcKaQsMy_@oWwZoToHsGyEaFuJmMaEwGmHcNqKoUgKkW}FyPaIwWwJea@oHo^yIei@gEs[aEaa@mCq^yB_e@_D_x@sA}SgC{YcCgTsDyWgPgdA}Dk[yAwOkBmX_B__@iAeV{AsReCiRkCaM_FePuBmFuH_OgD_FaF}FiGyFcHcFsFyCgLkEwEgAqHgAaCQoIYgOLmY|@oO?_Ic@oLyAuJiCuJ}DsDoBqGcEaHmFiI_IsG{HgJ{LkCsCwGeFiEwBcKeD_HkCiFmDsEyEgDgFaDoGsAqDoFsOoCgF}FsHwEaEsFoCwEqAaFe@aD?aKb@{FSaEy@oF_C"
-        }, {
-            "start": "49.378088, 11.137153",
-            "end": "49.395544, 11.199193",
-            "name": "6: Nürnberg Süd - Nürnberg Ost",
-            "line": "k}hkHk}m}@i@uH_AgImByKw@mDaCuIiDiJ{BaFuCuFiDyFgDaFcGuHsGeHoLqKcK}IgJ_J}GiIkEsGeB_DmDgH}CwHgDsJeCsIiBmHaEqRgC_OyCsTu@sF_AcKu@{JcAwQiCim@iA}RwAcQyAcNqB}NwCgQyCaOeFyS_L_b@oHeYgEsRuDuSoDeWsBeS_C}XqB}\\y@sQy@uUaB}n@aCm`Aw@sXaAuTeAcQu@sJuA{MgAkIk@oDkC}N}D{PaE}N{DcMuKo\\oDmLiCsJeCoKwBwKgBeLiAeJiBsRc@{Gk@{L]_PGePNcPXuJz@kQfAsMhAmKlA}IxCoQfFmXrEcWbBcLzAuMn@_Hh@sIf@qLPmIFwMO}M{@eTkA{OeBcOsCwQeEcTuDkOyEiPmGqRyL}\\wIsWgF}QkDwNaDgOuAwHiBsLeAaIoAsMw@uMa@yLG{E?yKRwJ^}It@_KrBsQjEqXvGo^`BcJlBaMzAuL`AiJfAeN~@cOn@sOb@oTHqKAeN_@ge@IkLCgQJsMj@aTp@kPjAiQ`AoK~CoWzDyUfBeJzLqk@hBaK|BiOvB_Rz@}J|@qNl@uN^cQFeH?uPa@{T_@oKwA{T_CgVuAqKkAkH}E}V}Oer@qEoTyEgXuCwS}E{_@oE_^yDwWeF_ZkBmJyEoTuHiZqIeYuDeLgGuPaH_QwH{PkJ}Q}HmNyG{KaJcNoHiKqHsJkFiG_N_QeIaLqF}HaHoKgHuLaI{NuEgJaFqKwFsMqBkFgF{MaFoNmDyKgE}NwDeOmBwImEyVwAkK}A{NiAyOg@qNMkK?cNTaPjAa_@|@{ZLgHFyI@eOKmPc@qTu@qUk@sLcBiWiB_T{BySqByN}DoUwDiQcHwYaEcQgD_QmCyPaDaXy@aJoAsQ_AcSw@_Ya@cUUmZEa^Pu[\\kXr@oXzAa^`AkNlAuM`B_ObCkPnBgL`DoOtB_JpDmM~J_[pGqRhFcQbE{P~BiMtBaPvAwO^gGx@oS^eVBwZc@_]q@uReBoZoAmOoAcMmBgP{Fe`@eGu_@}C{TaCoTiBgUcAaQiAw[a@oZBgYT{QnA{i@RqQAsPEcEWcJg@{IcAqL}AmLwBeM_CoKyCoLqFcR_FiOqGaReIkTmHiQwEiJyBsDqCcEqNoRaYe`@qK}N{GoJoGgJiGaLcH}MgJ{R{C}GaGuOeC_I}CeLaD}M{E{RoXkiAgFwSuBeHwDiKmCqG_C{EqDwGyBmDeDyEyCwD}^cb@eOgS_l@mx@uQ_WeQeXkN}U"
-        }, {
-            "start": "49.202977, 10.234608",
-            "end": "49.378088, 11.137153",
-            "name": "6: Feuchtwangen - Nürnberg Süd",
-            "line": "w~_kHyoww@zBog@Fs[aBoT{CmOqNo\\aIsWgBcO_@kP~@sT~Guu@rBwWTmX}D}dAkDkZoH{UoGaLwIaJ_OcKeG}FyHqMmDqK}CuQaB{b@_Dc`@_N_z@eD_Q_E}K_LkPkJiGwLcDcQ{EuNcLeG_JqFgMiF_UcCiXgEgaAmFiz@_Fu]}Jgb@kLe`@qHm\\aKk|@wFsc@mJad@mFqXoFo`@kD{k@Bgc@~CuhAgAmv@gCo]_Ea\\iRodAaEgf@i@a[f@g]vDkl@xCwh@`Bo~@fEy`AxKo~@vUqkAtLyz@lCc\\tB{d@l@yf@De^^cg@zB{g@bIss@zv@uaEpNar@|ZsgAhJy_@jHyb@dHmy@bBwlAnBud@bUubBtFi]vGeg@dDc`@bDo~@g@u`A{EiqA_Akp@BecBoBwaAwGuhAiFyjA}@yz@z@ibAx@{g@Nix@}BsmBf@sq@rGixAhQ_eDlBus@_Bgi@qBoSiFi[qFuSoNaa@gI{T}Im^eGcf@iByc@TmbAt@{~@uBacAuGow@yKor@eSsw@eP{d@mTwi@yVel@}Rkh@{Uiz@iIkc@aEqZmC}]w@wa@~@mh@`Ewa@bFkX~M}h@bEqUdAuL\\uVoAyZoAeWKc^fB_\\bCmPdFyZlBs^e@qZiCwVaJa^wJ{SmJuNuNmPaYyVyK{KgL}OsIgQiIaVcKmd@aKqw@sGuqAyCi`@}D}ZeIwb@qSmw@gNel@sIqj@}F{o@iDiq@qDmsAaD{jAeC}d@aGqh@yJid@mWey@qGoUoG_[iHcs@cAq`@Nm\\nBsa@fCsVtMcv@bKwq@lCuj@Oa^{@wR}Dea@eJ_g@qKm`@gM}^yQki@}Oip@yGod@_Co^Mo]x@kT|D__@~Niz@zGyf@hDse@hAsc@Bu[_@oe@F{o@dB_d@lDoa@tHgg@|Pyy@`Fm[lFaq@v@cw@oA_c@oFum@yLgp@}Ngo@_Kij@eJwr@yLi|@gHy_@oQ{t@{Nqd@uPyb@mToc@}e@gu@ah@wp@ac@ws@uYwp@{Le]}Js]gLal@sD_\\gBk`@C{YtD{`BSy`@gByl@oC_c@mFsh@iI{f@gMsi@uIka@iHyi@uCs`@kBql@s@ir@Rqx@zD}pA`Dy^pFe`@hHs]|K{_@~O}e@zJa`@xFw`@~AmTvAyp@o@gv@yCcl@cDq]wT{zAiFwe@sCec@cByx@`CmhBKoTqAiXaDeXoG}Z{ZwaAkJuVgMkXmVq]mg@or@sOyTuPy[uV_l@y^_yAcUy~@oPob@iSkZkd@yh@yhAo}As_@{m@"
-        }, {
-            "start": "49.157082, 9.300611",
-            "end": "49.378088, 11.137153",
-            "name": "6: Weinsberg - Feuchtwangen",
-            "line": "ioolH}}icAlU_KdN_GzDyAhA_@zAc@lBc@rB_@xCa@bD[pBI|DAhDF`DVvHhAfC`@~J|AbAPbDh@rEl@fER`DAtES`G_@`N_AbNaAbG_@xQiAzKw@dPiApV{AdZoBpDStJc@jPIpJApFExRK"
-        }, {
-            "start": "49.400363, 11.197242",
-            "end": "49.342287, 11.203648",
-            "name": "9: Nürnberg Ost - Nürnberg Feucht",
-            "line": "}pnlHajjcAmHgp@}BoSaBmOsBeR_BqNcDc[oA{MmC}[s@gKaB{Xg@iKc@kKy@qWc@cSU}OImKEkS@_JB_MH}LHcHRiM^kQb@qPx@}Xp@iT^oPBaE@aHCaEI}FQyFYqFa@oF]wDkAcK{@mGmCyQwAkJ"
-        }, {
-            "start": "49.342287, 11.203648",
-            "end": "48.579849, 11.590311",
-            "name": "9: Nürnberg Feucht - Holledau",
-            "line": "iddlHgfkcAhMU`M{@xt@qFr}@qG~RuAbOu@rs@oAjbAeBxiAwBxMi@|Go@xTcDrm@_J``AgNjXkEf^eFt`@aGpQwDdDy@by@cSpa@{Jz^aJ|GqBdK{EbH}EpHeGtc@}]`}BoiBrc@{]dOwKfKiFzHmCpEiA~KiBha@gFxgA}Nb{Bu[lGkAtKoD|R_J|XiMpGoCxGsBbNiC~WyEpJgB|F{AtGiCjIwEhLmGzEgBtGeBnj@gJfe@yH`b@_HnFeAdEoA~HgDpFaDdIqGxGkHfEwFhFwIvF{Lt[ox@tb@sfAbDcH|F}IrEkFtDeDzEcD|\\cTlGqFpFyGd^ii@~CcGrBqFlBoGtAcH~Fe`@zDiWzAkG~@mC|AqDfB{CbC}C|BsBpD{B`PyGnKsF~EkDvFcFpRkRjFsCzD_AxBQbC@fG`AjDtAlD`CjBjBnDhFzYjj@lCvDjClCjEtCpCfAdDt@~CT`FKvFqApJaDxGmCjEcDrB{BfBiCjDcHfCwIhFwZdEsWfBkJvBwIfGoRrDuIjEgIrE}GnHoIlJcI~H_GxGmFzFmFrLkM`OyOlHqGfGoErG}DbEqBvNaGpDsBvDqC|CeDpDiFjCiFpBwFrBwIdDkTjC_SlBgJlBqGpC{GnCoF`EqGpUk\\vE_F`HgFdKaGfFwD|CyCtMgQfFiHbEyHrCyG|K{[hFgL~GgMvK{RbRaX`a@_j@|I_L|EcFbL_JvD_CnJqEfJ}CpG{ArXcG|HcA~Ii@lf@W~RCbCLrHbA|JfClQlFdHdBxF~@rLdAph@`B|Nf@dHM|HcApS{F~Gw@~EM~HVxPfBhf@|En]nDxXdC|MHlMo@xHaAnGsAnUmHzUaI|b@uNnKkD|EiAzGu@bGE~EX|GnAdGnBrNrGd`@bQ|KtDzIrArG^pa@h@vIn@lKlBhh@hMtc@tKbHzAjEh@lEV~FDzO}@t]}BbMYrMN`Mb@vK`ApVvDpj@hJxH~@xGRnGSzFq@lGuAbIyCpE{BdGyDdXcRrRaNdSiNta@kY|l@{a@rQ_K~K_Fxu@eZzLgEn`@qLh_@kLnJwDnJqE~]uTdU{Nf^_Tx]cSbKsFpJsE`\\cM|MuD|HaBzSuDx[qFb]{F`HuBlJkExBgAvPeItv@a_@lLkDfHoAlRw@~Fm@vEaAjI{C~FmDvGyFrHuJdEoHtEyK~DmKfEmJjGyKxG}IzKcMdKiL|HoJfU}^`Ue_@hHyJzKkNza@oh@zHcKzH{MxBwErE}LnBqG|EgTnHk^bByG~AiEdDcG`AqA"
-        }, {
-            "start": "50.357766, 9.735661",
-            "end": "50.001686, 10.078356",
-            "name": "7: Hessen - Schweinfurt",
-            "line": "cojrHgolz@fGoDpEcDbF_FdGiIzFiIxAcCrE}IbA_CtDmKrDmMzMei@nIkYtE_NdHoQvGiNtC{ExE{G`EuEbHsGfJkH~H{GxE{EbIwJfHeL|D}HjEsKnE{N|CmNjBcLbBiOlAqPp@oQLwNEqNg@iR{AoWeAmSGkM\\iKjAcO~A{JrCiMlBsIvAeI|AiNzBsSnAmJ`AmFhBmH|@qClDkI`FiIbFqGdEuDpGyD`DoAzD_AvBc@pDSzFIhOVzIPpJ@`Je@lHy@dJ_B|FuAxImCfJsDpCqAvKaGzCoBbI_GrD}CvEwElDgEtC_E`FeJhCwGfB_GjF}U~BsK|AuFxDoKdFcKrBaDdDiEnC{C~EqE~EqDjFcDpIaEjGaCnI}BpI{AxFm@lFUtF@jFZtGz@`GvAvGfCbHvDpE`DbJ|HrCbCbE`DhFbD|ErBxG|A|Gf@bGKbEg@rGcBtCkArC}AbF{D`EgEpD}EfDuFzCiGdEqJ`KoWzEiLnCyFfBcDfHwL`HuJ`EmFnPwShIiLtGiKxHsNzG}N`GqO|FmQtMcf@nHcWh@}A|C}I~DuJ|BuEnFoJhEoGxFcHfEkEpIiH|EcD`FoCjGsCnRsHdH_DjGmDhJuF|CwBjIeHtEsEvDgEzHwJrTe\\bGoIzFkHlBwB`F_FpEqD`D_CzFgDnFiCtCgAdGkBnDw@xBa@xFq@vF]xFKxFDnGT|NpAzNbCxNlDlGbCnFzChFtE|DjFlD~GpF~NdDbHbBbCpB|B|D~CzBlAxBx@lBb@fCZdCDdCG~Ca@xCs@vHsC|NeIhTgM|MiHpG}ChI{CjEqAxGoAdEa@hJUbHV~BThMlB|HfApFXhCAlDWzB]fEkAnBy@|GqDfGwFfByBbD}EpDqHfBwEpDsLnG_UxAoEtDqJbCeFvEiIlFoHlEgFnEoEtEyDtHqF~H_EpHuCxE{AjKaDvFyBjGsDpDeDnCkDrBaDxBuEjBeF`AgDpA_GrAkJ~@gK~@yNbA{MzAkMzAmIxCoLbJoZ`EuOrDkR`BsLrBwRbCkXtBcQpCcPxBwJtEgP`EaLdEoJdIuNhH_KbCqCfFaFjIqGvFcD~CuAhMcE`HkCvGkDvGyDlE{ClHaHvEoF`GmHbKkMpJsKnJiIjDgChIaFrDiBtF{BxFiBhG}AnIyA~Go@bLYbINhDRhI|@rKtBfHlBpH~BbKrCxDn@dDPzBAxEe@|A]hDmA~C}AdCaB~ByBfEeFxBcDrEuHzGkKdC}CbD}CfA{@`F_D|CqApDcAdC_@vBU"
-        }, {
-            "start": "50.001686, 10.078356",
-            "end": "49.778863, 10.091785",
-            "name": "7: Schweinfurt - Biebelried",
-            "line": "q}dpHylo|@vAI`BCzB@xBPbC\\|A\\zAb@zAj@xCzAnBrAbBtAnAhAbA`AjBrBzAnBjCbEl@fAhBvDrBdFjAbDfAjD`AfDxBvIjBlIz@`EnAvGjDrRnCdOtA~Gz@nDlD`NpCdJlBnF|AdExBlFhDpHvAnC~AnCxAdCvBdDhCtDzC~D`DvD|CfDzEtE|E`EdFrDtBrAtBlAxBhAhD|AbBr@|Al@zCfAzBp@zCv@zDv@zHtAxIlApC\\jIlA|HlArJzA|Bb@~Bf@vBj@~Br@|Bx@zB|@xBbAtBfAxBnAvBtApBxAjCrBrBdBjBhBbDhDtDnEnD~E|AdC~AnCdEhIjDvHpA`DvGxPdE~K~AbEjBnEvA|CnBxD|ApC~AlC`FlHxD|EjBvBlBpBnDfDdEhDvCpBfDrBdCnAzEvB~ClA`ErAnCv@jBb@fEx@`GbAfEd@dGj@fEZ`DPjFJbD?dCC~ACdDOdHc@lIs@xEm@zCg@|Ds@bFmAjFwAhKmCbCq@rDy@vE{@bJuAlEm@lCY|AK~BKrCEnCEbD@fEHxBJ|CTbD^vBXnFz@pEhAvBl@fF`B|GbC|EpBnQrIfKhFxBfAdDvAjG~BpE~ApBj@pDx@nGjA|Dj@`Gh@~BN~FR`CB`GC`GO`CO|C[|ImA|Dk@fAYdCm@vJ}CvAa@rCaAvBaApCaBxB{AhFiDhFuDjCwBtCkC|B}BhBqBfBwBhA{AbBcC|AgCnAwBjCkF`AuBhAoChAuCzAoEdB}FfCcJvCiLjEwP`AoDrCcKdCgInCiIlD{J~BkGvBeFpCoGfEsIbFsJlFkJpCqEzEgH~BaD|ByCzCmDxCaDlAiArCeCjBuAx@i@dFcDdEwBhCiAvDwA|DkAdCk@z@QfC_@vD]|DObC?zCFlQj@bIRvD@tDGrF]|CW|Dc@~AWpB_@pDy@tEsA|EeBlD}AfDcBxDaCzFsDfDwBjBsAfDwCbBcBjDwDbFeGlA_BfDuE~DqGhCwEbAqBnCaGjCiG`BgEpCgIdAeDrBqH~@mDhA_Fv@sDzA_IfAuGtA{JvCuUpA{Jn@}Dr@uDv@sDdAaEx@qCfAaDpAgDnAsChBqD|AkCdA_BbB}B~BsCxImJzIwItAqA"
-        }, {
-            "start": "49.778863, 10.091785",
-            "end": "49.203240, 10.233636",
-            "name": "7: Biebelried - Feuchtwangen",
-            "line": "{lynHs`r|@xTyRbN_LzNwKdSuM~MmHnFeCjLqE~GyBnIwB|IeB|OuBdKu@tR_@nHFlOr@nXvCf\\tErGjA|[nFrPxBnTjBhLb@vMJbPYfN_AlM{AdOgC|IuBtK}CfLyDjNuFhHgDdPyIvKcHvG}E`VqR`OmMfRaO~FaEbJuFxDuBrLwFnLsEtNuDzQsElUwFtHiBbQaFtHwClH}DzFkEnKyKjGuIfC_FtF}LzE}MlDqMvD_PpJaf@hIy`@pDmNvFgQrGeOdHsL~EuG`GgGfHwFrI{E~HyC~EmAxG}@|E[bDGxFL`Fb@hIzAvJvCbMlEpIrC|DdArFbAfHx@pF\\jH@bOq@fQaCvV}DxMcBbKu@~HM`JRzHl@hOvBpd@jItIbAlG`@fMDbIa@pYmCbL]zCDnEXbHhAzGfBjG`C~F`DxLhI|LdJrH|E|EfCrElB`J~BnDj@vFd@zHJfGYdKyA`HoBtGoCxDwBfEuCdFmEdDeDbGwHzG}KfDeH|C}HfHiTdAgDxIsWvFuMrGeLtC_EnEgFjG}FpEkDhFcD|LgGpLiEpHqBdSyD~G{@zHo@dKa@dYCbQQ~Qy@`Hw@zDu@nFaBfFeBvHiDbH_E`FwDbDuCdGqG|IsL`IiN|GgOvJwWtM{]`DcHhEeI|DgGtGgIlGaGzFiE~JeGvN_Ir[sQbYuRvN}KbVaTdF_Ff\\i[bPwOfJaIpMyJ~IuFzKwFlGaCrFeBrI}BxHeA|Je@|HTxGlAtG~BhE`CbGrEbDbD|FlHzHnKvHbJzIzHdKlGlHzC~F`B~FbA|Ff@~ZfA|NzAzIfBlGhB~HtCjEpBxHtE~FvExFvFlGbItFdJnFnLfErL`GdSzErOxCzHhDjHvD|GxE`HpBfC~EdFlBbBfEbDhIfFzFnCnFpBvF|AhGlAlFn@dId@|KI`LeAvK_CxDoA`KmEhFyCfZyS~FoDtE{BpDuAxI{B`Em@tGe@`FKlFFnHd@zJ~AfKvC~D|AjHpDjHzEdGdFrKrLfMvPxI|KlHjHvGhFfGxDzGvCzFxAzEv@lFh@rGJrJU`I}@zFkApKoCrOmEjNwEtEoBhKcFxOqIfL}GxVeQ`HsFdRwPlXiY`e@yg@vM}Lj@c@vIwFlFcCzDoAxEaA|Ee@`GG|Hb@~Er@vFrAjMrE|LhGlOnJbI`GlFlEnF`F|RfSdLpLfNjMfL`JhHbFdM~HzKzFhDtAbI|BbKnBdCV|FVjE?fEQbIaAzIyBxEgBnFoCfFiDvEyDfJmJxX{\\fNgOxPgO`MaJvKuG|NiHjHuC"
-        }, {
-            "start": "49.203240, 10.233636",
-            "end": "49.094759, 10.210372",
-            "name": "7: Feuchtwangen - BW",
-            "line": "g_ikHkwm}@zCgAnEwAzEsAxD_ArJkBzDm@bEg@hKy@rSwA|Ec@fEc@rHaAzFgAzGeB|Bs@rDuAvDaBpE{BjEiClD_CfEcDhEwDhBeBxDaEpB}Bz@gAhCgDlHiKzFiJ~IgOzE}H`F{HjFoHp@}@pCgDxAiB|BcCzCwCfB_BnF_EdEkCnAu@tCyApAm@~D_BjEsAtCq@|EaAtCa@~@KjBOdBC~BI~CC`EFxCNvCVxC\\bC`@pFhAvF`BvCdA~MxFjHxC`EzAvBr@hBd@fDn@|@NdD`@jBLfCFrCAvGIzE@dADtBPnDp@jBh@hBr@rBdA`An@hAx@dBxAnBtB`CfDt@nAhAvB|ArDrAzDrAjFp@dDr@tEd@|Ef@rId@pL^xHj@jGh@`Eh@~Cz@pDd@dBt@dC|@bCjB`EfAlBfAbBvAjBzAdBfB`BbChBzBvAbCpAlI`EjCvAtBpA|AhApB`BxCxCjBvBfB`C|BrD|@zAvAnCrBxE~AbEhDjJlBpFpAjDbB|D~AdDlA~BzAjCpAtBrAnBlCpDpB`CnCxCfAdAlB|AzAhAhC~AhDnBhB|@nDxAhDlAhFvA|@R"
-        }, {
-            "start": "48.476669, 10.107836",
-            "end": "48.465486, 10.115406",
-            "name": "7: BW - Ulm",
-            "line": "e`abHs|g~@~HmCnEkBbCgAxC}Al@[rCcBlFiDvB}AxEuDnBaBnBoBlD}DdBaC~@yAxAoClAmCzA{Df@cB|@qDb@yBh@}C`@aD\\yDRkDHmCB}A?{FMeDQeDWgDu@iGuAoHoAsFiAcGw@cGYkDKcBUyGAyGN}G`@uGt@qGbAgGtA}FrAgEvAoDvAuCtA_CrBsCzBgClCaCl@c@lCgBnAw@fGcD`G_DlCaBpE_D|@q@pC_ClDcDfEoExDuEdB}BxAyBfBoCfCkErCyFtAyC`CyF~@eC`CmHbCyI~A_HpAqGh@yCnAkIl@aFfAkLXaEZ}E`@gLLqHFuJ?sNA{@I}i@@}ED_KHsER_JPwEf@wJf@cIf@aGn@qG~@}HrBsN`AuFhAaGnBcJxBwIlBaH`GwStOsi@`GgSlFmR~B}JfAkFbA{Fz@sFd@oDr@qG^aEd@mG^eHRmFTyKDiGA_HI}Gy@oe@c@cVaAmh@]mRa@}WGoEAiF@}FJkHZmKl@_LdA_NbA{Ij@kEpB}L|@qEfA}EvBwInBwGfAeDzAgElA{C|CkHrAqCjDwGpDqGpDgGnBmDtAkCjB{DpBiFtAiEp@}BvA_GfAcG~@uGn@uG`@{GTyGDuGAuDKoFa@wJkAyPmAuP[cGKoCIcFCoGDuEHoCZcHf@sG\\}CfAcI~AqI`CuLjCeNz@oF~@uH^cERqCXiHJcIAoFEiDO{Fo@aO]uIOyGE}GFaKJeF\\eLPgHD}GI{GU}GSuDk@yGo@uGc@eFWsFG{GHeFP_Eh@oG|@yGf@kCh@}B`AaDhA{CbBsDzAkC`BcC~AkBjCeCpBwArBkAvB_A|Bs@|Bg@|AS~AMdCErCHlBNlB\\hBb@zAh@zBfApBnAnCxB|DpDhDzCdCjBjC`B~BfAzCdA~Cp@zCb@`DP~BB~BGhBO~ASfIaBxFeAjDa@pBKlA?pAFhBNbDb@~Dh@`CTdCJzB@dCK~AM`AK|Ce@~Bg@xDkAzB_AzBiAnK{GhFaDpDmBtD}AlBo@pBm@xCu@zBa@~AUzAQhDUpEMlDBrCJlBNbD^dDj@~A\\fNhDtNtDnCp@zCb@hATP?RF"
-        }, {
-            "start": "48.465486, 10.115406",
-            "end": "47.687867, 10.367629",
-            "name": "7: Ulm - Allgäu",
-            "line": "mjxrHezk~@n@hZrAh^hBl\\tCd_@pAhNpEd`@fDfUbBvJzEtUvDtObHvUlE~L|IbTtGxMlKpQ~IjMbJzKvD~D`KvJjQzOdVhTjIhHxGjF`HzEdGnDhHnDbHtC~IvC|DdAbJjBzFv@~BRpMv@hGHdKKzJm@zH}@xMgCjJ_C`YiHhNiCbIeAzHo@~H_@bHMjG?zGNbI`@bMlAzGbA|GxAvGpBrF|BtHbExFbE`BvA|DrDxCdDfJpLrElHlHfOdPta@|ExJlCrE|CnEhC`DbGnGtGfFrHlEbGfCfEnArFhA~Df@bNn@~Kn@zDh@vEdAjHbC|H~D~IpG`QrNtE~ChDnBnCnAbJbDjK`D|EfBpFlClCdBhGtEnEfEdGjHpFnIlQd]lFdIhDdEhFhFlEhDxD|BzDhBrFnBvLrDdG~BvGnDtDnC~DnDhCpC~DfFbDdFjFlKxDdKtD`NzC`PvBdQ|ApOfA|JjB`NdCjMfCdKrCpJhF~M|FjLfGrJnGfI~CbD`FhEtGxEfCxA`HdDvE~AbGvA`En@~Fh@tGPbE?xDOzAMzAOnHsAdFsAxZoK|KmDxCu@`I{AdKeAtHUnCAdHL|F`@dPdB~NbB~Gb@dGN`FC`GU`LeA~B[|NiB`Gg@bGW`GC|GRbGd@~Ep@pJrBbGlBrFxB~IvExJzGdFlE|BbChI|JpBrB~BvCtHzL|LrUpGtLzGxKtCzDvDlE|DxDbF~DdF`DtDlBlJdEdMtFxCbBjG~D`FxDfD~CrEtEpEfFxHlJhKhLzEnEbGrEnD|BfIhEdOhHlFzCnDbC`FbEbHrHhE|F|DrGjFxK`F`M~CrIvGpPxG`NbH~KjHhJ`IdIzHhGlEpChG`DpHvCxC~@xEhAbJrAlKj@pD@|FQ`Jy@~E{@xEkAxDoAvF{BhGaDlD{B`DgC~HuGfHcHtFoFrEyDrF}DnEiChJeEfIeChCk@zEw@zC]fFYlKCzERlKvApCh@~HvBjDlAxLvFfFpCnIdFxE~CnYrS`T`OdLbHpDnBvEzB`MxE`HlBfFfArDf@|E\\`FLnIOfCSnDi@nKmCtHgClK}DpIsC`HcBxCg@`DU|FKlCJrCXzEdAxBt@rD`BtBnAnCpBfC|BzCjDjE~FxErHpKnP|DbF`EbEzCbCdC`BhEtB`Cz@tCp@|Ej@~FL`CErCUjBYpD}@~@[bEiBtCcB~EaE~DuEhCuDlEiIbJaStH{QhGiPrDkKrJyZzEaP"
-        }, {
-            "start": "47.687867, 10.367629",
-            "end": "47.568019, 10.659100",
-            "name": "7: Allgäu - AT",
-            "line": "gb{fHceu|@rFmFtCmCrBaBhF{DbHuEh@[lBeAzC_BpCuAtEsBrCgAhDoA|Bq@xA_@"
-        }, {
-            "start": "50.428731, 10.387709",
-            "end": "50.020378, 10.161217",
-            "name": "71: TH - Werntal",
-            "line": "i|xfHitv|@|EoAnOuCvQ{AfTMbMl@dIx@xGbAvM|CzIrCfN|FxRjLjOvLbN|MlLdM|R~RvK~IhHzEtPtItMpEnHlBbO~BjOfAlTr@fXtAbLtAvPtD|FfBfMtEpNzFhXpJzQ|DnGz@rKz@rPf@nRZbQz@|SvCnc@zJrMvBdIt@~Lh@bSQdPoAtNyBnSiEfZ{H~_@yIjQqCfMoA`VmArTq@xU{AhO{BbIiBfKgDnEoBbIgEbJaG|EwDfOwNz[g`@xPuSnMgNxIyH~LqIvOgHbLaDfE{@|Em@|Im@jIGjHRfYxCtRrAjLCbKk@bHy@~RaCtJi@pMDrLx@`_@tDvKAxG[bHm@|GsAzGqBbJoDjVeMxWeO|IaEzQ_HrMkD|RkDrQyA`I[~NGnKTjFZ|^`EtX`EvXtC|Mj@bQIbRuAlSkDpXoGpQiDxQmCzJsApRyDdQ{FjMcFnJaDxGyAxI}@bEKzIP~Fl@zEx@nKpCdKzDpG~CxIlFxFdEfRlQhN|OdH~IvInJbJvIrKhItL~GjRfH~KbCpH~@pGb@tJNzIOjHm@dJsAnHcBrL_ElI{DfHcEhMqJtNeO|^mg@~JoLtEqEzHoGrK_HvJwEnN{Eja@yI~h@oItm@yG`f@aDlQw@dYi@lTZfStAjTzCpOhD~X~Hnc@|LxVnE~SpBxRr@vYWbKs@|IuAxIuB`H}BlKyEnLoHzKaJpXoZfKiLtJiJ|GeFjGuDlJcEzM{DzIoAtIi@bIAjL\\rLZhGC`He@lHiAhHqBxF_CdH{DjF{DpEeEzG_IxFuI`HkNnHeTpEoPjImXrH{RdFyKfQg[`IkLhKyMfLeM|OyN`MiJfM{HzQcJp\\qM|TsIzQ{ItEoCjQaM`N{L~IoJrMmPzKuP`HqLlb@sy@`LaUzJkQhM_RrH{I`JyIpJuH`HsE~I{EpL}EtKcD~L_CfV_C`]_Bz^aBxHm@`JqArKsCfKiFxIeHbG_HrGsKvDgIvGeS~Hc[tGaXbFsOfIkQdGoJfHqIdGqFzI{FlJkEpMyDvWkEhv@eJxXcFnYuHpZaLfP_IvMkHrOsJpJ}GbRyOrYeYlg@an@rRqVf\\}a@vLqMdJ}HzDoCxL}GjOyF|Q{DxJ}@hIW`MP~NxAzF`AfHrAtK|A|F^hI?nEYlHmAxZyHjYaIdJ}CtNmGjJkFzEgDhXcUp|AatAtL_LvFeGbOqR~HiJpFsEdC}A|GqCpEaA|Is@`Ko@`HqArFkBbM{GtEwC`LeGpIcCnGm@vHHjRpB|I`@dL@~I[zIu@xLwBvHmB"
-        }, {
-            "start": "50.026412, 11.596574",
-            "end": "49.929311, 10.917428",
-            "name": "70: Bayreuth - Bamberg",
-            "line": "axipHq}weA{Ht[yAnJg@zGObKVdI|AlTTxDHtHMdH_@lF_AdH{BlJ{GnTqI~XiBdJq@nFYpDYrGGzOE`]q@rZqAnWkBdU_Ex]u@jIUhGApLRfG~A|UZbIAhIa@jIuAfKqCnKeIvXmBhHy@hEy@bGe@vF_@~LH~Mh@jk@d@p`@JtJTxG^tGb@nEr@fFlAbGxBzHpD|IvFnK|GvMxC`I|B|HbCpLzAhKx@bJxAnR`A~HfBpJ~AjGdBlFpHvQtA|E|@xEj@hEf@xGLtHIzHu@~V?xBFbGNnDf@lFlAvHx@`EjCrMxAlKdAfMrAlQzApMtB`MfF~V~@tG\\fEXnGBfJ[zMClGLjGr@fJdAzGlBxH~AnEjFrLzAxErAxFzA`Kh@lGVnFDrDFjAA`FMjEc@lH_AtI_@dHG~EPlId@vGz@lG`B`HdCtGxD`HjA~CrAjD`BvFt@tDhBpLhBvI|CvLnAhGp@~Ep@jIR`ERpH`@zVl@jVXzGhBhX`CtXZdIEzL[jGgAvJu@|DeBjHkHvUiBjHaAtGe@|FWbLFtDX`Gd@bFfDdUl@lFV~DbAjXp@lHp@tE|AlH`CrHlJ`UbBvFxAjHdAjJ^lI?nK]jH{@dIgEbVcAjG}@lHu@rKShNLhJZ|G`AfK|CdVjAzORdFLjKGvKc@bLw@~JeBzMwB|KyDrNsCtKsAjGmAdIk@fFe@|G[pIEtLRrI^tGn@tGbBzK|@dEz@dDhCbI|FtN~@nBzIbSzAzD`DpJnB`HlCfL`DvQrAxJv@vHn@|HhA`Tf@zTDxXD`[d@rPrAzRnBzPvBpNdBxJlJxd@zFtZpFj^rChW|BjYfBb^T~Jn@pa@Xpt@n@dW`AvPpApNrAhKrGta@vApLb@hFf@~LDpHSfKq@zOK`JJtFh@xF|@vEdBjFlCnF~FrJhB~DpArEv@`Fd@nIIlKcAdPeCbZw@hLWhK?dHX|Gv@dI`BnLvBvPvAnQl@jOPbNAd[k@zb@WjX@vPTrMd@zL~@fNnBpQtAdJxA`I`DhNbCpIjBzFrErL|EdKlDjGfDjF|KdPzGnK`H`Px@~BtBbHxBpJpBpNhD`b@vAdLlBjJrBdHpChHtBbEdElG`CrClCfC~ElDdHjEnErCtDtCdFnFlDfFvEjJhI~TzAjEbF`MhDvGnEdHjFxGbBlBvExE|GpGnIxItDfEbHpJbHxL|CtGxEvLt@vBhE|NvB`JhBjJlAvHrCzUjBjUxAzU~A~X`A`OtAtPnCnUrDxTjBbI"
-        }, {
-            "start": "49.929311, 10.917428",
-            "end": "50.019328, 10.164098",
-            "name": "70: Bamberg - Werntal",
-            "line": "ayvoHaisaAbAvDdC|H`I~SfChHrB~GnCtKxBbLtAxIdB|Np@zHdAlORxENfHDlNFhZL|IZpLz@fQbAzMj@vFhApJlBtMpEtYrA|JxArMl@~G\\xEz@fQTxHP`N?fJEdHSvKk@hO_AtNwAfOgA|Iu@hFmB~KeH~]cFlWcFlZwEd\\aB`NaBrOg@`FcBhRcC~\\q@lLcC`j@g@zKk@rIg@rFqApK}@rFo@lDiBjIoBhHuCvIaCdGwCjGcChEuBjDcCjDaLpOgFbIaCjEqE`JuEhJqCtF{BzD{B`D_CrCeCdCeCtBiFpDeH|EkF`EgDhDyBrC{AdCoA`C{AlDgAbD}CvKaBfFmAvCqAjCaDlFwDzFiBvCcCpEwCtG}AhE_BfFkAvEmAdGo@tDcEzZgBbKiBdH}AlEoAvCyAnC{AfCqCjEyAjCsAtCmA`DgAjDgBlH}Njq@{ZzvAgWfkAoAnGo@vDg@~Do@nIOdEEtD?~IHtTZpq@Ztz@d@bhA?~IK`OOlH]~KeAbZYhJUjMKpI?tHHrJ\\zLd@fJ~@nLz@rI|B`Qr@tEpFj_@`B~MnAjNfAfQj@hQNpKBdLIzIMdHg@~Mo@hLcAfOeInaAo@jHcBtQyBjT_@~CcEp\\eB~LiD|TuEfXgAvFkCrLkCxK}CbLsErO{BxGyDhKeBhE{F~MgB~DwBhE}DrHoFrJwFbJyFhI}FxHaMbOaF|GuB`DuAzBcEtHmC`GiBtEiBjF}AhFqChL_CvL{AnJyBfQ_AjK_AdNo@nPUjNCdMR`V|@pa@lAjc@r@|R|Blm@~@hZx@x]h@bX`@hYd@pg@JnWHbj@PrVp@vh@LtQ@jV_@fYe@nQmAxVmBnWe@dFeE|a@sDx\\uAvOcAfNaAjQ_@zIa@rNS|L[|\\OtGq@xOm@nIiAhM{@`HcB`LqA`HsAbGmDxMkCfI}C|H}DpI_KxR{BzEaB`EsDjKcBbGuBjJwG~\\{AnGcCdJqBvGeFrOsBhGqBzG_BzFsDxNsB`J_C~KeCjNwClRcBdM[rCw@pHw@rIe@rGi@tH{@nNw@dRs@nZUxWCdTVp[JvFn@rUdArUr@~Lx@`LbBrR~AbOfBxNxBxOlFr^vLd}@fCrTr@lIb@pHh@nPJhI@`JGpHWnKkAp_@KpNH~Jf@jNZdFrAnOlAnLzArOp@~JPhEJxFE~K]tIi@`HeAjJmApJmApMc@dIQrI?|IPbJl@nK\\xDn@pFf@pDv@jExBjJ`BjGbCpGvBvE"
-        }, {
-            "start": "50.019328, 10.164098",
-            "end": "50.000931, 10.082049",
-            "name": "70: Werntal - Schweinfurt",
-            "line": "ukhpHwd`}@bAlBpAzBlAhBtAnBhBxBxB|BhAjAbCvB`GrEtJdH~FpEzBlB|C|CxBdCnBjCpAlBv@pAnA|BvBpEnAzClAhD`A~ClArExAxGrAtH|@|FtAnKnApL~@dLd@zGb@tIf@hOL`GLdOD`OHnJVfLTzG^pHf@lIv@jKnCd\\pAvRn@nNVxIHxFLlN?dJOxQYpNi@|Os@nN_@bGaAzM"
-        }, {
-            "start": "50.386623, 10.916122",
-            "end": "49.929841, 10.915699",
-            "name": "73: TH - Bamberg",
-            "line": "o|voHe~raAjEgFtD}EzBaDrFoIdFwIpDwGpD_HpLyUhF{JlDwF|DaGjD{ExD_FhDcEbGyG`DeDzEsEfDyC~DcDjEeDhGgEnFeDtCcBvEaChGqC`DmApFeB|HqB~I{BtIgB~HgA`Gm@~Ea@bI_@dHM`H@bFJ`GTlCPtEb@`Gr@`G|@xB\\dFr@jCXtCP`CH`DC`CM`D]~@M|Be@|Bo@zBy@xBeAvBmA|B{AnB{A`DwCvDiEvCeEjBaDhC}EbBsDtAgD~AmEh@iBdEeM`I}VxB{GlRwi@dGaPjCyGtG_PtIkSfHyO~JaT~GqMlG{K~BuDbEiGbEyFpEwFxDmEhFkFpDaDtBaBtIcGnGyD~JiFnGuCxEmBzFoBnF_BxDcAnIkBhHsAtGaAtBUzGcA~HcAfH_AzLcBtGeA`HqAnIoB`HqBrFkBxDwArF_CrDeBpDkB~JaGlD}B`GiEbEcD|EcExDoDtBuBbHqHdHmI~EqGnImLnLkPtIcLrFqGzGiHlEkEtEcEvEyDhCoBnEaDzDiCzHqEjGcDzBgA~McGzLsFtGcDjIyEzCsB`EwCtD}C|CmClGiGfNsNnIiI|G}F|C}BvGcEpE{BtCeAfBi@~A_@vDm@|AQnCOjE?fCHhBP~BZtAXjD~@dC~@vDfBfEbC~KbHhEfCrCxAfBx@hEzAxFtAhBZfDb@nF^|G@dEObFY~Ii@bCCzC@nBFvDV~C`@zE~@tBn@`Cv@nGjC~ElBnD~@lARzBTbBF`B?~BIvAMfDk@|A]rDgA~KmDfJyCh@MfDmA~CwAxEaC~EuCbL}HlMcJrDaCfDiBxDgB`Bm@|CaA~Cq@nEe@nDKhC@zCP|Cb@zEhAbEvAnBx@tCvAbJjFj\\xS`HnExIlF`PfKlHnEnKxG|a@lWb`@xVho@ta@hFbDjGbErB~AjBfBdBxBp@hAzBrE~JtXnDzInBxDnCrEdDvErInK~RpVlK~LbHtGdC|BhDpC~DrCtBnApCvApCfAvBn@f@FjANlDd@zJhAvMzAbEn@~Ab@hBr@pDrBjBvArEzDbF~EjG`GpAbArAx@|BbAvCx@xEn@rQtBdDz@dBz@`HjFvAz@nAh@`B^bAHlC?dDBnAC~DC~EH~KL|f@`@vHF`GL~@H~B`@vBp@zCnAzB|A~AvAvB`CjAbBdCnExEpKpAfC~@xAvAfBrAtAvArAjBnApAn@rCbA`Cf@`BP~CFbEAfGD|EC`H?dCGxCS~BY|Be@xCw@nKyDxCeA|Bm@zB_@~D[~Ji@lk@eD"
-        }, {
-            "start": "49.929841, 10.915699",
-            "end": "49.560513, 10.991818",
-            "name": "73: Bamberg - Fürth",
-            "line": "kcprH}`saAzJ|CjHz@xFGrF{@hE}AzEoCtPuLxLmG|EgBpF{A~E{@|Gu@rHQpL^pGz@tE`A`QxFfJrCfDr@lFl@nIJrF]`Fy@tEqAlDwAnGoDpCsBrIwIjHoK`F_JdNkVvGcJ~EwFpGkGbHsFdJwF~GoDzOgIjIkFtEyD~DeEfEuFpEyHbEcJfGaPdHsQ~F{LlFqI~FiHlIoH`HkEvFcC|FeBpHoAdLm@rSFrNTfIMnHu@zFwAbGsCbCkBjDoDrDyFbEeKhAeE|BkNn@sIPeIOyKu@iMsAwKgBmKoDgP{GgYeCeMyAcL_A{OB}Ld@_Hz@}GfAkFbBsFxBeFzDaGxEkErC_BvCgArIkClMcFbLsFtKeFlRuGjMcDrO}B`RkAbQS`N?xGOnFu@tGwBjIuE~FwEnLqLzGmI|E}G|KiRnDgHhIkRrFoN|K}X`EgIlEgH`FuGpF{FxFuEhD_CdKiFhHgChHgBvK}AlKo@jMGnQx@rGl@bPxBtRnD|VzFd_@dJfVrGpDtAtFrCnFvDbGtF~FfHxVta@nDnFnIxJvFnEzCdBlDrAtIvBxQtCnIxBdFdCdCdBvClC|EfG`DvF~BtFnEnNzIj[nDnJjFrJhF`GlGhEvCpAlGrApER`BCpEc@jE{@rD_BnBkAjFiElDcEvJuNtJoPj[oj@lI{N`K{NlIuIlMyIfK}E|OoF`K_CtIuAzGq@rBM`S[bHZpF~@`EnAbFhDvEjFbAvAf@p@jOzXtKzQhJ~LpE`FvIbI`M|I|NzH|ZtOxc@~Tjx@`a@hWrKlVlIhUnH~PhGhEtBrHtEjIvGhIrI~JbNtEdIhGrN|CdJhCrJrHd]vBzIlDhLnChHdE|IpBnD|C`FbHtIlFnFjF`ErLlIpHnEjL~F~KpErBt@nOpEdF|@|E^lEDnMu@t@KtE@nANjEfAvFbC`FnDjFxF`ErFzEnG~CbDvCzBrDrBjGtB`Ep@rIVtQa@dD?zIv@jHbBbF`CtKrH|IlJrFxHjIxNzIrS~FbRtDvPjFp\\nFf^hAbGxDhOhEvK|FzJzGlI~C|CxHpGdG`EnOtHvEzBjDdCpCxCdDjF~HdSvHbRvBjExDhGfIzJ|D|EdGtJjDpHpBpFjCbJlE~QdE|L`GxJ`FdFnExC`ItCvDl@`HFnFs@jGsBjGyDzQyRrMiLrPsMxHkI`JaMpE{HnFuKdKyS~KkRvIcLhCyCfI_IpKiIzIaGrUuN~MeJrIyGzHqHtE}E"
-        }, {
-            "start": "49.560513, 10.991818",
-            "end": "49.464768, 11.015321",
-            "name": "73: Fürth - Nürnberg",
-            "line": "u`cpHae`v@jK}_@hDmQ`CsPjCo]x@c^?eQ_@mUcCse@oEkb@}Co[{Bs[iC}q@[g^h@oh@vAmh@Gme@o@yQqBgYyDwZaH_c@{BuSoAcReAe]?sXh@oUh@sK|BqXxGmg@jCcVjCq^`Bca@^{P@m_@kAm[qBeVeFs]mHo]iQcs@iJgc@}Iwg@_AgGkEe_@sAy[EoKl@{VrDge@lDwXtE_XtHs\\vFeQlEoJbGeJbDmDpF_F`GqDpKeGxDsCpIgJpH{KfFaJzUaf@nBuElGuQdRys@nJkXtC}KtBqLlGs]vEwObCiF~DaGxCoDpEcGtDaGpFqLrEeOdAcFpBkO~Bc\\v@_KnAyGdCuG|ByDvU_VxGkHhFuDhEsC`EwExHaPzDiGzB{BxCkC`QuRxL}RtHeNlJuLjHgGvLqH~AoApXoXxI{EpJmBnNwBdGeAjKuDdFqC|McMdTy^dIwMrGkInNmN|K{LfHqLbHkQzDeOrKyd@nKi[`BwDbGmKtOgQ|CgF`DaJdBaJf@oF^u\\\\mFvAuIzAuFbCeGbH}KdK_NbHqJzCaFxG_O|FoSrFg]nCoTxBiMjDkL`GuNvJoQrPiVfJ{NjF}LxC_JpH{ZvByNpBoVxAyc@xBuUdBcJnC}JnDaJrEiIrQ}TnGqLlDsJnFiTnGgTlEgJlDwFfHcI`IgGbYsOjLoJrHcInMeRnKuT|EcNjDyLjGsYxFuW`CgIrD}JfFyKlLkQnPaTtGcLpE_KlHiUhE{SxG{c@rHca@pK_c@fHyUdJqWnIqSxGmNdJgOrIwJ~J}GfIkCfFe@dDAxFp@xCv@pFfCrGnF|FdIlEpJjGnP|GxMfExFzE~ExHnFlGrC|DhAzHbA|IArCSpEw@jGmBnFoCjE{CxJkK|IcPfG}QfEqV~AwT`ByV~DiV|I__@hEoYlB_[d@a_@pA{_@lEwi@pA}ZPmZc@sVoAsRaA{HeHy^cD}P}E_]wC{ZwBgb@e@eWAg_Ae@}Y}AuY{Eqb@{Jgo@uFof@qAwK_FuYoEyV_C_XYaW^mM`AwMbBaMpCwMrFgU~DeTzDa[zBm]l@gXP_c@bAiXdC{QbEiNnD}HjKwNxDyDtMuKlRkOzMmNrGuI~I{NnNk[jH{TxEsSfCmPnBgW\\}U{@}[eDib@kAkRCeCXwHPgHw@{HuA_KWyPBmNd@oYf@yCvCyDVyEZiCEy@c@KMPw@V_Gk@kA?{@?Wh@Rt@~@zErAtCXvEg@nm@r@~h@a@p[j@xLv@vEbBlFzC|IdAbJ"
-        }, {
-            "start": "50.105721, 9.010570",
-            "end": "49.997797, 9.016348",
-            "name": "45: HE - Seligenstädt",
-            "line": "exnmH_zabAba@}BfReA|FYbEMrEItECjHHtOTd^h@|R\\pPVfg@p@n[h@hLJ|DAhCE`CI`DMlCSx@GpGu@zCc@~Ck@fIkBlFyAj~@eXxZaJlSgGfQgFj\\sJpEwAvCkAdDeBhAs@|AkAlBaBhBkBfBuB~EkGdGgIjJ{LrBeC`DoDbBaBlB_B`BgA~@g@r@]~@YdASr@Iz@CfAB~ANnXnDb@F"
-        }, {
-            "start": "49.991965, 9.017305",
-            "end": "49.747364, 9.815053",
-            "name": "3: Seligenstädt - Würzburg-West",
-            "line": "ugypHa{~u@dA{Kp@oFh@wDx@iFp@qDt@yDz@sDlA{EbB{FfAcD|AkEtBeF`CcFfCwEhCcElAkBfEuFvCcDpBqBfEsDnCoB~CsBxCaBvCuAxCiApC_AbD}@|Bi@~Be@|Ew@zDi@pFi@dAIzIa@rBGl@Ah@?nEEjHGrGMbGQ~F]`E]zEi@fHcAlEw@pIiBlJeCrHcCrEaBjIiDrDaBpDgBtHcEnEmCfFgDzIgGlMsJnJqHh`@sZxI_HrEcDfDwBtDwBxDiB|B}@rEsAjDm@bDa@fDWzCIfCDfDNvBR~B\\~Dx@xDfAxDxAtCtA~BpAzGhExCzBhFhEbExD~B|B~FpGtClDvCvDxApB|CrEhFpIxCnFxAtCdC`FpEtJ|H|PzJrT|I|R`EtItBjEdExHrDbGlBrChEzFnDhEzD`EfD~CnC|BjCnBvFzDnDrBnCtAzEvBbBn@"
-        }, {
-            "start": "49.747364, 9.815053",
-            "end": "49.778760, 10.091395",
-            "name": "3: Würzburg-West - Biebelried",
-            "line": "{gsnHc_|z@RjELlFH`IEpHGfEOdESfEWfEo@`H[rCi@zD}@tFkAdGe@tB}AjGcB`GoBhGiAbD}CbIcDtHkDbHwD|GaElGaCbDsBtC{AfBy@~@uB|B_EzDaEpDuRhO_F~D{EnEcDjDoBfCwArBiBvCaAjBi@h@g@z@c@h@e@\\i@J[Ae@KcAi@SOy@e@q@_@yAm@cAYkASq@EKGSAe@GKESUGQGi@AYp@IpBY^INK`H{@fBGx@@\\FhA\\v@h@f@h@d@p@j@jA\\pAXzBD`CK|Cg@|DUlA[l@WXeAFm@Co@QOOQWM]K{@BaAXwBvAaEpA}C|A_DR]vJyMxDyD~DkDtGiFzNcLpBgBfHcHrDiE~BuC`B_Cp@_AzDcGbDwF`CsEhByDnCqGrBkFpCcIxCwJxByI~AyHrAcIr@iFh@mFl@wHVaFVaJD{JEqGG}COkE]aH_AyMeBoSiAuNY}Dm@gKc@iK[iKOiKEkK?{HF{JNmKVkK^kK~@eQdAwN|Ci_@tBuVbAuMf@oHj@iK`@gKRgKFkKGiKOkHWqHe@iIm@mJ_@}D_AkIqAoIm@kD_B_I{AiG_AmD_FyPeD{KaE}NeBsHeA_FwA}H}AaK{@_Hk@kFe@mFg@iH]sF]iHSaHIqEEqF@mHDeEJaENiEd@mIv@{Iv@{GpCkS`CyPjA}Jp@oITiENcENcK?eGGyEKkEOgDk@mHeAsJiAqI]gCk@yCgByHsByHcBgHe@kC_@iCSoBQgCMiEAgBHaEZ_Fh@gEn@kDbAmDf@wAn@yAz@cBj@_AlAaBv@}@hBcBvAeAxA}@tAs@xDaB|CcAjBg@tGcBjD_A|DmAtCkAxBgAtBsArAcA|@w@nAsAr@{@bAwAdAgBn@oA~@sBdAyCd@{Al@_Ch@iCn@wD^kCb@}D\\cEVaEf@mKR{GL_JDkL?_KIkLOkIc@wQs@sTo@uPg@wKm@gKq@oKqBuW}@_KeAeKy@aHuAkKyAqJcBuJkBgJmBcJwBaJ}B}Iu@qCwBwH}BqHaJkXuDqKaCsG{CkHwEeLyC}G{E{JiHoN}AoC_BmCyDgG_EaG_E{FaEgGcK}NqLwQmFaJ}CmF{IcPiGaMeDgHaDqHsBeFaHyQsCaIoCiIiCiIeByFcCwI_CwIwBsIsByIyBqJ"
-        }, {
-            "start": "49.778760, 10.091395",
-            "end": "49.559823, 10.991323",
-            "name": "3: Biebelried - Fürth",
-            "line": "clynHi~q|@cFkVoFwY{CeReE}YuCaWgBsTcBiW}@gVe@cXEcXZmq@F_XM_Xk@sWgAsWaB_V_CwVyHcp@}@gKg@cKYwKCaNVoMv@oO~@aKpA{J`EaUxFeXtGa[dC_OtBaOnDe]jCs`@rAyZt@uWhA{m@n@aq@HcVAma@_@eXu@mWoAyWyAiToEui@uAmWg@uWF{Wn@oTfB_XjCmU`E_VnGeXnFmS`HcYnDoRdDqVdA{Kt@cLd@cKh@wY?kNOiKaAaYaC{h@i@yTMwRVy\\dBqp@jBiv@\\m^CkQMsLc@sPq@mN}@eNaAeLuB}RsA{JsDuT{FaXkFkSmNgg@eIwYoC{LiAsG}AsLqAaOq@sQKcMHmKZcKt@sLx@yIrAyJnBwKfCmKtBeHnE}LtPw`@xUgj@tGcPvCiIdCmIjBwH|BwLfBoM|AeS|Asb@jAi`@zBch@zCkc@xCk\\rCaX|Fij@rCm]vAeWn@wOh@kS|@cr@`@e]f@uV^yKz@gQhAcPlC_ZbI_p@pAuMf@iHd@{LNmKEqNOmH_Diz@m@iUGcMZkRv@yNz@kJ|@eHpCyOtDaOrEwMjMwZ|`@m~@lEmKnGqPrCqI|CwK~DwRxAsJx@kHbCk\\`BkTdCoRlCaN|B}I~BoHnBgFzEqKxLiVjEmKhBkFfC_J`CmKjBiLf@oD|AkPv@ePNgKI}Qe@}X]aR[m\\@c[d@eg@p@sj@?ub@UqVaAu`@}Aq]u@yLmBkW}AyPoC{XuH_x@yBcYuCid@gB{`@gB}k@k@{Vc@u^Bg[d@cYbAqTpA}PfA{JtAyJ~DkTzCwLhCgInEoLxF}LfLwRzHcLzQiWfGqJpDuG|IoQ~Qs`@|IcQzH{MdDeFrJ{MrFwGlGaHlImI~H}GdImG|KkH|KiGbNeGzUkJxc@kQ~KkFhLqG`J}FjJcHvJkItGiGhEoEdIiJpHmJhH_KtIaNhG_LbSm_@nHmMbJaNrJeM`FmFlHaHra@c\\lMkMdJoKxTqYxGkH|MaM~JkHlJyFxLaGzMsEhHiBfJoBfYaFzHcBpMsDbKeElKwFhTuLhJaEhIkCjGuAvF}@`Ky@`KQvKZxOvA~[jDfNv@~FFtFIzEUxLmA~IaBlLaD|FwBpHgDxJuF~IqG|I{H`FeF|CmDzJmM`EmGrEaIlGiM`DsHdEiLlEgOxEmSxDcUdCiTbB{Ut@yP`@mQL}JTkl@H}v@FgG^gND}@"
-        }],
-        "routes": [
-
-        ]
+        "lines": [
+            {
+                "end": "50.315659, 11.798817",
+                "start": "50.416471, 11.782935",
+                "line": "y}urHoj|fArCbGdAnB|@zAx@dAx@x@hBrAlB`A|DhBjBhAvBjB~DlEhBfBlA`Az@h@z@d@|Aj@xFzAtAb@f@Rv@b@r@d@|@x@n@v@h@x@n@nAh@tA\\hA^dBXjBRhBP|BNhCXhDVtBf@fCr@lCp@jBl@pA^p@x@nAlAxAt@r@v@l@~@h@jAf@~A^n@JvAHf@AdBKvNyAfDg@rAYjA_@fB}@|BcBvA{A|@mAj@}@r@sA`A{Bn@iBj@wBfBmI`BqI`@mBp@cClAuDhAoCx@cBjB}Cj@{@r@{@v@}@hBgB~EuDrB}ApBaBpAqAlAwAfB_CrBoD~@oB|CsHrDcJfCmGlBeEtAiCp@gA~AwBlAuA|@_AfCuBfC_BjB{@`A_@z@WtBe@`Da@xCIlABxAHlANz@LfAVvA^dBp@lAl@dCzAdBtAtApAbAhAtWt[lFhG~CzCzAlA~AdAvAv@zAn@dBj@dB`@dANzBRxCDvDSlB]nA[fC}@vAo@x@g@vBwAzBmB~DgEtF{FxBqBzBaBxA}@~BgAvBq@rA[xAUnAKbCItCFjAH`CVvEt@nB\\~Dt@`BV~CXhD@bBGxBW`Cc@rIuBvZqHpZsH~LyClBs@`Bu@rBsAtB_B~EsE`OeNvGiGbBsAb@YxBmAbCeA",
+                "name": "9: SN - Vogtland"
+            }, {
+                "end": "50.315659, 11.798817",
+                "start": "50.386176, 11.969659",
+                "line": "o`prHmy`hAxBhGdAzCjBnHh@rCnAbI`BjKz@|En@rCbArDdA|CpBfFpChHlJjV~AxE|@bDd@hB`AlEfAlGl@zDr@~Gj@tHt@nK\\hFzClc@NlCNpDHdHG`HSpEQhCgD~[m@nGQbCOlDIhE?bDDlCJ`DPhDZnDd@tDb@nC\\dBhUzdA`Ip^tHb]v@hD`AdDl@fBbAfCr@~Av@xAz@~AnAjBl@z@fJnMzBfDtA~BzBdEhJbStBrEtTte@~Sld@lHxOxAjDpAzD\\lAz@rDj@fDxDpZ|@hFtAtF|@pC~@fC|BxE`AdBpDdFbJfMz@nA~@dBrArCr@pBv@pCx@nDl@xDTnBR`CP|DFpFC|C}@~`@E|AInIDbFF~ALxCNrBf@tEj@rD|@nEx@vCfAfDxAhDbArBpAxBpBjChAnAvD`D~IrH~DfD~BnB|@|@|AjBjBlC|AtClApC|ArEv@zCx@vD|@pGx@xGn@`FVxAR`Al@lCr@|B`AlCx@bBdAlBxLnRfLvQZ\\hAlAdAz@|@f@xAn@xA\\nANrAD|AM|@O`AWxAm@x@g@`As@jAoAr@_AbEoGp@aAhAuA`B_BdBsA|@g@nAo@FKLUVK",
+                "name": "72: SN - Vogtland"
+            }, {
+                "end": "49.522781, 12.158347",
+                "start": "50.386176, 11.969659",
+                "line": "o`prHmy`hAnJjd@nBhCzExBnLqBdHcF|GcJrMq[fGoJvGaGtHkDvKkApDLhDh@tMpF~TzNxRnGbOa@nMoFrIqIrHoNxFiSxUmwAvTmlAjIaX`NaZ|OoUvR}QtUsMlT{FlW{AjIH~]hDpOGtW_Efc@}RrIeA~I\\zMxDfPxHhL|ElUfGxMtAfVI`VeEvNuHnSqSrQwZ|k@ajAb_@ql@tVyXvPiM~]_Sp\\{NrToGb]gB|HaCrHcGlIcOxHcV`IiPfIoJlRqTrGcL|HeW~CcRvIwaAdHyXrLwNnFeC`H{@lNfBrP~NtVbZhGlDtGrAdGAvG}AhF_DlGoIzHoT~Jkr@nGaVrJuMjFuCrGw@|LnCpKhNdJn^lHtVxDfG|FxEtCfArIx@jGC|X_CdLGnIfDjUxXzFpIfO~\\lRln@dJzPlJxIfJtClI@jJeDvGyFlJmNvK}GpLwBdSiBzViOva@sJrZiI~Ng@bNjBfTnIzHbBtIQ|LaFhS}ShJiD|LSvKz@fH}@lWwPbKsGpGwAbHNvJnDxIdF|GxAlJW~IuAzIBnLnEjTrSxF~AdGHnI}BnMcJzRwKpWoHl]q@rSw@~QkFh[uCnJwD~HuInG_PvBqJzFuNjKqMjJgExDe@hKb@fK`FvZrV|OvMvStNhKnB~G]vFkB`K}IhNgXpVg]dTqTvHkJlMqIdLsGrZaJhQgK|HqI|EiJzDcQx@mOu@aUcKc|@y@}\\`AuXbD}VxFoTlHsPtIaMt`@c[|U}QrHuJj_@ag@hKmG~GcFbEeGzCsHpFa\\tHgd@~Lwa@zRmc@fKkP`MoJxNuDf_@}FxSyCdKClWrHx{@x\\tJdAbGKjY}EtZaBlWbBnVnGjS~J~M`K|Yj]pSz_@hSbd@vO|ZfRvYxR|UlWxUzQnK`QrFxTlC|ZrAb\\dEdT~GdTbLb^vXpQzN|PnKjKtDtIhA`N[tJmCzOwLlFoHzFaL|Rqf@vM{O|MoHdQaC~O|AjLhE`UlMff@hc@r`BdcBfXrTzJ`ExI~A`IZbNu@|^gG`UkB`QIxn@fBfUgBfKyBhWiIzO}CpLHdKtC~i@l_@h[pPvUdPlo@fm@zMpIjXdIha@fJp]pO~Y~ObQ~B`G_@zIgCrXyPba@}YbYyd@fHgGrIqDtL}BrJ}DtNoI`QeFfXsAp[`A`_@Rb`@}Ati@oHfSsExj@oKlUy@vWjBfU`GvTvKfVhRfVxV|o@|v@bKtKt_@h[r]tP~^vIdLbA~WXf`@mEnj@cS`i@qYlc@i[dY}XjL}P~Wel@~\\az@",
+                "name": "93: Hochfranken - Oberpfälzer Wald"
+            }, {
+                "end": "50.027946, 11.605879",
+                "start": "50.315659, 11.798817",
+                "line": "}gbrHym_gA`TaJ~FcClf@yShMqFrH}CzBeArS{IpKqEzH{CdC{@rIeCfH{AxFm@zBMnBGxBAdDD~@F~CVfBRfDj@jCn@nBj@lBl@xCfArClA|@`@pFnCzC`BfGfDj\\rQzJrF~`@pTf\\rQbSrKdGlDhE|BrGlDbDjBfD|BvC`CpChCpD~DfB`ClCtDrCfEdHfKpHdLbCpDxCvD~ChDpAnArAjArCrBrC~AvDdBzAh@vBp@dAXnATnBXzANvCNzAB~A?~AGfBKjBQhC_@n@MfBc@|Ag@xCmAdCiArAy@zDcCxGuD~DoB|Ao@~Ak@rAa@|Bi@vCg@pBWpFc@zDKnAAtCF~ADbBL~AR`C^~AZzDfAnCz@`EbBhE`BtMfF`FrBjIfDdI`DdHrCnBz@dBx@xBnAjD~B`F|DbUdRfKrIhSpPdP~MxT`RfDtCxDpDvEtEhDpDhFbGxF|GvHhJlDfE~DlEpEtEnBfBtAjAjE~CnBnAvBjAtD~A|@Z|Bn@rB^fDb@~CNbBB`BClCO~Ca@hAUbDw@fJ{CdNuEnMkE`Ck@h@KjAOzAKjBGvBDxBRdCf@dBf@tBx@pDfBrDlBbKhFtUvLtDjB~BbAfDhArCt@~Cj@jBVpAL|BLbFFtGBpEBnGNtDR|D`@zCj@nBh@nC~@bDxA~Ax@hBhAlDdCzCpCbDlDdDnEh@v@zA`CnCfF~ChHvBhFzH|Q`EhJzEnL~EvLfExJzFbNbGfOlBtFpCjIfBzEpDnIvDzGhC~DnCpDtBbCnBnBdCzBtBbBnBrAhG`EpDzBbHvE`IhFlBrA|BpBzBvBpB|B`BxBjAdB`IdM~Q|YdCtEzBfFz@xBvAlEbAhDrBtH|CdLbCxIlBbGnBlFbBfE`DnH~BpFjDnInAnDlKn\\~EvOxF~QhIlW~AxFj@nCd@hCl@jERlBv@dKzCzc@j@pGtAdKn@bEpAnGfA~E`A`F|@zGzAtMVbBp@pDlA|Ev@dCnAfDj@rAz@~AzAjCvGtKxKrQjCxDbDxDbDxCfBpAfC|A|At@fBp@`Bh@lBd@~B^~AP`DLfB?zAAbFQtEIdG@fGNvF\\|Ef@|En@|Ex@vGzA~Bf@xBn@vC`AjGbCrEpBlDfBpDpBpCdBrA~@fExClBxAnBfBtF~EdFfEpA~@tBlAtEnB`Cn@zBf@zGhA~KjBzFbA",
+                "name": "9: Vogtland - Bayreuth"
+            }, {
+                "end": "49.048105, 12.093258",
+                "start": "49.522781, 12.158347",
+                "line": "mlgmHyteiA|EkI~CyEdDoE~GgIlI_J|IsJ~JuL|CcEnI_MzFmJrGmL|DeHfC_ElIiLxAeBbFuFpF_FxJqHbGmDlE{BhGaCbIsBvDk@dE]hEOdBAdK\\`EPtMV~IYrGq@zDo@nD{@hJuC|EgBtM}EjLuDnDaA`IiBtJaBhJiAfIm@~ESzMOlLRtLr@bJbArJzAtJvBjLfDjLjE|JrEjJfF~JpG~MhKpHxGpHhHxIdJj[d\\dJtIjJ~HvHxFzIbG`KbGfIdEfMtFrGbCtInC~GhBrJnBxKbBvHbAhHz@`L`B~G|AjDfAxGtClDnBpDdCxFzEnGbHhGxItHlMnF`J~B~C~BdCx@t@hDdCvBjAtB|@`Ct@|Dt@pCTnD@~BKzC]|HaBfS{GdP}EbL_CtIiAdGi@xEU~JIhKX`t@hE~]vBb^xB|DTjNj@|FHnGA~JU~EWnJ}@jHaAdLwB|MgDjTwFlLsBdI_AxLo@lHGbHFtNl@jNdAnEb@`Fl@bMlBxQtDvMhDrGpB`IlCnLpExNrGnM|G~LdHhNlJ|KjInPdNtMnLp^p]pTlSlLlJdD|BnEpCpGhDrEnBrIjClIxAnFb@hDFzGK~BO|HgAlG_BfGaCxDmBlC}AzIaGfOuKrE}CxFgDxFsCvFwBrEuAjGuAbH{@lEY`GMbGDjMj@vMlArH~@|GfA~RbEpPxEjGvB~HxCfJ~DpHtDjG|CtFhD|CrBxFlExHbHpKlLxEbFvDfDlClBvBlAxCpAhDdAvBb@vBTdDN~D?dFa@dGeAhGaBzEcBvFgCdFwCvFyDvNyKbDwB`DkBzEqBtEsAxEy@dF]lEAtCNnDh@xBh@dFlBxEvC`ClBpCnCfE|ErHrItBnB`ChB|BrArCpA~CdAhE|@~C\\~Kl@vLj@|Fn@rGtAzC~@~CjArDdBhI`FdJbHtKnI|EfDhC|AhB~@`DxAjDlA`InBnEr@rEb@xDR~DBhFEvDS~JkAlHcBzIkCbH{BlFaB|EoAxGsA`Gs@fI_@xCAxFN`F\\|Ft@xAV|HjBrIhCjJbDnNxFbJdEhHrDtLxGvPvKtLtI`NdK|G|ElF`DnFzBpCv@`Ep@zDTzC@pDSlDg@|A_@nFqBpCuA|IiF|P}KvJcGrFoCtHqC|D{@zCc@lDQvBA`DLpBPhGpApDnAzF|C~FxEpFtFfHlHdDvC`CfBzFdDxB`AxCbA|GvA`F`@`EDbEKtGm@hNcBlG]dEBrFf@lFn@|B^dFd@fDDxCOrDm@zC}@nD_Bx@g@",
+                "name": "93: Oberpfälzer Wald - Regensburg"
+            }, {
+                "end": "49.642258, 12.521638",
+                "start": "49.522781, 12.158347",
+                "line": "mlgmHyteiAvAiCRMd@g@rAcBf@g@hA_A`BkA~AuAt@eAh@cAtAwDf@aAr@aAnBwB`CeCt@GVHZXVr@Ft@Cp@Qn@UZYP]B_@GQAk@][UaDcCmAcBi@sAQs@_@eA_@k@c@a@cBaAc@_@q@aAa@u@c@c@Wq@s@mBeAeDeCcJgB_JaAyFoBkKaBkHiBsG_EmLiE}JeC{EkCqEmC}D_C_D{CqDwEsEeCwBiDeCsEwCsE{BuFyByDgA}D{@mCc@yC]{Hg@gU}@wE]eD]gEs@uFkAoIgC{HaDcEuB_DiByGqEuDyCsFcFiGwGuGoIeGiJuDyGuC}F{D{IkDgJ_CeHqBcH}AcGyAmG{AsHkA{Gu@qFu@qGg@aHU{FIuE?gDReKNoCd@_Gj@_Fj@wDjEiThG{YzA{HXqBp@iH\\kHF_HIqGS}Dc@wFu@}Fm@gDw@mDqAoEuBsFaAqBcByC_CaDaIeJ{BkDcBcDyBqF}CcJaOkb@_HeRmAwCaAoB}AeCgBwBiC_CgBmAkAm@yAk@aBa@wCw@wDoA_EsBiCiBsAkAcBeBoBaCsAqBqCiFcBiEiAoDkAqE_BuHyB{M_DmSwFq\\wKkk@{AaIs@eFg@oF[iGg@cLOuB_@mDY}Bq@}DaAgEs@iCsB_GsBkEeDiFkB}BkCmCwD}CoCmBuCeBkJ_FoHuD_DgBwFuDgDoCyFaGcBuBmC_EeAaBqBwDsCoGqAgD}C}J}@sD{AoHoBqMk@aFc@yFg@kIy@gQi@eGo@oEgAsFcA_EaAuCwDoKkAwDw@cD}@sFu@uIUuLCyQF{IRyGPwC`@qEr@sE`A_EdAkDxA}DhBkDtBoDdE}G|C}E|AwClAsChAaDbA}D~@qEl@mE`@sEh@wHd@sJf@cMFkDBwPM_JU}H{@aQ}A_PiAeJ{AgJcBsHgBaGuBuF_EiIwBiDoEuG}HuKgBmCwCaFyC}Fs@{AqB}E{BkGeBaGuC{LgBiJuAuIyB_PmDmVgEgYcBkJ{BwKqB_J}AkGaBqFyCiIiFiM_BmEs@aC}@yDe@gCc@uDUsCSeECaB?gHZaJv@gNToHBsDIaDMmCa@uEm@mEsAaIaCyN}AuMu@qLOsFCaEHqLXcJn@}IpAgKlA_HdFiUrB{JdAkGl@sEZ_EVmFHuFGyISqEYgE[qCs@_FaB{HmBgGmAyC}A{CmBaDoAcBgBqBoF_FsHeGsE_E{DkEkAaBaBoCqAgCqBoFy@cCU}@",
+                "name": "6"
+            }, {
+                "end": "48.998353, 12.063492",
+                "start": "49.048105, 12.093258",
+                "line": "sujjH{}xhAjAw@vBeBhEsDnA_AnAs@jAi@t@Wr@Q`AO|@K|@CxBD~@Jr@LbAXz@XtAr@dBjAhAdAdBzBx@nA^v@f@dAv@tBxAlF~@jDx@rCf@zAPXLZbAdClAfC`BjC`D~DxAfB|AzAnDzC~G~GfA~@bCdC~BdDj@z@d@hAt@zB|@jDjD|OfB~H`ArDp@xBl@dBv@hBr@rAn@dAhBlBz@v@p@d@~@j@~@b@x@ZvA^t@LzAR~Gd@xBV|AVp@LdEdB|Ax@vG`ExCnBnCnBdDdClC`CpJvI|BfBbCdBp@^vAp@pAh@x@VfAZl@J~AVfBNpCFxBErCY`Ce@lCu@jDoA~CoAnCgAnCcAhCw@tCq@hBWx@KjBKzCEXB",
+                "name": "93: Regensburg - Holledau"
+            }, {
+                "end": "48.582759, 11.597094",
+                "start": "48.998353, 12.063492",
+                "line": "u~`jH{cshAzDPnF|@pFbB~M~ErG~A~Cf@|Hh@fCD~FOjEa@nHuApIaC~JkDrHsCrJuEnH}D|NyIzEeEfEmFnDqGrCsHtBuIvA}Iv@qJdAeUfAeMnBmK|AuFxA{DjDeH~DsFvEgEfFwCpFaBxFs@|CAzCLlW`C~DPnNTrYPtUb@pKn@xLtAbPrCb]zGnM~A`CPvDLxGBvPc@lHQlMI|Ml@pKpArI~AxGdBfIvC|KxF`MdIhNzIdI~DbHnCnHzBxInBlIbBxFvAzBz@pDtBbKxHfDbDdDxDfDxEhChEtDhHfD`IlChHxDnN~AvHbBpKzCbT~@~EjAtExAnEtD`IvExGrHfIfFbGnEfHbC|FtAlErCzMtCjOdB~GhAdD`BxDnBpD`EvFhExEzFvGjEdHzCnH~BlIpFpW~CfM~C~ItEjJlDrFlFdGxFxEdFzCzJlE~W`KfYnKlEhBpC~AlBvAhC`CxEpGvAlCrB|EdBrFrAxFpBrNdFna@fCfQdEhR`ErOpPto@|Q`n@~Tlt@fD`JlGjMxF~IhIpJvEdE`FnDpRjM~EfEfNnP`[``@hOlQ|QtRrOxPnYzZnFzGpD|F~IzQzMnXzD|HtEzH|c@~l@hWh]tCjEfCtErAzCxBvG`J~^|BlGfBrDnCjE|EpFlHhFhWnO|[tRbDlBlGpEpFxF~ErHjJzQpFvJrIjNzCnEhKdNtIvJtFxFxGfGxGtFfPhLfMlIhHhFbIdHvGzHtCjE~CxF|D~IxEnN~DxNnJb^bElNzDnLdM|[xRve@vWno@|DpLjBdJbArIj@fJVbIh@fN`@bFf@lEbAtF`BzGtO~a@bEvNz@zDdZ`_B`C`RxDl\\vEv`@nC|NpCzJbCpGlGnMtWjg@lRx^jEjHtAdBhDjD`DzBvFfCtEdAtOhAhP`A`HTdEEdIk@`d@}F`CQ~BAdDRzCl@xBt@xBjAnBzAjBhBdB|BxAfCnFbLjQb_@rBlDrI|L~HvIbEpD`GlEfHbExd@jTvJfEzFpAbN|AtFtA|BfAtBxApE|E~HhMtB`DhBrB`EdDnDbB|GvBlU|G|^|KxB~@tBpAdCzBjBrBtQdXhErHzD~IdCzHtBvI~AhJvAtMj@zJRhQ@fQNnFfAdLlB~I|ExOx@`Ej@bFT~Fc@xUB|Id@vGhApGvAvEvAxCfk@lz@zBxD|AlDrB|F|BdKbPd_AjD~RhJhi@jAfIbA|Jj@xIvBx`@jA|KfClKnCpGxBnDvBfCjEpDbG|DxFnDhCrBxB`CxArBbBbD",
+                "name": "93 4"
+            }, {
+                "end": "48.322635, 11.617198",
+                "start": "48.582759, 11.597094",
+                "line": "ayogHaaxeA`AzBzAvDt@lBnIpTbCxG^`BJnA?bAI~@Qh@Wb@]Xc@L]@UC_@WWYQc@Q_AAe@Bo@Py@x@aC`BgB|ByBzA_A~BiA|Ai@x@U`AS|ASfAEvBChQRdAB`NPtBF~BRhC\\zD|@hCx@|YfLdEzAnBf@zBb@vCZhCFrA@~CKbCY|AWhCs@rCmAtBgAdBeAbCwAnAu@jMeH|CaBtBaAvDqAlA[jAS`D_@vf@aEhIu@tCQ~@EzB@hBJxARfDr@dDlA`Bz@xBvAfCxBzBbC|CpDbMdOdM`OjBhBrBbBzB`B~BvA~C|AvChAdD`AjDp@~D`@dCJnCBrISvIWfAM~Di@xDaAlBm@tAg@tCuAfCyApBwAlDwC^[pViTrMcLtFmEp@e@|BoAx@a@xB_AvCaAnCq@~Do@pCUzCGtAAdBFjBHrCZ~Cj@t@PvDlA`C`AvAr@zAz@`GjDfGnDfNfItX`P|BnAhChAhC|@vCr@|Ch@bDZ~CJrC?`CKpCWbC]~A]~@W~DoAdJkCrQkFhYoIjEoA`Du@~Cg@jEg@bBMlAE|DC|@?hCFzDThJp@xIn@tMbAvANjJr@bG`@pFXpEL|FDzB@dWOjb@Q`ZItnAc@dSGfg@U|DStCYnEq@~D}@tDiAtB{@rB}@zCaBlCaBbHeFtF_EjBkAlCwAtBcAjDsArFaBpDu@pBY|Ee@~EMrB?nBDpFZ~Q`Ax^pBtLj@`Kj@be@dCjCL~BBlBCvAE|AItD[zCa@rCm@hGgBhEcBxCyA`HkDlZmOnh@{WdIaE|GeDva@}RhJmEjMkGhHiD~C{AhLiFz@]xL{E~CuA`LgF",
+                "name": "Holledau - Neufarn"
+            }, {
+                "end": "49.465219, 11.249741",
+                "start": "50.027946, 11.605879",
+                "line": "uajpHswyeApY~E~NrBbHJ`F[zJwBnJsChSgGtFyBfCcBpHwGhDaC|DgAzBKpCR`DdAhExC~ExDfFdDtGxBzEn@~GAvQcAhZaB`Mc@bK?bQr@p\\fC|p@dFzPdAjJHdIK`OaAbNoBbUmEhJwApDO|IJzGr@jf@nIru@tM`LpBpJlAdKT|Ly@|}@gMxJgAxI_@fLD`Lz@nJzAtJ~Bh\\bJr}@zVnHdDhHxFhHzJfDdH`CfH`CnK`BzMh@lKNj}AJbr@p@|TvB`WtBxM|BlInF~KnPrTpFpKdC|I`BnLn@~O\\`^h@pKp@vGvAfI`D~KhDtH`FlHrG~FnDtB|DvAxHlAfXb@rXj@vG|@zH~BvFtC~CxBjHfHdN~R~JjOnDvEdIdIxF|D~IzDlFpAdHdAxMdCnKrEdI|DxE|ArFt@zHDnJPnHfAhJxC|IfD|D`AdCZtDHrDQnFaAlGeC|PgIpFoBpEq@xGDbF~@rDzA`ErC|B|B~MtRhEfE|EtC`EjArEb@lDEdDc@~C_A`E{B~EoEvFeJ~CiJz@_ExEsYpDgPpBqFbCaF~E{GnDcDnDyBxCoAtHwAhEGxFh@~EvA|FdDrGlG`EvE|BjB|DvB`Cx@bIhA`Gj@tHhCxGpAbI[fBc@rDaBvK}HpFwBvFo@lO]rOgDbl@gNxg@uLxIqB|Fw@bG?zDd@|EvAbH|DjM|IrF`EzCbD`CfDhC~EhBzE~C|LpZ|vBxAzGtBdHbC~FlDfGnHjI|KrKhg@ze@rJ~I`GfEpGrDzD`BzGnBlJzA~BRjKL`WuAbRyAtm@sErw@cGxUiBlF]vGF|IvA~DpAbF`C~CrBzDfDdOpRdWp\\zQtVnDlGvCpH~AfG~@dGn@~HTrJl@bOtAhKbBjHfC~GjC|EfFhG`DbC`CpAjL|EhE`DvDhE`LlRzBvCzElEpUzQ`HjG`QdSfYx^lR|VpFvK~@jCvIz]jPxr@hF`ZxB~R`Fhi@vA~J~BrLnArEvCbIlGzKrDrE|DxD|EzD`SrMdKlI`FfGxEvJfCpIfE~UfC`KfD`H`DdDtBnAvDzAlDtBvIbLzBrBtBjA~EfA~GD~BXzBv@rGdC`JT~Fb@tEjAdHvDrB|AfHlH|WfYph@fk@nM`MxJbHbLvFvKjD|bA|Sl}@fRji@zKtNrDbInD`HlElHlGlIzIzPrQrW~Xlq@ft@vRtYlGrJfGdIhLjMpR`Qvg@fd@~n@pj@rQxQxNpQpSzYhUt[dJxJnLtK",
+                "name": "9: Bayreuth - Nürnberg"
+            }, {
+                "start": "49.465682, 11.250184",
+                "end": "49.400363, 11.197242",
+                "name": "9: Nürnberg - Nürnberg-Ost",
+                "line": "kg|lH_itcAhE|DrCdCP`@JJdG`Gd@ZnCbC|JbJh@j@rEbEf@`@Xb@d@t@Tx@HfAEt@Kp@Ob@_@h@YRUFYDUCYGUQUUQ]UcAEe@Ag@Dk@LgA|CmKTcA`BoFzEiPv@qCP]hAoEb@aBH{@xF{RhBcGzCiJ`BiEjCaGvB}DfCeE|B}CbCuClCqCxCgCvCuBzA_A`Ag@fCoA|Ao@`DgAnEkAlWkFtIqBf@MvK{C|IiCvJsDnJ}DlFeC|Au@rDqBzCcB~JkGhD{BlFoDnByAvAcArB{BlCwBjB{AfDuCpGaGbIaItDcEzDoElIaKpFcHxByC|BaDtDuF"
+            }, {
+                "start": "49.465682, 11.250184",
+                "end": "49.408975, 11.291952",
+                "name": "3: Nürnberg - Altdorf",
+                "line": "ceqlHgn|cAnV_a@~PwU|MsNlVaTnJaJhKgL`JyLvGwKdI_QlH}StGoYbFu^tGql@~DiVbOir@hDyXvAsZBmRYog@r@cY|A}SpDmVpDmO`Omd@vOsg@nJwc@|Kcw@hJao@`Gk]|DyQ|EgQnE{LjFsKpFeIpEeF`FkEfGuDnJeErO{H|EsDbJaJjGkItKuRbIyM~G}HrFoEnGoDpIsCl[iHfPaIfJqHxLiNpP{WdJ{QrIiUnJ{^jFm[|BoTn@mLZu^_AoXeBiX_@_R`@mY|@_LrBuNfGyVpI_[zAgMP}JYgJ_AgIkG}_@u@{M?mL\\uIpAkLhB{IdDyJnFwJbF}FlGmEnEeBfJ_BrIw@zGuApGaCxIoFzFkF~OuSzEiElIoElGqDtEoE~DuFzEsJhFeOfIw[lDgSrCmUhCs`@vAe\\pAaLxAmHbDaK|HwNpKuL~HcGbIyEbMeFza@_LhKyDhK}GdPuKhJaIbQaRlJqMlI}M`IcPhP{d@xDgKvFsLhJoN`HyHhL_JjKkFtIkC|E_AvMgCrFiBdIoE~J_JnKsMrGoGzI{FbJmDlMuBpJaA|KsBpDmAnHyDjFaEhFsFrJ{NrDeIzFyR~DyVxD{ZjEiUfHoSdIqN|KsLrLkHpVeJfMmHxFoFbFwGxFoKnDkJdF{S`CgP|AaPbCi_@~Ayd@TmNP}r@Xi_@`AiWl@iItGsm@lAmUB_a@e@{g@xAeYpEa[fL_m@lCuSxBoWjBwg@Jg]aA{{@tAw[xBqP`DyRbBaQl@aPL}Xl@mNrAeNnFuXfHiS|EgJxDsF~GoHfLgIvFaCrJiCzKmCpFiCxDkCbH}GzG_KrEaKbDgK|HmWbH_OpFcIhE{EhHcGxEmCnOeHpM_I`LkKpLoJbF_DdJuDbLgChIy@zN_AtNiBzJsBrM}DhPcHtP}Jlf@s`@vRgKnTuG|QmCtHyArFwBrFuDnEuErEmHlCmGbCgItD_QlEeOnDyGhDeEzHeFjJmCvFmAnHoCzFmDnJkJhJwOnKcTrHoKbH{G|IuFrOeG|R{JdQ_NjUcUrJaGjHoCtEcAdUuAxLiAtEsA`FwB~FsDhJmJjFcIlEgJ|GcU~Hqa@`DuKhDuH|K}PtQaVjLoS|G}OdHaThIiZvHcUpIoR`MsYfEyMnHuZtEyXdE}RvD_LvGaMbFqGvGyFhIkEzFcBnKqAlF}@bC_AtCgBvB{BxEuI`C_Jr@wFXsL_@{IuDmWgAkQ[e_@_BkNiEmS_Mci@uLif@sAsIk@yIBkPjBuPjEwNxEcI"
+            }, {
+                "start": "49.408975, 11.291952",
+                "end": "48.998558, 12.058475",
+                "name": "3: Altdorf - Regensburg",
+                "line": "kg|lH_itcAhE|DrCdCbEpDfEvDxW`V~BxBnBnBhB`C|A~BnAnBnCzErArBn@|@xAfBbB`B|@v@lA|@fBdAtB`AnGjCbBz@|@h@nCrBZRZLZXfD~CpCdCtDlDlDpDpCtCfHfIpGtH``@tc@|g@xl@bHtIlGlHlEbFnDtDzDvDtHvHpEtEvDtDpSvStFvFvBjBpB~AjBpAxCfBrCtAvCjAvBr@pEdAdBZrD^vEPhE?lBIrE]xB[nB_@bCm@vEaBzGqC"
+            }, {
+                "start": "49.404424, 11.300190",
+                "end": "49.517853, 12.163414",
+                "name": "6: Altdorf - Oberpfälzer Wald",
+                "line": "_dklHif~bAiYqh@o@kA_BeD{@}AyJ}QwCaGoCoGgDiJs@{BaBwF}AgGuAmGyA{HkAwHgAsIi@oF]uDYcEc@oISyFUiIQgGsAaf@WaI[}Fi@}G]iDwAkMIu@u@cHcDeY_CySwDs]"
+            }, {
+                "start": "49.395544, 11.199193",
+                "end": "49.404049, 11.298685",
+                "name": "6: Nürnberg Ost - Altdorf",
+                "line": "shplHea~cAsGeg@_E{a@cByUyAkX_B_j@]m[?u]r@ch@fAm\\nBi`@jCo]zC}U`DiQfBaIhEePxFaStEkRdCsOp@yH\\yHBiKg@gM_AgIwA{HmDaMuBwEmCmE_DqDmJoHoJaHwDgEkDkFmB}DqBqFyCiMw@wFo@wHcAcRyAeOmBiLgGgXcB}JaCuSiAiTOoRLe\\g@aV{A}SmBkOoCoQmCkS{AkRi@_PmBiaAYa[\\}^pEibB|AoWzBaRpD{QtLce@zCePzAsL~AaTzB_b@|A{N`Ga_@lGa`@`AgLXsI@gJW{I}AaQcAkGiBcIoI}XcCiIgBwH}AcLm@cKKiHFsFr@eMtBqNtDuM|HoRrEkLrDgLjAeFnAkIhAcOHeGMmJa@oH}@iI{A{IgBcHqDkKiEmKyCiI{C_KaCmKsBuNaC_VcCoPkCcLwDcLkJ_U_DeJaDwM_EiYoDuTeBqGmBmF}BuEyC{EmLyOkEkIyDyLqAuG{@}Go@oI[_KAcLR_KdA{NnAiKfGya@tC_Z|@_P^wLbAoi@tAwWlDe_@rA}Nr@mL\\wLFgQFu[`@oLz@gK`BcLpBgJbD}KbFoQxAgInAgLj@sLb@aSj@{Op@oIrBgOfCiLlCyIbFgNpDuKtCoL|AoJbAuIr@yKb@uP^iMp@cKpA}KpAuHhGkVxA_GzAaIx@mGv@aKv@a`@XiHl@_IbCaP~CmLpBiFnDeHlEyGxGoIvKgNrEqH|B_FhBwF~BcKz@oGp@_JNwF?uIWqHw@cJ_BeLiEuQaIuVwD{PyBiQ_AuSEcGLgMlA{RtAwKjEkWhB{MhAgMnAuZ~Aeg@xBk]`Ey^lKat@|CcX~BcZbA{Ud@_V?uZg@kYqA{XkDqc@wFen@{NwcBwCad@cAc^KiQFkRXmPzCacAr@wa@M{Zy@cSwBqTaDcRwEcQgCuGqCyF{DoGiDwEmJcKaQsMy_@oWwZoToHsGyEaFuJmMaEwGmHcNqKoUgKkW}FyPaIwWwJea@oHo^yIei@gEs[aEaa@mCq^yB_e@_D_x@sA}SgC{YcCgTsDyWgPgdA}Dk[yAwOkBmX_B__@iAeV{AsReCiRkCaM_FePuBmFuH_OgD_FaF}FiGyFcHcFsFyCgLkEwEgAqHgAaCQoIYgOLmY|@oO?_Ic@oLyAuJiCuJ}DsDoBqGcEaHmFiI_IsG{HgJ{LkCsCwGeFiEwBcKeD_HkCiFmDsEyEgDgFaDoGsAqDoFsOoCgF}FsHwEaEsFoCwEqAaFe@aD?aKb@{FSaEy@oF_C"
+            }, {
+                "start": "49.378088, 11.137153",
+                "end": "49.395544, 11.199193",
+                "name": "6: Nürnberg Süd - Nürnberg Ost",
+                "line": "k}hkHk}m}@i@uH_AgImByKw@mDaCuIiDiJ{BaFuCuFiDyFgDaFcGuHsGeHoLqKcK}IgJ_J}GiIkEsGeB_DmDgH}CwHgDsJeCsIiBmHaEqRgC_OyCsTu@sF_AcKu@{JcAwQiCim@iA}RwAcQyAcNqB}NwCgQyCaOeFyS_L_b@oHeYgEsRuDuSoDeWsBeS_C}XqB}\\y@sQy@uUaB}n@aCm`Aw@sXaAuTeAcQu@sJuA{MgAkIk@oDkC}N}D{PaE}N{DcMuKo\\oDmLiCsJeCoKwBwKgBeLiAeJiBsRc@{Gk@{L]_PGePNcPXuJz@kQfAsMhAmKlA}IxCoQfFmXrEcWbBcLzAuMn@_Hh@sIf@qLPmIFwMO}M{@eTkA{OeBcOsCwQeEcTuDkOyEiPmGqRyL}\\wIsWgF}QkDwNaDgOuAwHiBsLeAaIoAsMw@uMa@yLG{E?yKRwJ^}It@_KrBsQjEqXvGo^`BcJlBaMzAuL`AiJfAeN~@cOn@sOb@oTHqKAeN_@ge@IkLCgQJsMj@aTp@kPjAiQ`AoK~CoWzDyUfBeJzLqk@hBaK|BiOvB_Rz@}J|@qNl@uN^cQFeH?uPa@{T_@oKwA{T_CgVuAqKkAkH}E}V}Oer@qEoTyEgXuCwS}E{_@oE_^yDwWeF_ZkBmJyEoTuHiZqIeYuDeLgGuPaH_QwH{PkJ}Q}HmNyG{KaJcNoHiKqHsJkFiG_N_QeIaLqF}HaHoKgHuLaI{NuEgJaFqKwFsMqBkFgF{MaFoNmDyKgE}NwDeOmBwImEyVwAkK}A{NiAyOg@qNMkK?cNTaPjAa_@|@{ZLgHFyI@eOKmPc@qTu@qUk@sLcBiWiB_T{BySqByN}DoUwDiQcHwYaEcQgD_QmCyPaDaXy@aJoAsQ_AcSw@_Ya@cUUmZEa^Pu[\\kXr@oXzAa^`AkNlAuM`B_ObCkPnBgL`DoOtB_JpDmM~J_[pGqRhFcQbE{P~BiMtBaPvAwO^gGx@oS^eVBwZc@_]q@uReBoZoAmOoAcMmBgP{Fe`@eGu_@}C{TaCoTiBgUcAaQiAw[a@oZBgYT{QnA{i@RqQAsPEcEWcJg@{IcAqL}AmLwBeM_CoKyCoLqFcR_FiOqGaReIkTmHiQwEiJyBsDqCcEqNoRaYe`@qK}N{GoJoGgJiGaLcH}MgJ{R{C}GaGuOeC_I}CeLaD}M{E{RoXkiAgFwSuBeHwDiKmCqG_C{EqDwGyBmDeDyEyCwD}^cb@eOgS_l@mx@uQ_WeQeXkN}U"
+            }, {
+                "end": "49.378088, 11.137153",
+                "start": "49.202977, 10.234608",
+                "line": "k}hkHk}m}@i@uH_AgImByKw@mDaCuIiDiJ{BaFuCuFiDyFgDaFcGuHsGeHoLqKcK}IgJ_J}GiIkEsGeB_DmDgH}CwHgDsJeCsIiBmHaEqRgC_OyCsTu@sF_AcKu@{JcAwQiCim@iA}RwAcQyAcNqB}NwCgQyCaOeFyS_L_b@oHeYgEsRuDuSoDeWsBeS_C}XqB}\\y@sQy@uUaB}n@aCm`Aw@sXaAuTeAcQu@sJuA{MgAkIk@oDkC}N}D{PaE}N{DcMuKo\\oDmLiCsJeCoKwBwKgBeLiAeJiBsRc@{Gk@{L]_PGePNcPXuJz@kQfAsMhAmKlA}IxCoQfFmXrEcWbBcLzAuMn@_Hh@sIf@qLPmIFwMO}M{@eTkA{OeBcOsCwQeEcTuDkOyEiPmGqRyL}\\wIsWgF}QkDwNaDgOuAwHiBsLeAaIoAsMw@uMa@yLG{E?yKRwJ^}It@_KrBsQjEqXvGo^`BcJlBaMzAuL`AiJfAeN~@cOn@sOb@oTHqKAeN_@ge@IkLCgQJsMj@aTp@kPjAiQ`AoK~CoWzDyUfBeJzLqk@hBaK|BiOvB_Rz@}J|@qNl@uN^cQFeH?uPa@{T_@oKwA{T_CgVuAqKkAkH}E}V}Oer@qEoTyEgXuCwS}E{_@oE_^yDwWeF_ZkBmJyEoTuHiZqIeYuDeLgGuPaH_QwH{PkJ}Q}HmNyG{KaJcNoHiKqHsJkFiG_N_QeIaLqF}HaHoKgHuLaI{NuEgJaFqKwFsMqBkFgF{MaFoNmDyKgE}NwDeOmBwImEyVwAkK}A{NiAyOg@qNMkK?cNTaPjAa_@|@{ZLgHFyI@eOKmPc@qTu@qUk@sLcBiWiB_T{BySqByN}DoUwDiQcHwYaEcQgD_QmCyPaDaXy@aJoAsQ_AcSw@_Ya@cUUmZEa^Pu[\\kXr@oXzAa^`AkNlAuM`B_ObCkPnBgL`DoOtB_JpDmM~J_[pGqRhFcQbE{P~BiMtBaPvAwO^gGx@oS^eVBwZc@_]q@uReBoZoAmOoAcMmBgP{Fe`@eGu_@}C{TaCoTiBgUcAaQiAw[a@oZBgYT{QnA{i@RqQAsPEcEWcJg@{IcAqL}AmLwBeM_CoKyCoLqFcR_FiOqGaReIkTmHiQwEiJyBsDqCcEqNoRaYe`@qK}N{GoJoGgJiGaLcH}MgJ{R{C}GaGuOeC_I}CeLaD}M{E{RoXkiAgFwSuBeHwDiKmCqG_C{EqDwGyBmDeDyEyCwD}^cb@eOgS_l@mx@uQ_WeQeXkN}U",
+                "name": "6: Feuchtwangen - Nürnberg Süd"
+            }, {
+                "start": "49.198943, 10.127393",
+                "end": "49.202977, 10.234608",
+                "name": "6: BW - Feuchtwangen",
+                "line": "ioolH}}icAlU_KdN_GzDyAhA_@zAc@lBc@rB_@xCa@bD[pBI|DAhDF`DVvHhAfC`@~J|AbAPbDh@rEl@fER`DAtES`G_@`N_AbNaAbG_@xQiAzKw@dPiApV{AdZoBpDStJc@jPIpJApFExRK"
+            }, {
+                "start": "49.400363, 11.197242",
+                "end": "49.342287, 11.203648",
+                "name": "9: Nürnberg Ost - Nürnberg Feucht",
+                "line": "}pnlHajjcAmHgp@}BoSaBmOsBeR_BqNcDc[oA{MmC}[s@gKaB{Xg@iKc@kKy@qWc@cSU}OImKEkS@_JB_MH}LHcHRiM^kQb@qPx@}Xp@iT^oPBaE@aHCaEI}FQyFYqFa@oF]wDkAcK{@mGmCyQwAkJ"
+            }, {
+                "start": "49.342287, 11.203648",
+                "end": "48.579849, 11.590311",
+                "name": "9: Nürnberg Feucht - Holledau",
+                "line": "iddlHgfkcAhMU`M{@xt@qFr}@qG~RuAbOu@rs@oAjbAeBxiAwBxMi@|Go@xTcDrm@_J``AgNjXkEf^eFt`@aGpQwDdDy@by@cSpa@{Jz^aJ|GqBdK{EbH}EpHeGtc@}]`}BoiBrc@{]dOwKfKiFzHmCpEiA~KiBha@gFxgA}Nb{Bu[lGkAtKoD|R_J|XiMpGoCxGsBbNiC~WyEpJgB|F{AtGiCjIwEhLmGzEgBtGeBnj@gJfe@yH`b@_HnFeAdEoA~HgDpFaDdIqGxGkHfEwFhFwIvF{Lt[ox@tb@sfAbDcH|F}IrEkFtDeDzEcD|\\cTlGqFpFyGd^ii@~CcGrBqFlBoGtAcH~Fe`@zDiWzAkG~@mC|AqDfB{CbC}C|BsBpD{B`PyGnKsF~EkDvFcFpRkRjFsCzD_AxBQbC@fG`AjDtAlD`CjBjBnDhFzYjj@lCvDjClCjEtCpCfAdDt@~CT`FKvFqApJaDxGmCjEcDrB{BfBiCjDcHfCwIhFwZdEsWfBkJvBwIfGoRrDuIjEgIrE}GnHoIlJcI~H_GxGmFzFmFrLkM`OyOlHqGfGoErG}DbEqBvNaGpDsBvDqC|CeDpDiFjCiFpBwFrBwIdDkTjC_SlBgJlBqGpC{GnCoF`EqGpUk\\vE_F`HgFdKaGfFwD|CyCtMgQfFiHbEyHrCyG|K{[hFgL~GgMvK{RbRaX`a@_j@|I_L|EcFbL_JvD_CnJqEfJ}CpG{ArXcG|HcA~Ii@lf@W~RCbCLrHbA|JfClQlFdHdBxF~@rLdAph@`B|Nf@dHM|HcApS{F~Gw@~EM~HVxPfBhf@|En]nDxXdC|MHlMo@xHaAnGsAnUmHzUaI|b@uNnKkD|EiAzGu@bGE~EX|GnAdGnBrNrGd`@bQ|KtDzIrArG^pa@h@vIn@lKlBhh@hMtc@tKbHzAjEh@lEV~FDzO}@t]}BbMYrMN`Mb@vK`ApVvDpj@hJxH~@xGRnGSzFq@lGuAbIyCpE{BdGyDdXcRrRaNdSiNta@kY|l@{a@rQ_K~K_Fxu@eZzLgEn`@qLh_@kLnJwDnJqE~]uTdU{Nf^_Tx]cSbKsFpJsE`\\cM|MuD|HaBzSuDx[qFb]{F`HuBlJkExBgAvPeItv@a_@lLkDfHoAlRw@~Fm@vEaAjI{C~FmDvGyFrHuJdEoHtEyK~DmKfEmJjGyKxG}IzKcMdKiL|HoJfU}^`Ue_@hHyJzKkNza@oh@zHcKzH{MxBwErE}LnBqG|EgTnHk^bByG~AiEdDcG`AqA"
+            }, {
+                "start": "50.357766, 9.735661",
+                "end": "50.001686, 10.078356",
+                "name": "7: Hessen - Schweinfurt",
+                "line": "cojrHgolz@fGoDpEcDbF_FdGiIzFiIxAcCrE}IbA_CtDmKrDmMzMei@nIkYtE_NdHoQvGiNtC{ExE{G`EuEbHsGfJkH~H{GxE{EbIwJfHeL|D}HjEsKnE{N|CmNjBcLbBiOlAqPp@oQLwNEqNg@iR{AoWeAmSGkM\\iKjAcO~A{JrCiMlBsIvAeI|AiNzBsSnAmJ`AmFhBmH|@qClDkI`FiIbFqGdEuDpGyD`DoAzD_AvBc@pDSzFIhOVzIPpJ@`Je@lHy@dJ_B|FuAxImCfJsDpCqAvKaGzCoBbI_GrD}CvEwElDgEtC_E`FeJhCwGfB_GjF}U~BsK|AuFxDoKdFcKrBaDdDiEnC{C~EqE~EqDjFcDpIaEjGaCnI}BpI{AxFm@lFUtF@jFZtGz@`GvAvGfCbHvDpE`DbJ|HrCbCbE`DhFbD|ErBxG|A|Gf@bGKbEg@rGcBtCkArC}AbF{D`EgEpD}EfDuFzCiGdEqJ`KoWzEiLnCyFfBcDfHwL`HuJ`EmFnPwShIiLtGiKxHsNzG}N`GqO|FmQtMcf@nHcWh@}A|C}I~DuJ|BuEnFoJhEoGxFcHfEkEpIiH|EcD`FoCjGsCnRsHdH_DjGmDhJuF|CwBjIeHtEsEvDgEzHwJrTe\\bGoIzFkHlBwB`F_FpEqD`D_CzFgDnFiCtCgAdGkBnDw@xBa@xFq@vF]xFKxFDnGT|NpAzNbCxNlDlGbCnFzChFtE|DjFlD~GpF~NdDbHbBbCpB|B|D~CzBlAxBx@lBb@fCZdCDdCG~Ca@xCs@vHsC|NeIhTgM|MiHpG}ChI{CjEqAxGoAdEa@hJUbHV~BThMlB|HfApFXhCAlDWzB]fEkAnBy@|GqDfGwFfByBbD}EpDqHfBwEpDsLnG_UxAoEtDqJbCeFvEiIlFoHlEgFnEoEtEyDtHqF~H_EpHuCxE{AjKaDvFyBjGsDpDeDnCkDrBaDxBuEjBeF`AgDpA_GrAkJ~@gK~@yNbA{MzAkMzAmIxCoLbJoZ`EuOrDkR`BsLrBwRbCkXtBcQpCcPxBwJtEgP`EaLdEoJdIuNhH_KbCqCfFaFjIqGvFcD~CuAhMcE`HkCvGkDvGyDlE{ClHaHvEoF`GmHbKkMpJsKnJiIjDgChIaFrDiBtF{BxFiBhG}AnIyA~Go@bLYbINhDRhI|@rKtBfHlBpH~BbKrCxDn@dDPzBAxEe@|A]hDmA~C}AdCaB~ByBfEeFxBcDrEuHzGkKdC}CbD}CfA{@`F_D|CqApDcAdC_@vBU"
+            }, {
+                "start": "50.001686, 10.078356",
+                "end": "49.778863, 10.091785",
+                "name": "7: Schweinfurt - Biebelried",
+                "line": "q}dpHylo|@vAI`BCzB@xBPbC\\|A\\zAb@zAj@xCzAnBrAbBtAnAhAbA`AjBrBzAnBjCbEl@fAhBvDrBdFjAbDfAjD`AfDxBvIjBlIz@`EnAvGjDrRnCdOtA~Gz@nDlD`NpCdJlBnF|AdExBlFhDpHvAnC~AnCxAdCvBdDhCtDzC~D`DvD|CfDzEtE|E`EdFrDtBrAtBlAxBhAhD|AbBr@|Al@zCfAzBp@zCv@zDv@zHtAxIlApC\\jIlA|HlArJzA|Bb@~Bf@vBj@~Br@|Bx@zB|@xBbAtBfAxBnAvBtApBxAjCrBrBdBjBhBbDhDtDnEnD~E|AdC~AnCdEhIjDvHpA`DvGxPdE~K~AbEjBnEvA|CnBxD|ApC~AlC`FlHxD|EjBvBlBpBnDfDdEhDvCpBfDrBdCnAzEvB~ClA`ErAnCv@jBb@fEx@`GbAfEd@dGj@fEZ`DPjFJbD?dCC~ACdDOdHc@lIs@xEm@zCg@|Ds@bFmAjFwAhKmCbCq@rDy@vE{@bJuAlEm@lCY|AK~BKrCEnCEbD@fEHxBJ|CTbD^vBXnFz@pEhAvBl@fF`B|GbC|EpBnQrIfKhFxBfAdDvAjG~BpE~ApBj@pDx@nGjA|Dj@`Gh@~BN~FR`CB`GC`GO`CO|C[|ImA|Dk@fAYdCm@vJ}CvAa@rCaAvBaApCaBxB{AhFiDhFuDjCwBtCkC|B}BhBqBfBwBhA{AbBcC|AgCnAwBjCkF`AuBhAoChAuCzAoEdB}FfCcJvCiLjEwP`AoDrCcKdCgInCiIlD{J~BkGvBeFpCoGfEsIbFsJlFkJpCqEzEgH~BaD|ByCzCmDxCaDlAiArCeCjBuAx@i@dFcDdEwBhCiAvDwA|DkAdCk@z@QfC_@vD]|DObC?zCFlQj@bIRvD@tDGrF]|CW|Dc@~AWpB_@pDy@tEsA|EeBlD}AfDcBxDaCzFsDfDwBjBsAfDwCbBcBjDwDbFeGlA_BfDuE~DqGhCwEbAqBnCaGjCiG`BgEpCgIdAeDrBqH~@mDhA_Fv@sDzA_IfAuGtA{JvCuUpA{Jn@}Dr@uDv@sDdAaEx@qCfAaDpAgDnAsChBqD|AkCdA_BbB}B~BsCxImJzIwItAqA"
+            }, {
+                "start": "49.778863, 10.091785",
+                "end": "49.203240, 10.233636",
+                "name": "7: Biebelried - Feuchtwangen",
+                "line": "{lynHs`r|@xTyRbN_LzNwKdSuM~MmHnFeCjLqE~GyBnIwB|IeB|OuBdKu@tR_@nHFlOr@nXvCf\\tErGjA|[nFrPxBnTjBhLb@vMJbPYfN_AlM{AdOgC|IuBtK}CfLyDjNuFhHgDdPyIvKcHvG}E`VqR`OmMfRaO~FaEbJuFxDuBrLwFnLsEtNuDzQsElUwFtHiBbQaFtHwClH}DzFkEnKyKjGuIfC_FtF}LzE}MlDqMvD_PpJaf@hIy`@pDmNvFgQrGeOdHsL~EuG`GgGfHwFrI{E~HyC~EmAxG}@|E[bDGxFL`Fb@hIzAvJvCbMlEpIrC|DdArFbAfHx@pF\\jH@bOq@fQaCvV}DxMcBbKu@~HM`JRzHl@hOvBpd@jItIbAlG`@fMDbIa@pYmCbL]zCDnEXbHhAzGfBjG`C~F`DxLhI|LdJrH|E|EfCrElB`J~BnDj@vFd@zHJfGYdKyA`HoBtGoCxDwBfEuCdFmEdDeDbGwHzG}KfDeH|C}HfHiTdAgDxIsWvFuMrGeLtC_EnEgFjG}FpEkDhFcD|LgGpLiEpHqBdSyD~G{@zHo@dKa@dYCbQQ~Qy@`Hw@zDu@nFaBfFeBvHiDbH_E`FwDbDuCdGqG|IsL`IiN|GgOvJwWtM{]`DcHhEeI|DgGtGgIlGaGzFiE~JeGvN_Ir[sQbYuRvN}KbVaTdF_Ff\\i[bPwOfJaIpMyJ~IuFzKwFlGaCrFeBrI}BxHeA|Je@|HTxGlAtG~BhE`CbGrEbDbD|FlHzHnKvHbJzIzHdKlGlHzC~F`B~FbA|Ff@~ZfA|NzAzIfBlGhB~HtCjEpBxHtE~FvExFvFlGbItFdJnFnLfErL`GdSzErOxCzHhDjHvD|GxE`HpBfC~EdFlBbBfEbDhIfFzFnCnFpBvF|AhGlAlFn@dId@|KI`LeAvK_CxDoA`KmEhFyCfZyS~FoDtE{BpDuAxI{B`Em@tGe@`FKlFFnHd@zJ~AfKvC~D|AjHpDjHzEdGdFrKrLfMvPxI|KlHjHvGhFfGxDzGvCzFxAzEv@lFh@rGJrJU`I}@zFkApKoCrOmEjNwEtEoBhKcFxOqIfL}GxVeQ`HsFdRwPlXiY`e@yg@vM}Lj@c@vIwFlFcCzDoAxEaA|Ee@`GG|Hb@~Er@vFrAjMrE|LhGlOnJbI`GlFlEnF`F|RfSdLpLfNjMfL`JhHbFdM~HzKzFhDtAbI|BbKnBdCV|FVjE?fEQbIaAzIyBxEgBnFoCfFiDvEyDfJmJxX{\\fNgOxPgO`MaJvKuG|NiHjHuC"
+            }, {
+                "start": "49.203240, 10.233636",
+                "end": "49.094759, 10.210372",
+                "name": "7: Feuchtwangen - BW",
+                "line": "g_ikHkwm}@zCgAnEwAzEsAxD_ArJkBzDm@bEg@hKy@rSwA|Ec@fEc@rHaAzFgAzGeB|Bs@rDuAvDaBpE{BjEiClD_CfEcDhEwDhBeBxDaEpB}Bz@gAhCgDlHiKzFiJ~IgOzE}H`F{HjFoHp@}@pCgDxAiB|BcCzCwCfB_BnF_EdEkCnAu@tCyApAm@~D_BjEsAtCq@|EaAtCa@~@KjBOdBC~BI~CC`EFxCNvCVxC\\bC`@pFhAvF`BvCdA~MxFjHxC`EzAvBr@hBd@fDn@|@NdD`@jBLfCFrCAvGIzE@dADtBPnDp@jBh@hBr@rBdA`An@hAx@dBxAnBtB`CfDt@nAhAvB|ArDrAzDrAjFp@dDr@tEd@|Ef@rId@pL^xHj@jGh@`Eh@~Cz@pDd@dBt@dC|@bCjB`EfAlBfAbBvAjBzAdBfB`BbChBzBvAbCpAlI`EjCvAtBpA|AhApB`BxCxCjBvBfB`C|BrD|@zAvAnCrBxE~AbEhDjJlBpFpAjDbB|D~AdDlA~BzAjCpAtBrAnBlCpDpB`CnCxCfAdAlB|AzAhAhC~AhDnBhB|@nDxAhDlAhFvA|@R"
+            }, {
+                "start": "48.476669, 10.107836",
+                "end": "48.465486, 10.115406",
+                "name": "7: BW - Ulm",
+                "line": "e`abHs|g~@~HmCnEkBbCgAxC}Al@[rCcBlFiDvB}AxEuDnBaBnBoBlD}DdBaC~@yAxAoClAmCzA{Df@cB|@qDb@yBh@}C`@aD\\yDRkDHmCB}A?{FMeDQeDWgDu@iGuAoHoAsFiAcGw@cGYkDKcBUyGAyGN}G`@uGt@qGbAgGtA}FrAgEvAoDvAuCtA_CrBsCzBgClCaCl@c@lCgBnAw@fGcD`G_DlCaBpE_D|@q@pC_ClDcDfEoExDuEdB}BxAyBfBoCfCkErCyFtAyC`CyF~@eC`CmHbCyI~A_HpAqGh@yCnAkIl@aFfAkLXaEZ}E`@gLLqHFuJ?sNA{@I}i@@}ED_KHsER_JPwEf@wJf@cIf@aGn@qG~@}HrBsN`AuFhAaGnBcJxBwIlBaH`GwStOsi@`GgSlFmR~B}JfAkFbA{Fz@sFd@oDr@qG^aEd@mG^eHRmFTyKDiGA_HI}Gy@oe@c@cVaAmh@]mRa@}WGoEAiF@}FJkHZmKl@_LdA_NbA{Ij@kEpB}L|@qEfA}EvBwInBwGfAeDzAgElA{C|CkHrAqCjDwGpDqGpDgGnBmDtAkCjB{DpBiFtAiEp@}BvA_GfAcG~@uGn@uG`@{GTyGDuGAuDKoFa@wJkAyPmAuP[cGKoCIcFCoGDuEHoCZcHf@sG\\}CfAcI~AqI`CuLjCeNz@oF~@uH^cERqCXiHJcIAoFEiDO{Fo@aO]uIOyGE}GFaKJeF\\eLPgHD}GI{GU}GSuDk@yGo@uGc@eFWsFG{GHeFP_Eh@oG|@yGf@kCh@}B`AaDhA{CbBsDzAkC`BcC~AkBjCeCpBwArBkAvB_A|Bs@|Bg@|AS~AMdCErCHlBNlB\\hBb@zAh@zBfApBnAnCxB|DpDhDzCdCjBjC`B~BfAzCdA~Cp@zCb@`DP~BB~BGhBO~ASfIaBxFeAjDa@pBKlA?pAFhBNbDb@~Dh@`CTdCJzB@dCK~AM`AK|Ce@~Bg@xDkAzB_AzBiAnK{GhFaDpDmBtD}AlBo@pBm@xCu@zBa@~AUzAQhDUpEMlDBrCJlBNbD^dDj@~A\\fNhDtNtDnCp@zCb@hATP?RF"
+            }, {
+                "start": "48.465486, 10.115406",
+                "end": "47.687867, 10.367629",
+                "name": "7: Ulm - Allgäu",
+                "line": "mjxrHezk~@n@hZrAh^hBl\\tCd_@pAhNpEd`@fDfUbBvJzEtUvDtObHvUlE~L|IbTtGxMlKpQ~IjMbJzKvD~D`KvJjQzOdVhTjIhHxGjF`HzEdGnDhHnDbHtC~IvC|DdAbJjBzFv@~BRpMv@hGHdKKzJm@zH}@xMgCjJ_C`YiHhNiCbIeAzHo@~H_@bHMjG?zGNbI`@bMlAzGbA|GxAvGpBrF|BtHbExFbE`BvA|DrDxCdDfJpLrElHlHfOdPta@|ExJlCrE|CnEhC`DbGnGtGfFrHlEbGfCfEnArFhA~Df@bNn@~Kn@zDh@vEdAjHbC|H~D~IpG`QrNtE~ChDnBnCnAbJbDjK`D|EfBpFlClCdBhGtEnEfEdGjHpFnIlQd]lFdIhDdEhFhFlEhDxD|BzDhBrFnBvLrDdG~BvGnDtDnC~DnDhCpC~DfFbDdFjFlKxDdKtD`NzC`PvBdQ|ApOfA|JjB`NdCjMfCdKrCpJhF~M|FjLfGrJnGfI~CbD`FhEtGxEfCxA`HdDvE~AbGvA`En@~Fh@tGPbE?xDOzAMzAOnHsAdFsAxZoK|KmDxCu@`I{AdKeAtHUnCAdHL|F`@dPdB~NbB~Gb@dGN`FC`GU`LeA~B[|NiB`Gg@bGW`GC|GRbGd@~Ep@pJrBbGlBrFxB~IvExJzGdFlE|BbChI|JpBrB~BvCtHzL|LrUpGtLzGxKtCzDvDlE|DxDbF~DdF`DtDlBlJdEdMtFxCbBjG~D`FxDfD~CrEtEpEfFxHlJhKhLzEnEbGrEnD|BfIhEdOhHlFzCnDbC`FbEbHrHhE|F|DrGjFxK`F`M~CrIvGpPxG`NbH~KjHhJ`IdIzHhGlEpChG`DpHvCxC~@xEhAbJrAlKj@pD@|FQ`Jy@~E{@xEkAxDoAvF{BhGaDlD{B`DgC~HuGfHcHtFoFrEyDrF}DnEiChJeEfIeChCk@zEw@zC]fFYlKCzERlKvApCh@~HvBjDlAxLvFfFpCnIdFxE~CnYrS`T`OdLbHpDnBvEzB`MxE`HlBfFfArDf@|E\\`FLnIOfCSnDi@nKmCtHgClK}DpIsC`HcBxCg@`DU|FKlCJrCXzEdAxBt@rD`BtBnAnCpBfC|BzCjDjE~FxErHpKnP|DbF`EbEzCbCdC`BhEtB`Cz@tCp@|Ej@~FL`CErCUjBYpD}@~@[bEiBtCcB~EaE~DuEhCuDlEiIbJaStH{QhGiPrDkKrJyZzEaP"
+            }, {
+                "start": "47.687867, 10.367629",
+                "end": "47.568019, 10.659100",
+                "name": "7: Allgäu - AT",
+                "line": "gb{fHceu|@rFmFtCmCrBaBhF{DbHuEh@[lBeAzC_BpCuAtEsBrCgAhDoA|Bq@xA_@"
+            }, {
+                "start": "50.428731, 10.387709",
+                "end": "50.020378, 10.161217",
+                "name": "71: TH - Werntal",
+                "line": "i|xfHitv|@|EoAnOuCvQ{AfTMbMl@dIx@xGbAvM|CzIrCfN|FxRjLjOvLbN|MlLdM|R~RvK~IhHzEtPtItMpEnHlBbO~BjOfAlTr@fXtAbLtAvPtD|FfBfMtEpNzFhXpJzQ|DnGz@rKz@rPf@nRZbQz@|SvCnc@zJrMvBdIt@~Lh@bSQdPoAtNyBnSiEfZ{H~_@yIjQqCfMoA`VmArTq@xU{AhO{BbIiBfKgDnEoBbIgEbJaG|EwDfOwNz[g`@xPuSnMgNxIyH~LqIvOgHbLaDfE{@|Em@|Im@jIGjHRfYxCtRrAjLCbKk@bHy@~RaCtJi@pMDrLx@`_@tDvKAxG[bHm@|GsAzGqBbJoDjVeMxWeO|IaEzQ_HrMkD|RkDrQyA`I[~NGnKTjFZ|^`EtX`EvXtC|Mj@bQIbRuAlSkDpXoGpQiDxQmCzJsApRyDdQ{FjMcFnJaDxGyAxI}@bEKzIP~Fl@zEx@nKpCdKzDpG~CxIlFxFdEfRlQhN|OdH~IvInJbJvIrKhItL~GjRfH~KbCpH~@pGb@tJNzIOjHm@dJsAnHcBrL_ElI{DfHcEhMqJtNeO|^mg@~JoLtEqEzHoGrK_HvJwEnN{Eja@yI~h@oItm@yG`f@aDlQw@dYi@lTZfStAjTzCpOhD~X~Hnc@|LxVnE~SpBxRr@vYWbKs@|IuAxIuB`H}BlKyEnLoHzKaJpXoZfKiLtJiJ|GeFjGuDlJcEzM{DzIoAtIi@bIAjL\\rLZhGC`He@lHiAhHqBxF_CdH{DjF{DpEeEzG_IxFuI`HkNnHeTpEoPjImXrH{RdFyKfQg[`IkLhKyMfLeM|OyN`MiJfM{HzQcJp\\qM|TsIzQ{ItEoCjQaM`N{L~IoJrMmPzKuP`HqLlb@sy@`LaUzJkQhM_RrH{I`JyIpJuH`HsE~I{EpL}EtKcD~L_CfV_C`]_Bz^aBxHm@`JqArKsCfKiFxIeHbG_HrGsKvDgIvGeS~Hc[tGaXbFsOfIkQdGoJfHqIdGqFzI{FlJkEpMyDvWkEhv@eJxXcFnYuHpZaLfP_IvMkHrOsJpJ}GbRyOrYeYlg@an@rRqVf\\}a@vLqMdJ}HzDoCxL}GjOyF|Q{DxJ}@hIW`MP~NxAzF`AfHrAtK|A|F^hI?nEYlHmAxZyHjYaIdJ}CtNmGjJkFzEgDhXcUp|AatAtL_LvFeGbOqR~HiJpFsEdC}A|GqCpEaA|Is@`Ko@`HqArFkBbM{GtEwC`LeGpIcCnGm@vHHjRpB|I`@dL@~I[zIu@xLwBvHmB"
+            }, {
+                "start": "50.026412, 11.596574",
+                "end": "49.929311, 10.917428",
+                "name": "70: Bayreuth - Bamberg",
+                "line": "axipHq}weA{Ht[yAnJg@zGObKVdI|AlTTxDHtHMdH_@lF_AdH{BlJ{GnTqI~XiBdJq@nFYpDYrGGzOE`]q@rZqAnWkBdU_Ex]u@jIUhGApLRfG~A|UZbIAhIa@jIuAfKqCnKeIvXmBhHy@hEy@bGe@vF_@~LH~Mh@jk@d@p`@JtJTxG^tGb@nEr@fFlAbGxBzHpD|IvFnK|GvMxC`I|B|HbCpLzAhKx@bJxAnR`A~HfBpJ~AjGdBlFpHvQtA|E|@xEj@hEf@xGLtHIzHu@~V?xBFbGNnDf@lFlAvHx@`EjCrMxAlKdAfMrAlQzApMtB`MfF~V~@tG\\fEXnGBfJ[zMClGLjGr@fJdAzGlBxH~AnEjFrLzAxErAxFzA`Kh@lGVnFDrDFjAA`FMjEc@lH_AtI_@dHG~EPlId@vGz@lG`B`HdCtGxD`HjA~CrAjD`BvFt@tDhBpLhBvI|CvLnAhGp@~Ep@jIR`ERpH`@zVl@jVXzGhBhX`CtXZdIEzL[jGgAvJu@|DeBjHkHvUiBjHaAtGe@|FWbLFtDX`Gd@bFfDdUl@lFV~DbAjXp@lHp@tE|AlH`CrHlJ`UbBvFxAjHdAjJ^lI?nK]jH{@dIgEbVcAjG}@lHu@rKShNLhJZ|G`AfK|CdVjAzORdFLjKGvKc@bLw@~JeBzMwB|KyDrNsCtKsAjGmAdIk@fFe@|G[pIEtLRrI^tGn@tGbBzK|@dEz@dDhCbI|FtN~@nBzIbSzAzD`DpJnB`HlCfL`DvQrAxJv@vHn@|HhA`Tf@zTDxXD`[d@rPrAzRnBzPvBpNdBxJlJxd@zFtZpFj^rChW|BjYfBb^T~Jn@pa@Xpt@n@dW`AvPpApNrAhKrGta@vApLb@hFf@~LDpHSfKq@zOK`JJtFh@xF|@vEdBjFlCnF~FrJhB~DpArEv@`Fd@nIIlKcAdPeCbZw@hLWhK?dHX|Gv@dI`BnLvBvPvAnQl@jOPbNAd[k@zb@WjX@vPTrMd@zL~@fNnBpQtAdJxA`I`DhNbCpIjBzFrErL|EdKlDjGfDjF|KdPzGnK`H`Px@~BtBbHxBpJpBpNhD`b@vAdLlBjJrBdHpChHtBbEdElG`CrClCfC~ElDdHjEnErCtDtCdFnFlDfFvEjJhI~TzAjEbF`MhDvGnEdHjFxGbBlBvExE|GpGnIxItDfEbHpJbHxL|CtGxEvLt@vBhE|NvB`JhBjJlAvHrCzUjBjUxAzU~A~X`A`OtAtPnCnUrDxTjBbI"
+            }, {
+                "start": "49.929311, 10.917428",
+                "end": "50.019328, 10.164098",
+                "name": "70: Bamberg - Werntal",
+                "line": "ayvoHaisaAbAvDdC|H`I~SfChHrB~GnCtKxBbLtAxIdB|Np@zHdAlORxENfHDlNFhZL|IZpLz@fQbAzMj@vFhApJlBtMpEtYrA|JxArMl@~G\\xEz@fQTxHP`N?fJEdHSvKk@hO_AtNwAfOgA|Iu@hFmB~KeH~]cFlWcFlZwEd\\aB`NaBrOg@`FcBhRcC~\\q@lLcC`j@g@zKk@rIg@rFqApK}@rFo@lDiBjIoBhHuCvIaCdGwCjGcChEuBjDcCjDaLpOgFbIaCjEqE`JuEhJqCtF{BzD{B`D_CrCeCdCeCtBiFpDeH|EkF`EgDhDyBrC{AdCoA`C{AlDgAbD}CvKaBfFmAvCqAjCaDlFwDzFiBvCcCpEwCtG}AhE_BfFkAvEmAdGo@tDcEzZgBbKiBdH}AlEoAvCyAnC{AfCqCjEyAjCsAtCmA`DgAjDgBlH}Njq@{ZzvAgWfkAoAnGo@vDg@~Do@nIOdEEtD?~IHtTZpq@Ztz@d@bhA?~IK`OOlH]~KeAbZYhJUjMKpI?tHHrJ\\zLd@fJ~@nLz@rI|B`Qr@tEpFj_@`B~MnAjNfAfQj@hQNpKBdLIzIMdHg@~Mo@hLcAfOeInaAo@jHcBtQyBjT_@~CcEp\\eB~LiD|TuEfXgAvFkCrLkCxK}CbLsErO{BxGyDhKeBhE{F~MgB~DwBhE}DrHoFrJwFbJyFhI}FxHaMbOaF|GuB`DuAzBcEtHmC`GiBtEiBjF}AhFqChL_CvL{AnJyBfQ_AjK_AdNo@nPUjNCdMR`V|@pa@lAjc@r@|R|Blm@~@hZx@x]h@bX`@hYd@pg@JnWHbj@PrVp@vh@LtQ@jV_@fYe@nQmAxVmBnWe@dFeE|a@sDx\\uAvOcAfNaAjQ_@zIa@rNS|L[|\\OtGq@xOm@nIiAhM{@`HcB`LqA`HsAbGmDxMkCfI}C|H}DpI_KxR{BzEaB`EsDjKcBbGuBjJwG~\\{AnGcCdJqBvGeFrOsBhGqBzG_BzFsDxNsB`J_C~KeCjNwClRcBdM[rCw@pHw@rIe@rGi@tH{@nNw@dRs@nZUxWCdTVp[JvFn@rUdArUr@~Lx@`LbBrR~AbOfBxNxBxOlFr^vLd}@fCrTr@lIb@pHh@nPJhI@`JGpHWnKkAp_@KpNH~Jf@jNZdFrAnOlAnLzArOp@~JPhEJxFE~K]tIi@`HeAjJmApJmApMc@dIQrI?|IPbJl@nK\\xDn@pFf@pDv@jExBjJ`BjGbCpGvBvE"
+            }, {
+                "start": "50.019328, 10.164098",
+                "end": "50.000931, 10.082049",
+                "name": "70: Werntal - Schweinfurt",
+                "line": "ukhpHwd`}@bAlBpAzBlAhBtAnBhBxBxB|BhAjAbCvB`GrEtJdH~FpEzBlB|C|CxBdCnBjCpAlBv@pAnA|BvBpEnAzClAhD`A~ClArExAxGrAtH|@|FtAnKnApL~@dLd@zGb@tIf@hOL`GLdOD`OHnJVfLTzG^pHf@lIv@jKnCd\\pAvRn@nNVxIHxFLlN?dJOxQYpNi@|Os@nN_@bGaAzM"
+            }, {
+                "start": "50.386623, 10.916122",
+                "end": "49.929841, 10.915699",
+                "name": "73: TH - Bamberg",
+                "line": "o|voHe~raAjEgFtD}EzBaDrFoIdFwIpDwGpD_HpLyUhF{JlDwF|DaGjD{ExD_FhDcEbGyG`DeDzEsEfDyC~DcDjEeDhGgEnFeDtCcBvEaChGqC`DmApFeB|HqB~I{BtIgB~HgA`Gm@~Ea@bI_@dHM`H@bFJ`GTlCPtEb@`Gr@`G|@xB\\dFr@jCXtCP`CH`DC`CM`D]~@M|Be@|Bo@zBy@xBeAvBmA|B{AnB{A`DwCvDiEvCeEjBaDhC}EbBsDtAgD~AmEh@iBdEeM`I}VxB{GlRwi@dGaPjCyGtG_PtIkSfHyO~JaT~GqMlG{K~BuDbEiGbEyFpEwFxDmEhFkFpDaDtBaBtIcGnGyD~JiFnGuCxEmBzFoBnF_BxDcAnIkBhHsAtGaAtBUzGcA~HcAfH_AzLcBtGeA`HqAnIoB`HqBrFkBxDwArF_CrDeBpDkB~JaGlD}B`GiEbEcD|EcExDoDtBuBbHqHdHmI~EqGnImLnLkPtIcLrFqGzGiHlEkEtEcEvEyDhCoBnEaDzDiCzHqEjGcDzBgA~McGzLsFtGcDjIyEzCsB`EwCtD}C|CmClGiGfNsNnIiI|G}F|C}BvGcEpE{BtCeAfBi@~A_@vDm@|AQnCOjE?fCHhBP~BZtAXjD~@dC~@vDfBfEbC~KbHhEfCrCxAfBx@hEzAxFtAhBZfDb@nF^|G@dEObFY~Ii@bCCzC@nBFvDV~C`@zE~@tBn@`Cv@nGjC~ElBnD~@lARzBTbBF`B?~BIvAMfDk@|A]rDgA~KmDfJyCh@MfDmA~CwAxEaC~EuCbL}HlMcJrDaCfDiBxDgB`Bm@|CaA~Cq@nEe@nDKhC@zCP|Cb@zEhAbEvAnBx@tCvAbJjFj\\xS`HnExIlF`PfKlHnEnKxG|a@lWb`@xVho@ta@hFbDjGbErB~AjBfBdBxBp@hAzBrE~JtXnDzInBxDnCrEdDvErInK~RpVlK~LbHtGdC|BhDpC~DrCtBnApCvApCfAvBn@f@FjANlDd@zJhAvMzAbEn@~Ab@hBr@pDrBjBvArEzDbF~EjG`GpAbArAx@|BbAvCx@xEn@rQtBdDz@dBz@`HjFvAz@nAh@`B^bAHlC?dDBnAC~DC~EH~KL|f@`@vHF`GL~@H~B`@vBp@zCnAzB|A~AvAvB`CjAbBdCnExEpKpAfC~@xAvAfBrAtAvArAjBnApAn@rCbA`Cf@`BP~CFbEAfGD|EC`H?dCGxCS~BY|Be@xCw@nKyDxCeA|Bm@zB_@~D[~Ji@lk@eD"
+            }, {
+                "start": "49.929841, 10.915699",
+                "end": "49.560513, 10.991818",
+                "name": "73: Bamberg - Fürth",
+                "line": "kcprH}`saAzJ|CjHz@xFGrF{@hE}AzEoCtPuLxLmG|EgBpF{A~E{@|Gu@rHQpL^pGz@tE`A`QxFfJrCfDr@lFl@nIJrF]`Fy@tEqAlDwAnGoDpCsBrIwIjHoK`F_JdNkVvGcJ~EwFpGkGbHsFdJwF~GoDzOgIjIkFtEyD~DeEfEuFpEyHbEcJfGaPdHsQ~F{LlFqI~FiHlIoH`HkEvFcC|FeBpHoAdLm@rSFrNTfIMnHu@zFwAbGsCbCkBjDoDrDyFbEeKhAeE|BkNn@sIPeIOyKu@iMsAwKgBmKoDgP{GgYeCeMyAcL_A{OB}Ld@_Hz@}GfAkFbBsFxBeFzDaGxEkErC_BvCgArIkClMcFbLsFtKeFlRuGjMcDrO}B`RkAbQS`N?xGOnFu@tGwBjIuE~FwEnLqLzGmI|E}G|KiRnDgHhIkRrFoN|K}X`EgIlEgH`FuGpF{FxFuEhD_CdKiFhHgChHgBvK}AlKo@jMGnQx@rGl@bPxBtRnD|VzFd_@dJfVrGpDtAtFrCnFvDbGtF~FfHxVta@nDnFnIxJvFnEzCdBlDrAtIvBxQtCnIxBdFdCdCdBvClC|EfG`DvF~BtFnEnNzIj[nDnJjFrJhF`GlGhEvCpAlGrApER`BCpEc@jE{@rD_BnBkAjFiElDcEvJuNtJoPj[oj@lI{N`K{NlIuIlMyIfK}E|OoF`K_CtIuAzGq@rBM`S[bHZpF~@`EnAbFhDvEjFbAvAf@p@jOzXtKzQhJ~LpE`FvIbI`M|I|NzH|ZtOxc@~Tjx@`a@hWrKlVlIhUnH~PhGhEtBrHtEjIvGhIrI~JbNtEdIhGrN|CdJhCrJrHd]vBzIlDhLnChHdE|IpBnD|C`FbHtIlFnFjF`ErLlIpHnEjL~F~KpErBt@nOpEdF|@|E^lEDnMu@t@KtE@nANjEfAvFbC`FnDjFxF`ErFzEnG~CbDvCzBrDrBjGtB`Ep@rIVtQa@dD?zIv@jHbBbF`CtKrH|IlJrFxHjIxNzIrS~FbRtDvPjFp\\nFf^hAbGxDhOhEvK|FzJzGlI~C|CxHpGdG`EnOtHvEzBjDdCpCxCdDjF~HdSvHbRvBjExDhGfIzJ|D|EdGtJjDpHpBpFjCbJlE~QdE|L`GxJ`FdFnExC`ItCvDl@`HFnFs@jGsBjGyDzQyRrMiLrPsMxHkI`JaMpE{HnFuKdKyS~KkRvIcLhCyCfI_IpKiIzIaGrUuN~MeJrIyGzHqHtE}E"
+            }, {
+                "start": "49.560513, 10.991818",
+                "end": "49.464768, 11.015321",
+                "name": "73: Fürth - Nürnberg",
+                "line": "u`cpHae`v@jK}_@hDmQ`CsPjCo]x@c^?eQ_@mUcCse@oEkb@}Co[{Bs[iC}q@[g^h@oh@vAmh@Gme@o@yQqBgYyDwZaH_c@{BuSoAcReAe]?sXh@oUh@sK|BqXxGmg@jCcVjCq^`Bca@^{P@m_@kAm[qBeVeFs]mHo]iQcs@iJgc@}Iwg@_AgGkEe_@sAy[EoKl@{VrDge@lDwXtE_XtHs\\vFeQlEoJbGeJbDmDpF_F`GqDpKeGxDsCpIgJpH{KfFaJzUaf@nBuElGuQdRys@nJkXtC}KtBqLlGs]vEwObCiF~DaGxCoDpEcGtDaGpFqLrEeOdAcFpBkO~Bc\\v@_KnAyGdCuG|ByDvU_VxGkHhFuDhEsC`EwExHaPzDiGzB{BxCkC`QuRxL}RtHeNlJuLjHgGvLqH~AoApXoXxI{EpJmBnNwBdGeAjKuDdFqC|McMdTy^dIwMrGkInNmN|K{LfHqLbHkQzDeOrKyd@nKi[`BwDbGmKtOgQ|CgF`DaJdBaJf@oF^u\\\\mFvAuIzAuFbCeGbH}KdK_NbHqJzCaFxG_O|FoSrFg]nCoTxBiMjDkL`GuNvJoQrPiVfJ{NjF}LxC_JpH{ZvByNpBoVxAyc@xBuUdBcJnC}JnDaJrEiIrQ}TnGqLlDsJnFiTnGgTlEgJlDwFfHcI`IgGbYsOjLoJrHcInMeRnKuT|EcNjDyLjGsYxFuW`CgIrD}JfFyKlLkQnPaTtGcLpE_KlHiUhE{SxG{c@rHca@pK_c@fHyUdJqWnIqSxGmNdJgOrIwJ~J}GfIkCfFe@dDAxFp@xCv@pFfCrGnF|FdIlEpJjGnP|GxMfExFzE~ExHnFlGrC|DhAzHbA|IArCSpEw@jGmBnFoCjE{CxJkK|IcPfG}QfEqV~AwT`ByV~DiV|I__@hEoYlB_[d@a_@pA{_@lEwi@pA}ZPmZc@sVoAsRaA{HeHy^cD}P}E_]wC{ZwBgb@e@eWAg_Ae@}Y}AuY{Eqb@{Jgo@uFof@qAwK_FuYoEyV_C_XYaW^mM`AwMbBaMpCwMrFgU~DeTzDa[zBm]l@gXP_c@bAiXdC{QbEiNnD}HjKwNxDyDtMuKlRkOzMmNrGuI~I{NnNk[jH{TxEsSfCmPnBgW\\}U{@}[eDib@kAkRCeCXwHPgHw@{HuA_KWyPBmNd@oYf@yCvCyDVyEZiCEy@c@KMPw@V_Gk@kA?{@?Wh@Rt@~@zErAtCXvEg@nm@r@~h@a@p[j@xLv@vEbBlFzC|IdAbJ"
+            }, {
+                "start": "50.105721, 9.010570",
+                "end": "49.997797, 9.016348",
+                "name": "45: HE - Seligenstädt",
+                "line": "exnmH_zabAba@}BfReA|FYbEMrEItECjHHtOTd^h@|R\\pPVfg@p@n[h@hLJ|DAhCE`CI`DMlCSx@GpGu@zCc@~Ck@fIkBlFyAj~@eXxZaJlSgGfQgFj\\sJpEwAvCkAdDeBhAs@|AkAlBaBhBkBfBuB~EkGdGgIjJ{LrBeC`DoDbBaBlB_B`BgA~@g@r@]~@YdASr@Iz@CfAB~ANnXnDb@F"
+            }, {
+                "start": "49.991965, 9.017305",
+                "end": "49.747364, 9.815053",
+                "name": "3: Seligenstädt - Würzburg-West",
+                "line": "ugypHa{~u@dA{Kp@oFh@wDx@iFp@qDt@yDz@sDlA{EbB{FfAcD|AkEtBeF`CcFfCwEhCcElAkBfEuFvCcDpBqBfEsDnCoB~CsBxCaBvCuAxCiApC_AbD}@|Bi@~Be@|Ew@zDi@pFi@dAIzIa@rBGl@Ah@?nEEjHGrGMbGQ~F]`E]zEi@fHcAlEw@pIiBlJeCrHcCrEaBjIiDrDaBpDgBtHcEnEmCfFgDzIgGlMsJnJqHh`@sZxI_HrEcDfDwBtDwBxDiB|B}@rEsAjDm@bDa@fDWzCIfCDfDNvBR~B\\~Dx@xDfAxDxAtCtA~BpAzGhExCzBhFhEbExD~B|B~FpGtClDvCvDxApB|CrEhFpIxCnFxAtCdC`FpEtJ|H|PzJrT|I|R`EtItBjEdExHrDbGlBrChEzFnDhEzD`EfD~CnC|BjCnBvFzDnDrBnCtAzEvBbBn@"
+            }, {
+                "start": "49.747364, 9.815053",
+                "end": "49.778760, 10.091395",
+                "name": "3: Würzburg-West - Biebelried",
+                "line": "{gsnHc_|z@RjELlFH`IEpHGfEOdESfEWfEo@`H[rCi@zD}@tFkAdGe@tB}AjGcB`GoBhGiAbD}CbIcDtHkDbHwD|GaElGaCbDsBtC{AfBy@~@uB|B_EzDaEpDuRhO_F~D{EnEcDjDoBfCwArBiBvCaAjBi@h@g@z@c@h@e@\\i@J[Ae@KcAi@SOy@e@q@_@yAm@cAYkASq@EKGSAe@GKESUGQGi@AYp@IpBY^INK`H{@fBGx@@\\FhA\\v@h@f@h@d@p@j@jA\\pAXzBD`CK|Cg@|DUlA[l@WXeAFm@Co@QOOQWM]K{@BaAXwBvAaEpA}C|A_DR]vJyMxDyD~DkDtGiFzNcLpBgBfHcHrDiE~BuC`B_Cp@_AzDcGbDwF`CsEhByDnCqGrBkFpCcIxCwJxByI~AyHrAcIr@iFh@mFl@wHVaFVaJD{JEqGG}COkE]aH_AyMeBoSiAuNY}Dm@gKc@iK[iKOiKEkK?{HF{JNmKVkK^kK~@eQdAwN|Ci_@tBuVbAuMf@oHj@iK`@gKRgKFkKGiKOkHWqHe@iIm@mJ_@}D_AkIqAoIm@kD_B_I{AiG_AmD_FyPeD{KaE}NeBsHeA_FwA}H}AaK{@_Hk@kFe@mFg@iH]sF]iHSaHIqEEqF@mHDeEJaENiEd@mIv@{Iv@{GpCkS`CyPjA}Jp@oITiENcENcK?eGGyEKkEOgDk@mHeAsJiAqI]gCk@yCgByHsByHcBgHe@kC_@iCSoBQgCMiEAgBHaEZ_Fh@gEn@kDbAmDf@wAn@yAz@cBj@_AlAaBv@}@hBcBvAeAxA}@tAs@xDaB|CcAjBg@tGcBjD_A|DmAtCkAxBgAtBsArAcA|@w@nAsAr@{@bAwAdAgBn@oA~@sBdAyCd@{Al@_Ch@iCn@wD^kCb@}D\\cEVaEf@mKR{GL_JDkL?_KIkLOkIc@wQs@sTo@uPg@wKm@gKq@oKqBuW}@_KeAeKy@aHuAkKyAqJcBuJkBgJmBcJwBaJ}B}Iu@qCwBwH}BqHaJkXuDqKaCsG{CkHwEeLyC}G{E{JiHoN}AoC_BmCyDgG_EaG_E{FaEgGcK}NqLwQmFaJ}CmF{IcPiGaMeDgHaDqHsBeFaHyQsCaIoCiIiCiIeByFcCwI_CwIwBsIsByIyBqJ"
+            }, {
+                "start": "49.778760, 10.091395",
+                "end": "49.559823, 10.991323",
+                "name": "3: Biebelried - Fürth",
+                "line": "clynHi~q|@cFkVoFwY{CeReE}YuCaWgBsTcBiW}@gVe@cXEcXZmq@F_XM_Xk@sWgAsWaB_V_CwVyHcp@}@gKg@cKYwKCaNVoMv@oO~@aKpA{J`EaUxFeXtGa[dC_OtBaOnDe]jCs`@rAyZt@uWhA{m@n@aq@HcVAma@_@eXu@mWoAyWyAiToEui@uAmWg@uWF{Wn@oTfB_XjCmU`E_VnGeXnFmS`HcYnDoRdDqVdA{Kt@cLd@cKh@wY?kNOiKaAaYaC{h@i@yTMwRVy\\dBqp@jBiv@\\m^CkQMsLc@sPq@mN}@eNaAeLuB}RsA{JsDuT{FaXkFkSmNgg@eIwYoC{LiAsG}AsLqAaOq@sQKcMHmKZcKt@sLx@yIrAyJnBwKfCmKtBeHnE}LtPw`@xUgj@tGcPvCiIdCmIjBwH|BwLfBoM|AeS|Asb@jAi`@zBch@zCkc@xCk\\rCaX|Fij@rCm]vAeWn@wOh@kS|@cr@`@e]f@uV^yKz@gQhAcPlC_ZbI_p@pAuMf@iHd@{LNmKEqNOmH_Diz@m@iUGcMZkRv@yNz@kJ|@eHpCyOtDaOrEwMjMwZ|`@m~@lEmKnGqPrCqI|CwK~DwRxAsJx@kHbCk\\`BkTdCoRlCaN|B}I~BoHnBgFzEqKxLiVjEmKhBkFfC_J`CmKjBiLf@oD|AkPv@ePNgKI}Qe@}X]aR[m\\@c[d@eg@p@sj@?ub@UqVaAu`@}Aq]u@yLmBkW}AyPoC{XuH_x@yBcYuCid@gB{`@gB}k@k@{Vc@u^Bg[d@cYbAqTpA}PfA{JtAyJ~DkTzCwLhCgInEoLxF}LfLwRzHcLzQiWfGqJpDuG|IoQ~Qs`@|IcQzH{MdDeFrJ{MrFwGlGaHlImI~H}GdImG|KkH|KiGbNeGzUkJxc@kQ~KkFhLqG`J}FjJcHvJkItGiGhEoEdIiJpHmJhH_KtIaNhG_LbSm_@nHmMbJaNrJeM`FmFlHaHra@c\\lMkMdJoKxTqYxGkH|MaM~JkHlJyFxLaGzMsEhHiBfJoBfYaFzHcBpMsDbKeElKwFhTuLhJaEhIkCjGuAvF}@`Ky@`KQvKZxOvA~[jDfNv@~FFtFIzEUxLmA~IaBlLaD|FwBpHgDxJuF~IqG|I{H`FeF|CmDzJmM`EmGrEaIlGiM`DsHdEiLlEgOxEmSxDcUdCiTbB{Ut@yP`@mQL}JTkl@H}v@FgG^gND}@"
+            }, {
+                "end": "48.818492, 12.939561",
+                "start": "48.992935, 12.062755",
+                "line": "u|_jH}~rhAdBeCzAsClAwCzAmF|@yEXeC\\wELoD?cDOwGYmEuAkP[oIAgBFoFVwF\\{DpAwOTyGBsFIkEWaIiAa[aFgtAiAgZo@yMaA_OiHa}@{C{_@iBeUcLmwAaGsu@cCo[m@aJ_A{S]mNKwHC{QTuTf@gQnAkU`BqRnC_XlJi{@fM{iAdHcp@tAiOj@iIhAuTh@eTHiJ@qQUkSy@u^yDicB}@sa@k@cZQiW@aXn@ap@HqXCmMMiPe@gZcAm\\oFuiAaHsvAeHkwA_G{mAe@iLw@oU_@sVCkM@kJXqVT{Ih@iNhAeTjBkUvDo_@`NmrArCmXzOk|AjGkm@v@sHxC}WnCqSdBqLnGe_@n@aDvHo^tDoOjDuMhE_OxC}JfIuWhIqYhD_NlEgRdD{OrDwR~D}U`EcYfDgYtB{SlC_WnCqSbD_SlDoQlMuk@`BsInC_PvBeOvBoPnCqSlDqTbBsInCiMvDgOfEyNhC_IbC}GdGiOhEkJbEiIhE}H~L_S~CmFfC{EbDeHfDyItBuGlBcHtAyFxAsHbBmKrA}Kx@{Jd@mI\\iKJyNAwEUsMa@{J_AkOyAiVa@}LIuFAgKLsMf@mNl@iJ^mEz@uIhAiI|EsYxB{NrA}JtBiRlBiU|@uNdAaVXgKLsINsPJua@J{LTuLZcKfAuU|AyT~AqPxAkMlAiJz@yFlEeW`DcQnB}Mz@cI`A{M^mKPqM?aGMiK[_J{@{Oa@{HQoFI_GF}HRiG^eGXoCn@cF~@{FnBqItAmElC_H|D_IvEmIlG_LzDcIrCyGzBeGhBmFhDeLjEuQvAyH|B}NnAuJtBoPbAyHnAcIdAgGbBgIhBoHpDoMp@yB`C}Gj@{AvKeYpC}Id@eBpBgI^iBlA}Gl@}Dz@aHTyB|@gLxAeQ|AmLh@sChAkFxAsFvAiEr@mBr@iBdBwDfAoBfKyQv@cBnAuCtCcIbAqD`BiHvAmIdAsIx@kJvA{TdAoNfCyVvBeP`AqGlBuKdDiPjAcF|BiJ|AwFxC}JbD{JzBeG~DaK|EuK|EuJ~FiKrDcGbIiL~FqHjGeHrHsHdGoFlJmH`G}DfFaDtNwInIcGxC_ClGsFnHkHdH_IjHgJtIcMvC}EzGyL|EyJdEkJdFsMjFmO~EsPnDuNfKwe@|DmPjGsUbG}RpHgTvG}PpFkMjEsJxIcQhDoG|F_KbHaLhEmGdHyJhOwS~G_KvFyIfFsInJ{PzGwMxHgPtEqK|FqNlGwPzGeS~G}TdGwTrDkOtFyV",
+                "name": "3: Regensburg - Deggendorf"
+            }, {
+                "end": "48.411163, 13.425457",
+                "start": "48.818492, 12.939561",
+                "line": "mz}hHeg~mAfDaQlF{ZlO{_AvFuXrEiQlBgGrHqTlLg\\bDsIzCcHxJkSzJoS`Oi]zKaWrGeN~Oc]tK_YrKq\\`FkOfFmNhJgTjDcHjJuP`Yie@~Pw\\~IiSbMy[fX_y@~GgRhIaSbHaObOuXxLqUxHoR~BeHnG{UbDqPjDyUvDyXvD}SlE}R|G}UhDaK`GqObFuM`EyLjIuYbBkHpKae@xFyRzCeJdDcJ|GcPzHaPtBwDpIkNtGoJzHuJhLmMrDkEpCcExCoFrByEtCyIlBeIxAwIxBoPhBgKpCsKzDgK~CiG~DeGlEaFvKmKrKiKlJsJhGkItFcKnDsI|BaHxCyLhBgK`AaInCc[t@sFvAcHpBeHzAyDdCgF|BsDxCsD~B{B~HyFvK}GfDgCbDwCnEyErCwDzEkHdB{ClFaLnD{JdDqLlBcJpCoO|CuNjCuIdCiGlD_HbGqJnFoIdE}HpF_NnEgOvDaRbCcStAySzBo`@|@iJ~AuMnBcMbBwIdCuKxCyKrFcPtHgQrD}GfEiGnCeDdHwGjN{KjE}DtEgF~DwFfEsHdEqJlCaHbC}FvCeGxCgFtDiF~DqEdFoEdGaE`HyDvGsElDcDlEiFnIiMxCcEvFoG|LuKxD}DpC{DrD}G~A_EjCwIvAgH~@cHp@{Jf@iW`@uJbAgKvAoIxB{IdCcHpCgGzGqMjGcNjEqLxDiMdDeNjAyFxCcRrDsXlEyYtBiKfCyJ`FiOpCaH|DmIhEqHlDiFhJmLrJiMtIeNnHuNlDmG~CmEbDwD~DqDdFgDrBeAtEeBvEiAdEg@tBKnH@fF\\vEl@nKtBbI`CfFpBdKfFrOpJnFxClGjCzFvA|Eh@zBH~DE|Fi@dCg@pDiAzCqArC}AfEaDfFmFtBuCpEqHxM_YdCmFpJ}QnJ{OvMmR|NiQ`N}MhNoLnLkI|LoHvLcGjImD|I_DrMsD|LgCpGcAzN_B`Ns@bOOdLP`Mn@`RvBxMbCvIvBzIlCvObGhHfDzJlFbHhEpPxLnHlG~MvMbUzU`GvFlKbJjJ`HvH~EvJrFpI~DbIfDhPjFpNfD|JbB~N~AfKj@jKR`HAbJSfOaAlM_B|JiB~HkBrMeDlLkCrLmBrNwAnJc@`FKdJ?bDFhNl@dRjArLXbIMbHg@zIyAjEeA~G_CvFeCfFuChEsC~E}DtFmF|CkDxFiHzGaKlJmPpCyFbGgN~IsVbFwPdFiTbAeFbEyVbCiRjE}_@nCuQjDaOrA}DjD}H`BqCzC_E|@cA",
+                "name": "3: Deggendorf - AT"
+            }, {
+                "end": "48.231695, 11.542296",
+                "start": "48.316829, 11.621648",
+                "line": "c{{eHkz|eAhLlZ|M~]r{Ab_EjHnRvBzFtBjFvIhUhDdJtEtLnC~G|DjJrH`PtFxKzBbEpBrDxChFtDbGhAdBdDbF~CrEzF`IrE`G~HlJhG|G|E`FrDpDpCjCpCfCtFvElHzFxIrGpDdCjDzBdGrDnGhDfI`ExHfDdE`BvE`BnCz@tFxAxDz@|AVxG|@dBNvEXr@BtDFjFCjFQxDYlGs@|IeB~Aa@tFcB~By@pF_CdDaBlBeAtIuFbEwCzGcFpIoG|FgE|AeAdBaAfAa@",
+                "name": "92: Neufahrn - Feldmoching"
+            }, {
+                "end": "48.316829, 11.621648",
+                "start": "48.818086, 12.939375",
+                "line": "ax}hHaf~mAxOjS|J~ObFxIfQ|X`[na@xT|Y~HtOnEbN`EvS|ApOb@`JJtQaAzU}@tIaCfOgJtg@qBtN}Cl\\_AxPq@fWDbe@tAx^tDlb@pCrRbGjZ|GzVxIdV|MxXzDzGjJdNzMbR`LrQ`HbO~E~MrFfSlFjZbJdy@dIvr@fCpNxBzJzIdZtKxV~GvLfKnNpNnPh`@~c@h`@bd@rJlM`I`NpGlNjIzV`HfZ~FfYbDhMvCvI~EzKxFpJvFhH|FxFzG`FjE~BrHzCjWrHhPdG|IfFtMdLxJvLhKlPdNxXzOl`@vNp_@vJjWbPz_@zQr_@|Pd[hNbVrNfZfN|^zK~_@xFbWzD|SpM|_AjLrn@tDlV`DxXvBvWpAbV`Evw@vF~p@pJl|@vd@h_ErQtuArJ`t@dGb`@~Hp_@~Lhh@dIdb@rEz[rEff@tBn_@tA|i@fA~x@h@`[bAn[`AfR~Bz[lCtWdDjWvEpYdG|ZbWjgApK`l@pEjZhJdx@bEjg@hC|b@`HdcAlJdeAhGpk@tCfVlFnh@dCr\\fBt[vEruAjCna@lCnYhGbh@nJjn@fM|o@zV|eApS``AfP`z@fNfx@hLvt@vJ|r@lJ`u@~F~_@rKnh@`L`b@hK~ZbJbUzHxPrInQlQta@pLr]bKv_@lJfe@hGlb@~BpTxDxh@rEf{@rGrw@|Enb@~El]nKfm@fNhn@`Odn@hGz\\zDbY`Db\\|Bd_@`Brd@pB|`@lCtXvFl^xDfQrFbS`LxZdFzKvGpLhFxHvG~HbFxFlC~BpKjHlG`DzGdC`LnClIfApG`@rIFhKc@zQ}AnQs@zKRlGf@nK|AzKtCfQlHlQnLbHhGtIfJjMpQ|KzSdKbXnGjUlCfMpE`Z|BhVlDhf@`BrP|DrZjEfWlFxVtChLfFpPbDvH~FjK~IxKxLdKbTrPp\\rWlt@rk@heAty@bq@xh@xd@x^lZbW`W|Ux\\n^rOdR~[fc@vQrXfZ~g@`M|UzLdW`Ox\\~N~^`K~X~Snp@~P|n@vPhr@bSp}@zS`fAxJxk@vM~_AjG|k@zCh]hFnv@bEtaA|Ch~AnCxaAvB`a@tCn]fFtb@dCdPzGj^bGnWpJd]bIzUpJhVnO|[rHbN`Q`X`IrK`KrLjKxKhW|TrVtPdd@jUrIhHzFfHvF|JtIjUhFrL`FxIpH~JdNjOrHpJvI|N|EfLpEnNbChKzDzVlBdWx@dXVxo@j@dq@fAl[|B``@rCl[~B`SxDbXtDnSpIl`@pJv]vHnUjJ|Vl\\h|@",
+                "name": "92: Deggendorf - Neufahrn"
+            }, {
+                "end": "48.181831, 11.431559",
+                "start": "48.210999, 11.386309",
+                "line": "yegeHo{ndA|[{o@~I}PrJyP~JeQzIoOdKcQfYwf@nKaRXk@~BeEfH_M|\\el@`LuR",
+                "name": "8: Eschenried - München West"
+            }, {
+                "end": "48.210999, 11.386309",
+                "start": "48.459356, 10.172772",
+                "line": "{uwfHyza}@}Uv`FuDvv@gAhUWlAgBjY_AbV_@|KOhA]z@s@j@y@Bm@Yk@}@QoCh@mBdA_AzIyBl@Eh@L`@d@Rt@BfAKx@e@x@q@Rm@Iy@oAOuAL{HTkHReLPuGv@iP`AcShIudBfQgrDfDyr@rB_^lAeNjDeUhCgLbCiI`EaLjCuFpD{GjEuGv@iAfJcKbIwHzGqGr`@e^tL_LjQiPjF_FxDmEhGkJlEoJfDyJjDgOn@{DrA_Mh@qIXaNy@ogAuC{gDmA}gAuA}TgCyS{Nwz@eG}\\gDqTkBeSUeEs@kYAkNb@cSZgFx@yLpBaQbHoe@zDa^vBsXn@wJdAmVr@qZbAy}@x@eQb@wFnBmOzByL`B_HnF}PrOqc@pHeT~Tek@`Vui@pGyOtC}IfCqJZqAxBgMbBsN`@mFh@sLPqKA}Os@q`BS_n@S}b@s@s[_@sWBiPb@eSpC_j@rQwkDfBw]rCa`@nFse@dGya@rK{n@zOm}@jAwJh@_Hd@uKH{K[_OgAgO{BmO}@iEcBmGeJmYoDsM_B_JyAaOsCm^iAyKkDeVsCoQuAyM_BgWyCeh@KaCJ}YTyTDgOLoc@u@kUs@yRSsMJcQ`Bc[`A_VBgNO{Js@sNmO_oBw@mJmC_SkFeUiAwDgE_LiAqC}FqOmDmMuDcUqAqO]uQRaOv@iPlAiU|Asf@`Bij@pFceBbAu`@HkOOo\\aCa~A_Ek{BmAiUsC{h@mAk\\c@}XEqZM{i@Te`@X_Q`Boi@vJkzBhM_kDvAg_@ZkMPyWj@sx@b@gj@dA{b@bAeTfBmVnEkf@|N{~Ap\\_rDvJ}eA~D{e@f@}LR_JOob@KaODyQ`B}p@fF}iBjAm^z@gLpCiSnBmKhBoJhC{OnA{LbAeRRuOWcXgBqgAD}Rb@aMzA_S|@yGtCePvDoNrFmOnHoO~X{e@hXgd@~MgUvNwWhU_b@lKuRzIeQdBgEzEyNzB_JzAgIpCaRpBwMnEcTnD_M`C}G|D_JhHiM~CoE~FcHpFeFfOoLjS_PrFqFhD{D`HaKtJqQf@kAbQ{e@`Oka@vCsGdEaIbC_FhGeIX]Z_@hIiIpRoQdGiHdI_MbAiBdFwJtJoTdJiV~J_Y|Xyv@jKaWzEaK`J{P|KcR~Tc_@`f@kx@zI}P`JqTbJaYbHwYdZ_zAfG}Y~F}U`K_]pa@wiAlYew@jD}IhFeK`C_EjGoIhLeMfv@yx@jK_LpKkMnF{IjF{KhYyt@|_A_dCdKwWbOu]fQo^~j@wiAz|Aq~C",
+                "name": "8: BW - Eschenried"
+            }, {
+                "end": "48.127304, 11.405335",
+                "start": "48.124695, 11.513417",
+                "line": "ajvdHwugeA}Bh[}@zLe@fJYlK@fHHpDPrD\\~D\\`DrDfWNlAr@vGh@lHRfGN`LB~FRxe@?pUAjEInTOnOW|OOtIi@hSw@hUa@`JU|E]|E]tD{@zFmApFoAlE{A|EsArEs@pCy@tDe@bDa@pEK`CEbE@hCDzAVfEbAfIj@~EPjCFdBBrCEzDSzC_@hD}@`Fc@nB_CbJkDfN_AhEe@vC[fCWdCSpCOxDCrDBnJF`FLbEN`ET|Db@vF^rDf@fEp@nE`BdJ~@fEx@tCt@zBv@rBzAjD",
+                "name": "96: München - München-Süd-West"
+            }, {
+                "end": "47.996705, 10.152804",
+                "start": "48.127304, 11.405335",
+                "line": "izvdHyrrdAnGzJjDlDjK|H`G|FrBvCpGpNtEdRjCvR`Cd\\n@`ZJlu@jBrSzT`jAvL~k@hDdMvDpKzEpJhG|I|Wr[tIxNhHzPpE|OjEzUfCxW^`KV`_@A|LTnUjAtPpElXjDrWxC~d@n@xWGlNeAxTwBdTi@pJAtIfAbNdGtVrBrNTdN}@rVV|SLnQu@rMeC`Sg@xMFdHr@zK`B|LnCfN~GdVxInX`EdQnAfJn@|JRlVXd[tBj^~Cl]tBpf@LrQIf^An^VjQrB``@rDrb@n@dN@jJQhGeAtMiFfYqAdLa@rJDlL`@hKx@jJbBnL~AhHhEdNfFjMdGtQrBrKx@~HfAx\\r@x_@dCtm@dC~WlGhc@`AhXVbXb@pKdEja@`BvQpCvr@rHxt@lAvUPdT]vQmBdUqHxb@kDzXw@lSXzXpBtT|AlJzCfMnMf\\pLlYlEdMdD`QlAlPH`K_Ar]c@jVf@bZjAzOpBtPbFfYbOlo@jGb_@xBxTj@tJtAhg@tBpx@fAzYrEni@vEh`@\\nJG|LqCvj@K|PVnV?zLe@zJaFt^k@rJG|JpBdh@Jbd@e@pPiArPkBfPeDlRsClLyEdOgNz[uDzKcCrJ_DtSiArQMdSfAdVpDxYbDfOjC|HnC|FlHvJhFtEnH|EpHzD`NpGfGrD`IzGbGlHpEpHzEzK~BbH`EvQnBzOhAxVCpOeBnb@UxMP`KjBlRhFzTlEdStAzKdAhQd@bTl@vN`AtJfHpe@xAlXUjl@j@|SxA~NxAjJtD~S~AhMvA|YtAf`@dDfW|EdSxDvKlEjJhHpL~IzNnGvOjEvQpBtO|@pR@~NErPh@zP|BvRrDdS|BdRr@bOBlR}@jR}Ep_@qGbb@{RzcBiHnc@_Jz`@aSnw@yIr`@iIlc@iEr_@cC|k@_@td@v@ruAQ`k@kBht@mC`h@wAb^LfZbBnYdFdi@vJnp@jJfc@jMje@hElO~EfVzCnWjAhR~Bfx@zDbs@xMxvArLfmAdB`Z@bRo@zOuBvRkDxPsL`^{GtU{C|OwA|KsBv\\kAhi@kFphC_Bhu@oApUoA~KwFfd@mApU_Cxv@eBxr@Nv_@PtF|Bn^dIds@jNljAxRtuA~Dt`@pC~`@vCxa@xG`q@pDd]dAjOd@jROf]EjRXxJtB~QvF|U|AvHvCrU~F~o@xEjj@nCvU|D~PhD`JjGtKpR|UpIjM|HnQ~M``@xZdaAlJ~[nCrLjB~K~@rJr@dTGfL}@xS_@nND~QRha@k@hw@y@lhA[jm@l@tZ|AnZ~BjXnFl_@",
+                "name": "96: München-Süd-West - Memmingen"
+            }, {
+                "end": "48.017445, 11.417718",
+                "start": "48.100699, 11.498017",
+                "line": "gtqdHwudeAnUrk@xBfF^t@|@rAl@v@v@v@fAv@hAj@~@X|@P~@HbABbGCdMGzUGz[ObFDbBHzBRdANzBb@|Ab@zCdAzBfAlBhAlDfCpHnG`NlLzJtIdS|PlPxNzCvCdBrB`BvBdA~ApArBdAnBlAfCdC`GvDbL`DhJjBbFdEpKlEfK`DjH~BvEzC`GjBnDlCvEdEdHjDrFvDvFdG`JbFjIzB`EdC|E`BhD~BjFt@hBfDlIvBfG|CzIxCzHl@zA`AtBfClEhAhB`ArAbDzDjBlBlC~BpA~@zBvApCzAbBz@|HtDhCpAhFvCxCjBhFfDvEfD`F~DtE`EfAz@bB`BjIvHdBvA~AhA~AfAxCdBrBbAbBr@jC`AjA^vCt@lB`@",
+                "name": "95: München - Starnberg"
+            }, {
+                "end": "47.606138, 11.177350",
+                "start": "48.017445, 11.417718",
+                "line": "_ladHw_udAbDf@jF`@fHH|CInGm@|H{AnHeCdEqB|EwChIoGzJcJxFkFzHwGzC}B~EyC`FaCfCaAxFaBlBa@~F{@hDUtFOnDDbHf@vHnA~IpCtGzCpItFnErDdFzEjIpIlIrI~PhP~JfIxKpHhLhGlF~BfFdBzGxAhEj@rDV`DH`HGrL_A|I_AdGc@nDI|EDbDPrEf@hCd@tHrBjHvCrDnBrDbCpGjFfBdB`FdFjHzG~CxB~CfBlGdCdH`BxEf@nAFbG@`SiAlGMhFR|Db@lB\\dElAfGlCtElCrEjDlLfKdHpF`DhBjCjAlGpBlGhAzEf@nFPzFMlCUfF_AvK{CnEuAxFuAnF{@`CU`CM`GEtQVbEAxES`Fi@xGoAvFqAxQeEvIwAjBSfHg@dHM|GJzF\\zFp@`G|@rD~@~C|@dKtDtBz@`J|E~HvE|F|DfEzCvA|@rClAzFlBtHzA|PrBbFhAzE~AfItDdDnBfGtEpFlFdEfFlDdF~HbNfDpFnE`G|BjCxEpE`GnEnC~ArD`BvDnApJvClJzDpFtCjEvC~E`EpFlFrMlMtIfHhFtDjDvBtFvChGzCtFvBnDjA|GhB|EbAtF|@bMjAfMX`KSzOiA|NoAtLi@pNIpN\\pIj@~JhA|IzAxLnCnNjEjLrEhJpEjIvElJfGvN`LzIhIdHjHdK|L~GfJlOfVfDnFlJpNfC`DxHlIrHlGdJbGzHvDpHlCfD|@rHvAtI|@xIRvIQdGi@bG}@rS_F`HsAxFo@dF[rDGxGHbM|@jEf@hDl@bHrB|DfB|C~AnFfDlLdIfFbDtE~BfE~A`FfAdE`@vFHjDOdEk@dG{AlN}FrFwBdFwAjEy@rDe@jDUvDIvGHjEZrDd@rE`AlEnAlJdEpEjCtAbA`H|GlCnCfCrCpGhI|K`QpWre@fFdInDtE~LdOtLnNjCtDdD~FzAdDfD|IfDbK`CzG~DfJrElI|DvFhGtHdGhHfDlElGhKbCfFpDbJtBtGfBxGvHnZ~CnJjGrO|DdKzB`H|C|K~CvMbBxIl@dD`C~QnAfMv@vKhAvNl@zFjApInB`KjDtMfEhMbDfItCfGhGbL|C`FpFrHxG~HjGhGzJbJpFlFxF`HnE`HpD`HtItP`E`G~ApBjDlDfDpCfDzBpFlCzFhBhP`D~ExA~Ap@~Az@hEpCdDrCjE~EfDdFxC|FzAvDfBlFdG`ThBjFpC|GvGzMbJbP|IpN|GxJbInKvG`InIdJhEnEnNnMjDrC|NvKhFfD",
+                "name": "95: Starnberg - Eschenlohe"
+            }, {
+                "end": "48.180983, 11.432537",
+                "start": "48.132007, 11.400753",
+                "line": "_xwdHmuqdAgSpJaJbEcJzDgJtD}IjDuAd@}Bt@mBd@uCh@yANwCRsAByB?eDOwDc@gCi@c@MyAa@}@[kCgA{CaBwDgCoDaDiCqCwCeDyOwQ}@iAeEcF}HwJcDmEoDcFgDcFYe@eC}DgF_JwMiVYg@}CiF{C{FcAcB_C_EyAsBwFeJmIoMeD}E{BcDwCcEaBwBmEsFeF{F{DaEgCeCaDwCa@[",
+                "name": "99: München-Süd-West - München-West"
+            }, {
+                "end": "48.204414, 11.449650",
+                "start": "48.180983, 11.432537",
+                "line": "gjaeHc|wdAcDoCmCwBoCoBkDaCoAw@_Ak@yDuBsD_B_Bk@sBo@gCm@aCa@aFk@wCKaCAiDD_EX{Fr@uF|@iEn@eCRkBB{BKoAOoAYuBs@}Ay@uA_AoAgAoAuAqAcBkAqBkAiCu@qBeA{Dc@oBa@kC]gDWsEQkJG_ICqF",
+                "name": "99: München-West - Allach"
+            }, {
+                "end": "48.226270, 11.543774",
+                "start": "48.204414, 11.449650",
+                "line": "k|eeHig{dAUaRUiGKyAS}Ce@kEq@iEMi@_CgIw@mB_AiBc@y@sAyBmA{BsCqFyAqEk@{B]_By@cF]gDSwCQuFCyHAaRAwL?qCFoFT_HT}Dr@kKL}CPmH@iIOwH[kGWyDSkBaAeIe@{Cs@uDeBiHeByFeAwCkAuCiBwDgEyHcE_IkDcHkEwJcEaKeC{GoCaI}A}EkDyLkC}JsAsFoEySs@yDkBsKy@kFSmAa@uCqAuJmBaP}@cJqAaOi@oHi@wJsAcYWwI",
+                "name": "99: Allach - Feldmoching"
+            }, {
+                "end": "48.221210, 11.628790",
+                "start": "48.226270, 11.543774",
+                "line": "cejeHssmeA_@kPS_NOcPQy\\MgXWa[UwNc@iSgAq\\eCsj@YoHk@sRW_KIeHGgGAwHBqKRsOHcGb@kMv@qOj@iI~@_LzAoNr@sFhBeM\\_CzBoM~@qE`AqEzB{Jj@}BT_ALaA|@cDjBwGzBgHvBsG`CyG",
+                "name": "99 Feldmoching - München-Nord"
+            }, {
+                "end": "48.028120, 11.659120",
+                "start": "48.143182, 11.757558",
+                "line": "{}ydHokwfA`HmA~Dk@dEc@|CYdF_@hG]xHYlIU|LGrI@jKNpIV`Ml@fJn@rEb@hHt@~El@`IfAfItAhKrBpDv@vGzA|FxA~K|CnNtElFlBxEjBfDtA^HXPjKtElGzChJxEdEzBjHdEpMfI~GrEnGtEhJrHzEbEzGfGrFfFjItI|AbBjJjKtExFdG~HzLtPpBrCpDrFlDzFpIbO~EjJvC~Fx@bBhA|BxHxPnJrUdCtGdCtGvDfKdElL`IfTpCbH`CtFxBvEtE~IhD|FxA|B`F`HpErFdCnC`B~AxDlDfDrCp@n@zEvD|HvF~JdHlJhHfH`G`CtBjEjEbAfAnCxC~BpCbElFlEjGfAbBhDpFlE`IxDxHhCtFlAtCTXTj@\\v@zDhKpCfIlBpGbBdGrB|H`BnH",
+                "name": "99: München-Ost - München-Süd"
+            }, {
+                "end": "48.143182, 11.757558",
+                "start": "48.221210, 11.628790",
+                "line": "meieHwf~eAjA}CtDqJ|EeLvCqG|FiLfE}HrG}Kb@w@rBwCpJsOtL_S~CmFlFwJnCmFnC}F`DiH|CyH`CqGtCiIlBcGdBsFnDyLbBaG`H}WzCkMrCoMtEmUnA_HfCqO|AmJjDgVp@gFxAeLjCwTvAyLrBoPl@kEbCuPjB}KbDiPdB{H`CcJ`EwNpA_EjCyHzDiKfCiGpAwCnDuHrB_EhBkDzEiIhE{GnC_ElD{EzFqHlEkFbDwD~IwJvKcLfMkM`JuIxEmE`EsD~CwCnHsGlIkH~EcEjJqHpIyGjLoIjGkEfDuBpEkCrEaCnFkCxEuBrEcBjDmAhEqA~Bm@vD_AvBa@",
+                "name": "99: München-Nord - München-Ost"
+            }, {
+                "end": "48.092750, 11.589609",
+                "start": "48.028120, 11.659120",
+                "line": "oncdHuddfAlA|Fx@|E`@nC^tDZzEHdD@xCEfFOxDWdFSnFMpGGjHAlFIjYIpKOvJOvFc@xK[dGk@vI{@|Kg@jFiBnOsAdJgApGsAjHcA~EaBpH{B|IoBdHwCpJmCzHkC`H}AtDaBtDgBnDaB~CiBxCsBzCyEdG}AbB{DtDyDxCiDxB}CbBeF|B}DvAiDbAaFpA{Bf@eF`AuDp@{Fv@_D\\wHl@oK`@cFFsEA{HMeFSqDU}Fk@_Gq@{IwAyIaBkGmAiJeByCc@}Ei@_DQ_FMcE@yDLcCPeALi@D_Db@qB\\wCj@}Cx@uDjAyCjAuEpBmEtB}LnGu]zQaHxD}A|@",
+                "name": "995: München-Süd - München"
+            }, {
+                "end": "48.214924, 11.949260",
+                "start": "48.142702, 11.757512",
+                "line": "wzydHmkwfA\\m\\LsP@wECqEIoDMkDUoD[}Du@qGw@aF}@qEgAiEu@iC_AsCgAuCcEyJqEwKsAsDgAeDsBiH_BcH}@oEqAeIk@oEq@_Hk@oI]_IMkGCkFAqWMsJWsH]_Gk@qHi@aFo@wEo@aE{@{EeAyEm@cCmBgHsIoZ{DqN{CkL}@sDiBoIk@mCsBcLq@cEuAmJ}A_MkAoLq@aIk@yHu@_M_AaTa@mLq@kUc@qQiAe`@i@uMi@yLm@_Ka@_GmAmNe@yEcBuN}AwKuAsIcBoJmCmMy@qDoBcIwB}H{@uCyDwL{@aCmEoLuAoDiCcGgByD}F}LcEoIiD}GiPs[mF{JeJiPgBeDqBcDgDkFuCiFkGoKIMuK_P_CeDeFoGoCuC{DaEgCcCoB_B{DkCcBgAqBgAsF_DkGaD_KqFoDwBoDiCaAs@{AsAoDiDaDoDqBmCsCcEkCoEkDwGaJwRgD}G{CyFiCkEiDcFuC}DyFkHsC{DkD_FuCqEqAwBaB_D",
+                "name": "94: München-Ost - Pastetten"
+            }, {
+                "end": "48.142702, 11.757512",
+                "start": "48.138445, 11.627706",
+                "line": "_`ydHe`~eAyA}hAi@sa@c@c_@C}EKkT?eKLiLVmLN_FR_F`@{Hd@aHJuAxAqPxBgTXkDR}DJoCJuGEyFGcCKwCQkCSkCk@gFa@kCi@yCkAkFaCyIuDaMkAmEs@uCsAiHu@aFk@kF]{De@aHQyDOkEQiIGwGA_JJsRHgFNoJVwSDuLCuOOgQWeNYaKWaHc@oLi@yRc@{VSkVC_a@?qER{Zd@mf@DuD",
+                "name": "94: München - München-Ost"
+            },
+            {
+                "end": "47.810087, 12.095346",
+                "start": "48.027737, 11.657205",
+                "line": "ilcdHkxcfAdWaK`QeHhD{ApFqCjGmDpFgDvIiFdQmKrLkHt@W|YmQpQyK`CsAnJwFnA{@r\\iS|CgBvDmBxCsAxCkAlDkAvEoAjE_AhGkA~NoCzFgA~Ck@pL{Br@IfDo@dNkCf\\iGtEaApk@sKrFoA`D{@bEmA~EcBjCcAtEiBlD_BbBw@jFqC|WcO|MuH`WqNbx@_d@tZ}PhDkBrCuAvCoAzB{@zCeAxDkAtMyDlWwHbJqC|OuEp@SjTmGrGkBrImCde@cNvJwCnDqAfAe@`D}ApBmAzDkCfAy@nBaB|BwBjDwDjDmEvCmEhDcG`AqBfA_CjAqC`AeCnAoD`AaDpB}GxBgIdBaGbBqFnP}i@`Ky\\xIoYfn@msBpTct@bD_LlAqEfAeEt@uCLk@tA}EtBgGvBkG`AwCxBoHpAwFjA{Gb@sCT{Ap@oGl@aHZaFTmFN{FHiJGsH[sLcCud@YyIIqJByJNgGTkFt@yKnBmYj@kGfAaJhA_IdCyOnB{Lf@kEZmEPwFZuJN_DXcDd@sDV{Ab@uBj@uBpBoGzCuJhHgUlEgN~A_ExA}CnCyElBoChByBpD{DjG}GxDgE~CqCbAu@bEkCnCuAlDqAvM{DnE_B`By@vByAxC_CrBoBrDmDfBoBfCaCpBuBpBwCh@_AjBqDzOe^jDeIbJuSvBkEtCqGr@aBxGiOlBiFb@}A^_B^}BXmCXiEDsEEgCUaEWcCe@{C_DmNo@kCiBcIW}Ak@cEOsBQaDKiFBoDHsCHwA^gEp@yEr@gD`AiDtAoDtLsXzSef@`AkC|@_Dp@{Cl@aE^mDPmCLiF@kCMkFYoE[{Cq@gEy@mD{@uC}@cCaAwBkI}OYk@aA{B{@kCy@aDq@oDc@yCc@_FQwECuC@{BNiE`F_u@VqCXqBV}A|@}Dv@iCPi@lCwHhEcMr@gCn@kCr@eDd@_DR{AVyB`@kE\\yGDaAF}G?aB?eFEaJQ{PKwVIeKGsPByGDaE^iNt@gYfAw`@bAs`@f@sQZcM^eLb@gJ^{En@iG|AqMjBeOt@mGd@mEX{Cj@sIVqFNaFJiGJyFb@sTh@wZXcLVmG^uH`B{WrA}TjBk[|AeWf@iGhDac@vA_QhEoi@zHqbAzBkZ",
+                "name": "8: München-Süd - Inntal"
+            }, {
+                "end": "47.768321, 12.942578",
+                "start": "47.810087, 12.095346",
+                "line": "_|xbH{jyhAjBuUnAySpBof@xE_lA`C_n@bAmYjBm`@pAc[nAca@zA{j@xA{TnBkWz@oLN}BrAyQp@_M^oPZol@HwRZoL|@}In@qDzAaGnAmD|B{ErJyPxBwElAaDfCyKz@iGb@iFZwJCkHMcGsAoPm@cIQ_IPqJ~@{VAgFSwFqBsVuC{^k@sLUwJAoUV_`@BsTK{PMaLg@qOm@uKgAgNgAaLwBuQ{BwNqCwNkD_P{C}MsBiKcA}Ha@mEe@kKEsQ?{c@Pqa@VgLn@yNx@aUZ}DbAmHrCyRb@sFV}IAkDe@yKsEy^wEk^}CgVgAkH_AwGaBiO{A_IeC}IeG_T}BoKuD_UyAiK}Ew^sB{L_ByFwE{MmAaEu@aDu@wE[}CaAeN_AiLu@wGkA{HqAqGmBuHeA_DwD}IiG{NuBgFmCeFyDoFqCaDoFaFsF_EqVqNuD_CsAgAiDuDiDmFkBaE_ByEgAsEeAkGo@gHWaIFkJTcHz@_Wp@kV?kKOgIk@cRi@yPIoIBwMJkTV{o@DyHKoQ}@kRk@cG{@sHeAcHkCmM{EuTqAoJe@uFW}F{Aqx@mBwcAy@{d@B}Kd@wPh@aIt@cIvDkWdX_eB~Iqk@hAcIn@kGhEwf@fBiSn@wJx@mS`A{\\d@eOdAaRbAkQP_GToYn@uJrAgQx@aMPwFFkNMmGc@yJ}Bk]kAwScBc_@u@mPYaKDmHf@oRb@eYPgTAsMMiFa@aL}A}c@K_LRyJb@_HnAuLdA{KVoKWkJ}B_VgBgQo@eI]wIGoF@aHj@mQ`AsUb@kGv@_HhCgNfDqPrDcRtAsLj@uL@kLk@}`@[}YNiGlAsMdByOZqFDoIe@cKcAuH_CgKyHi[sAqHcA_M{AmW{Bs_@_@qW]i`@EkZ`@_b@?gESwMaAeR}E_j@wAuQSeI@_J\\iJb@oFpAuJnAeGlB}GlIiTfBmFhA}Ej@wDf@_FTqF@iIm@{Sc@{OcAq]GyKHeHViHz@aRRsFHcIIsLk@{L{BaUyCgXyCsX[kEQqFBc[Pii@PiGj@cH`@cDr@iEvAaG~DyNzCmK~BkGdDkGtAsBbLiOpJeMhFqFfCwBbLoJdP_N`FmE|BgC|CqEbFmJpJkRvUwd@bYkj@`JkQxGqMnF{JtFgI~BsCnKyKt^a_@rQ{QxGyHzD{Fb[mj@x[qk@xM}U`DoGrAkDlCaKfJyj@~@aJNwE@}DOiFO_EWaHiE}bAiByd@cAqYWm^MkT",
+                "name": "8: Inntal - AT"
+            }, {
+                "end": "47.605746, 12.194638",
+                "start": "47.806024, 12.093743",
+                "line": "obxbHgayhA~CxCzBlBhDdCbCzAzAv@tBz@hBp@nCv@lCh@x@FjE^`DHnC?|BEbFKjTm@|Je@bJu@jD]hHaApJ_BhEy@tG}A|HqBpKkDxFsBzD}AlF}BnG}ClJ}EvLqHxFwDxBcBrIsGrBaBzEkEtGiGvGyGvLoMxIuJfNgOrH}HtLqL|ImIlEcEdPqN`@]tNiLpM}JfLoInRsMnRqM`DyBhDgC|CuB`NgJbIaGzD{CfFaE~KoJfNmMh]q\\f_@k^vUcUbD}CbEsDbBsAjCmB~DiCnDmBtCsAjEcBvAe@dD}@nDu@p@MpGaAj_@_F|NoBnEu@hCi@`EcArFeBvEiBnEsBjGiDpDaCnCoBrEuDlCeC|C}ChDwDlDmEjD}EfEsGdH_LvEmHbB{BlAwAlAoA|@y@lB_BxAaAxAy@xAu@~Ao@xBs@zBg@~Dm@|OeBvC]fGw@|E_A|Cq@tBm@tDkAvDwAvH_Dpc@cRzCuAnJaEbHaD\\OjI}DnDgBdHsDbPyInPcJdKwFlEyBzCsAzD{ArGoBzAa@hFgAbEm@nHy@hM}@lOu@zGIbDB`CH|CXvDr@`Bb@`DhA`CfA`ErBvBxArB|Ab@XvBzB`@`@TXn@t@RTdCbDfA~AhCfEhApB`@`AVx@",
+                "name": "93: Inntal - AT"
+            }, {
+                "end": "48.027737, 11.657205",
+                "start": "48.110798, 11.614923",
+                "line": "mssdHap{eAt@SbA?|G~@~NvB`G|@`Fl@dG\\bDBlDGbCQpD_@bIsAhPyC~ZeFxd@sHzAYfFsAlDqA~DkBxC_BnCgBnCsBdDsCn_@c^d_@_^bF_Fha@_`@jPyO~IuIjD{Cv@o@hD_CnDuBzBgAzBeAzCmA~MoFzGmChU{I|p@{WdM}EdNqFlUeJ",
+                "name": "8: München - München-Süd"
+            }, {
+                "end": "48.245367, 12.830705",
+                "start": "48.247659, 12.365211",
+                "line": "{jneHqanjAEkBIcBW_Fs@yJa@eEeHyu@k@eGy@}K_@}GW_HMmFI}GA{FLwMVcJf@iM^sEz@yIbByLxAuIn@cDzEmUhAeG|@iG\\kC`@eFTqFLqI?qCIkEMsDSaE]{DMeB{@{HeAyJsDeZuCaS{BqN_EqUyBmKkBmHq@wByCaIo@_BsEmI}AaCcB{B{DgEiCaCsB}AwA_AsBkA}Aw@yAo@{Ai@}DiA_FmAqG_B{@YiEwAaBq@qBiA}AeAmBwAmBgBsA}AeBuBaBeCyAiCuAqCeCmGE]YaAaAkDi@_Cs@oD_@iCm@oFe@oF[kGQyEKaHCkH@uIL{[CwOOiNUgKg@kO}@mQiAaPkAkM_B_OwBgPaDeV_BwNuAaO_AkMWuDo@qL_@wIUkGUoIOiIMuKEaL?qIJeOTcORkHn@{Pd@oJpAeS~Cib@`ByU\\_Gp@kOJwCVoKJeHFsKAeTCaQBmMBiDD_ELwIX_Lb@qMl@eMf@oIp@oJv@qJ`AuJfA_KjBuNfByLlB}KzBoLnAgGvAmGnC_LbBmGjCiJdCaIpDuKvDaK~C_IvC{GjB_EtD_IjJiRdDiH`BuD`FcMfCcHtBoGdBuF`CsIxAuFhA{Ep@iDfAiGj@yD|@{Hx@wJd@}JPaJBkJEmFOwGMyCw@_QWmII}G?mFBuCX{J\\kG`@gGz@mMXyGJkEDkD@{FO_K[{J_@oLIkCC}D?_EJoGJ}CRuDX_EZmDp@aHTmCT{DJmCDiD@uBGsDSgE[{DYiCm@sDqA_GcDeMw@yDg@qCm@sEe@cFSmCMcEKgGBuFDmCTgFr@gK\\{D\\mFHcCHgEB_EGmEOkFa@uF{@mJ]eEQqCOuDIkE?iFHcEL{DRuCb@aF\\mCz@kFl@yCpAeFxAqEzAuDzAeDlEyItBsEjAyCxAmEl@uB`AqDbAyEp@uDj@{Df@oEf@iGRqDRuFHmH@cEEgFIwFScHY_Hc@gHY}D_AiKcAaJ{BuQcAuIw@wHcAgLm@kIg@iIa@{I]eKW_MUySOkUKw_@A}V?mYDgKNuFNiCTkCPgB^mCdA}FhBsHdDgMxA}G~@kGp@mGTsCN}CVqITuLJqFTwLX{G`@iFfD}]rD}_@",
+                "name": "94: Heldenstein - Burghausen"
+            }, {
+                "end": "49.458863, 11.243287",
+                "start": "49.559689, 10.992676",
+                "line": "yrnmHc_bbAn@gIb@{D`AwGdAkGhAsFp@}CfAkEfAsD~BaHdBkExB_FnBuDhCkErC_ElDsE`DgD|DkDlDwCxGqFfDmCpCaC`DuC`DeDzCwDjD{ElCoEnDaHdD}H`BuEbAaDxBaIbBqHvA_HhQm}@fD{PvKsj@vMiq@jAmFbCyJvC{J`B_FnCkH~A}D~EcLhJcTxPi`@lT_g@dLwWtCaHrDaKjAwDjBqGvCmL`B{Ht@yDjCePfBkLbKko@rEsYvCqQdCuLxBoI|AkFtAeEnAiDvCqH|F{N~AaE`AsCbBsF|AcGlAoFhGoX~A{F`BiFbAoCxGwPrDoJvBqFnAgD~AkEjAwC|C_IjIyS`JmUtPyb@tJsVlA}CpAyCjBuDxAoCxAeC~AcC`B{BjBcCbEqFhDmEhFeH~AmB|Wq]tIcLzFmHtC{DpByCnCcF~@mBlBuEtAaEtBoHnAqF`AuFl@aEf@kEZmDZsETuGHaDBiD?kBGwGQgGc@mI}Bw_@aAiPe@}IQcHEiEBgHNiGVcGZeE`@eEbAuHV{AVa@VgAhAgEx@gCz@qB`AoBzDoGvAgCt@aBf@kAx@cCd@_Bn@oC`@uB\\}Bx@qHz@yIT_BVyAbAgEzCoK",
+                "name": "3: Fürth - Nürnberg"
+            }, {
+                "end": "49.378057, 11.135920",
+                "start": "49.412414, 11.067078",
+                "line": "qzqlHgppbAt@aAv@y@jAeAlByA`EsCzCqBnEcCrIiEbFwBfPaGzDsApDyAvAq@nCeBnB_BlBmBrA{AbAwApBgDn@mArA}CtA}DrA{E`A{Ej@uDd@_EZ}DVaEVcJFwG?}GI{IUqLe@{Tc@{RG}EGyKDeGRgHXsEPuBV_Cn@aFj@cDfA{Ex@{Cj@iBv@yBt@oB|B_F~AwCzCcFpDkFbLcOnD}E|EcHpEeHnFcJrKgRhTu_@P]",
+                "name": "73: Nürnberg-Hafen - Nürnberg-Süd"
+            }, {
+                "end": "49.348426, 11.203249",
+                "start": "49.378057, 11.135920",
+                "line": "{cklHo~}bAlDgGzAsCx@gBx@qBjAkDz@}Cx@sDv@uE^wCv@wGnD{a@|Dmd@d@wEn@{ExAkIhAmFhEeSnDuPdBkJRiAPgAbA{G~@mIj@yF^aFf@aJPoET}IXyNNmKLcFd@yLTqEd@_Hp@qFV{At@qDv@aDdAeDpAgDnAkC~@gBjAgBlA_BjDuDhCwBhAo@vCwAlBo@~Aa@lASvCY`BE~A?~AH~C\\xC`@nDZ~BDz@C`AIz@MpA[`A_@z@a@z@g@bCmB`EsDtA_AfAm@vB{@x@U",
+                "name": "73: Nürnberg-Süd - Nürnberg-Feucht"
+            }, {
+                "end": "48.178425, 11.595222",
+                "start": "48.221761, 11.629495",
+                "line": "_iieHkk~eAlDvAfEbBxGjCfAh@dMbF`\\lMdBv@r]fN|QnHfIbDbn@|UfPtGxEtBvC~ApCrBvArAtB~BvBzCpA|B~AfDd@fAxAhEtAzFr@tDv@dGZxCVlB^jBdAjEdA|CbA~BpAbCbA|ApAhBpC~CvFrF|ElE",
+                "name": "9: München-Nord - München"
+            }, {
+                "end": "48.221761, 11.629495",
+                "start": "48.319744, 11.618824",
+                "line": "km|eHsh|eApVsLlG{CpFqCbJ_FxLcH`IeEdEmBpBgAlNcHpo@m[`KmExHgDzVsKjPgHvF_CzB}@`C{@jFgBxDiAhG_Bn`@kJfb@}J`RoEtKkC|Dw@zDi@dBO`BI|BIzB?~BB`BFxBNdCXrCb@jDv@jDbAfA^nXxK|An@hNrFnWjKjAd@tHvC`S`ItAj@xZ|LnFzB`HfC`E~A`IbDfCfA`EzArHzCbJlD`IdD",
+                "name": "9: Neufahrn - München-Nord"
+            }
+         ]
     }
 }

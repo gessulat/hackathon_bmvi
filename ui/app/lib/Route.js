@@ -36,6 +36,13 @@ sap.ui.define([
                     group: "Data"
                 },
                 /**
+                 * Descriptive name for the route.
+                 */
+                name: {
+                    type: "string",
+                    group: "Data"
+                },
+                /**
                  * Waypoints to refine the route.
                  */
                 points: {

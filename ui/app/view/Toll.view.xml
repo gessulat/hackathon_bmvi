@@ -13,11 +13,7 @@
                 </contentRight>
             </Bar>
         </customHeader>
-        <bmvi:Map center="{/toll/center}" lines="{/toll/lines}" kml="true" zoom="{/toll/zoom}" routes="{/toll/routes}">
-            <bmvi:routes>
-                <bmvi:Route end="{end}" start="{start}" points="{points}" type="{type}" />
-            </bmvi:routes>
-        </bmvi:Map>
+        <bmvi:Map center="{/toll/center}" lines="{/toll/lines}" kml="true" zoom="{/toll/zoom}" />
         <footer>
             <Toolbar>
                 <Button icon="sap-icon://dropdown" iconFirst="false" text="{i18n>BAVARIA}" />

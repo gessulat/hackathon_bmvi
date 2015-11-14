@@ -182,8 +182,6 @@ sap.ui.define([
             });
         }, this);
 
-        window.poly = [];
-
         this.getRoutes().forEach(function (oRoute) {
             this._oDirectionsService.route({
                 destination: Map.decodePosition(oRoute.getEnd()),
@@ -195,7 +193,6 @@ sap.ui.define([
                     };
                 })
             }, jQuery.proxy(function (oDirectionsResult) {
-                window.poly.push(oDirectionsResult.routes[0].overview_polyline);
                 return new google.maps.DirectionsRenderer({
                     directions: oDirectionsResult,
                     map: oMap,
