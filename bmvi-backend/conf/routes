@@ -2,6 +2,7 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+GET     /api/pricing/:date                          controllers.Application.pricing(date: org.joda.time.DateTime)
 GET     /api/price/:kilometers/:city/:date          controllers.Application.priceFor(kilometers: Int, city: String, date: org.joda.time.DateTime)
 
 GET     /api/weather/historic/city/:city/:date      controllers.Application.historicForCity(city: String, date: org.joda.time.DateTime)
