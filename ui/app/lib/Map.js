@@ -37,6 +37,22 @@ sap.ui.define([
                     defaultValue: "100%"
                 },
                 /**
+                 * Whether to show an KML overlay.
+                 */
+                kml: {
+                    type: "boolean",
+                    group: "Appearance",
+                    defaultValue: false
+                },
+                /**
+                 * Lines on the Map.
+                 */
+                lines: {
+                    type: "string[]",
+                    group: "Appearance",
+                    defaultValue: []
+                },
+                /**
                  * Width of the Map.
                  */
                 width: {
@@ -134,6 +150,14 @@ sap.ui.define([
             zoom: this.getZoom()
         });
 
+        if (this.getKml()) {
+            this._oLayer = new google.maps.KmlLayer({
+                map: this._oMap,
+                preserveViewport: true,
+                url: "https://www.dropbox.com/s/a7v4unrbej8ogv4/bayern.kml?raw=1"
+            });
+        }
+
         this.getMarkers().forEach(function (oMarker) {
             oMarker.googleMarker = new google.maps.Marker({
                 position: Map.decodePosition(oMarker.getPoint()),
@@ -141,6 +165,19 @@ sap.ui.define([
                 title: oMarker.getTitle()
             });
         }, this);
+
+        this.getLines().forEach(function (sLine) {
+            return new google.maps.Polyline({
+                path: google.maps.geometry.encoding.decodePath(sLine),
+                //                levels: decodedLevels,
+                //                strokeColor: "#FF0000",
+                //                strokeOpacity: 1.0,
+                //                strokeWeight: 2,
+                map: this._oMap
+            });
+        }, this);
+
+        window.poly = [];
 
         this.getRoutes().forEach(function (oRoute) {
             this._oDirectionsService.route({
@@ -153,6 +190,7 @@ sap.ui.define([
                     };
                 })
             }, jQuery.proxy(function (oDirectionsResult) {
+                window.poly.push(oDirectionsResult.routes[0].overview_polyline);
                 return new google.maps.DirectionsRenderer({
                     directions: oDirectionsResult,
                     map: this._oMap,

@@ -1,4 +1,4 @@
-<mvc:View controllerName="bmvi.ui.app.controller.Toll" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:bmvi="bmvi.ui.app.lib">
+<mvc:View controllerName="bmvi.ui.app.controller.Toll" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:bmvi="bmvi.ui.app.lib">
     <Page>
         <customHeader>
             <Bar>
@@ -13,13 +13,17 @@
                 </contentRight>
             </Bar>
         </customHeader>
-        <bmvi:Map center="{/toll/center}" zoom="{/toll/zoom}" routes="{/toll/routes}">
+        <bmvi:Map center="{/toll/center}" lines="{/toll/lines}" kml="true" zoom="{/toll/zoom}" routes="{/toll/routes}">
             <bmvi:routes>
                 <bmvi:Route end="{end}" start="{start}" points="{points}" type="{type}" />
             </bmvi:routes>
         </bmvi:Map>
         <footer>
             <Toolbar>
+                <Button icon="sap-icon://dropdown" iconFirst="false" text="{i18n>BAVARIA}" />
+                <ToolbarSeparator />
+                <Text text="{i18n>DATE}" />
+                <ToolbarSpacer />
                 <Button icon="sap-icon://filter" text="{i18n>MAP_FILTER}" press=".onFilterPress" />
             </Toolbar>
         </footer>

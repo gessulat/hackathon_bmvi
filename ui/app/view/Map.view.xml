@@ -16,7 +16,7 @@
                 <bmvi:Marker point="{markers/end/point}" title="{markers/end/title}" />
             </bmvi:markers>
             <bmvi:routes>
-                <bmvi:Route end="{end}" start="{start}" points="{points}" type="type" />
+                <bmvi:Route end="{end}" start="{start}" points="{points}" type="{type}" />
             </bmvi:routes>
             <bmvi:drivers>
                 <bmvi:Driver point="{point}" name="{name}" />
