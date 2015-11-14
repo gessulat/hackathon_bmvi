@@ -12,31 +12,30 @@ import GoogleMaps
 class Path {
     let totalCost : Double
     let polyline : MKPolyline
+    let points : [CLLocationCoordinate2D]
     
-    init(pl : MKPolyline, cost : Double) {
-        totalCost = cost;
-        polyline = pl;
+    init(points : [CLLocationCoordinate2D], pl : MKPolyline, cost : Double) {
+        self.totalCost = cost;
+        self.polyline = pl;
+        self.points = points
     }
 }
 
 class PathProvider {
 
     let googleAPIKey: String
-    let routesArray: [[String:AnyObject]]
+    let routesArray: [String:[String:AnyObject]]
     
-    init(apiKey : String, routes : [[String:AnyObject]]) {
+    init(apiKey : String, routes : [String:[String:AnyObject]]) {
         googleAPIKey = apiKey
         routesArray = routes
     }
     
-    func pathAtIndex(idx: Int) -> Path? {
-        guard idx < routesArray.count else { return nil }
+    func pathForKey(key: String) -> Path? {
         
-        let routeDict = self.routesArray[idx]
+        guard let routeDict = self.routesArray[key] else { return nil }
         
-        guard let cost = Double(routeDict["maut_cost_eur"] as! String) else { return nil }
-        
-        guard let encodedPath = routeDict["path"] as? String else { return nil }
+        guard let encodedPath = routeDict["points"] as? String else { return nil }
         
         let gmsPath = GMSPath(fromEncodedPath: encodedPath)
         let count = Int(gmsPath.count())
@@ -49,7 +48,7 @@ class PathProvider {
         
         let polyline = MKGeodesicPolyline(coordinates: UnsafeMutablePointer(coords), count: count)
     
-        return Path(pl: polyline, cost: cost)
+        return Path(points:coords, pl: polyline, cost: 0.0)
     }
 
 }

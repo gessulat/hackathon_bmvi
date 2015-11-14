@@ -1,69 +1,67 @@
 {
-    "metadata": {
-        "count": 2,
-        "next": null,
-        "previous": null
-    },
-    "results": [
-                {
-                "distance_m": 577123,
-                "duration_s": 18194,
-                "start_location": {
-                "lat": 52.5167,
-                "lon": 13.3833,
-                "accuracy_m": 3.9
+    "routes": {
+        "a93": {
+            "key": "a93",
+            "title": "Frankenschnellweg",
+            "info": "Achtung",
+            "center": "50.423242210110814,12.501510499999995",
+            "zoom": 7,
+            "markers": {
+                "start": {
+                    "point": "52.529526,13.378539",
+                    "lat": 52.529526,
+                    "lng": 13.378539,
+                    "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
                 },
-                "start_address": {
-                "name": "Bundesministerium für Verkehr und digitale Infrastruktur",
-                "street_number": "44",
-                "street_name": "Invalidenstraße",
-                "city": "Berlin",
-                "country": "DE"
-                },
-                "end_location": {
-                "lat": 48.1333,
-                "lon": 11.5667,
-                "accuracy_m": 9
-                },
-                "end_address": {
-                "name": "Allianz Arena",
-                "street_number": "25",
-                "street_name": "Werner-Heisenberg-Allee",
-                "city": "München",
-                "country": "DE"
-                },
-          
-                "maut_cost_eur": 10.92
-                },
-                {
-                "distance_m": 616345,
-                "duration_s": 20040,
-                "start_location": {
-                "lat": 52.5167,
-                "lon": 13.3833,
-                "accuracy_m": 3.9
-                },
-                "start_address": {
-                "name": "Bundesministerium für Verkehr und digitale Infrastruktur",
-                "street_number": "44",
-                "street_name": "Invalidenstraße",
-                "city": "Berlin",
-                "country": "DE"
-                },
-                "end_location": {
-                "lat": 48.1333,
-                "lon": 11.5667,
-                "accuracy_m": 9
-                },
-                "end_address": {
-                "name": "Allianz Arena",
-                "street_number": "25",
-                "street_name": "Werner-Heisenberg-Allee",
-                "city": "München",
-                "country": "DE"
-                },
-
-                "maut_cost_eur": 15.78
+                "end": {
+                    "point": "48.218936,11.624482",
+                    "lat": 48.218936,
+                    "lng": 11.624482,
+                    "title": "Allianz Arena"
                 }
-                ]
+            },
+            "points" : "ayp_I{cypAnp@|~PvWxbE`e@`\\r~LbsOhxB_^xmAzuAjo@xoCrzBb{@dwAxy@`rBrWpmApjEhcCzlBhXtpAlLr|Fq_@llFnpAryM~lBxs@jnBrGddB_s@l{A|t@|rBv{BtqAdoDn~AvyChp@fmDvoA|qDtvCplDpiE~oIdoEhcGjqBhaBbp@`cBl}Ab|Cv`EpfIjeC|oId~ArqEhxFp{BbdCrkEv~CdeDtjCzwHhsEzuDdfF~yFrgB`bD|uAjbAl~GzmA`pKhtAd`GprAd|Cwb@hiE_^ztGsz@hrCeiAlhC`f@jqHboDl|Gwe@luFzfDfkDh}DjiGluKbhGlwGtoLb}Id}Dtu@lsFj[bjD|eAbhGfeDpvAj`GdvA~rAlpBzyCb_Fep@`nHydAfoDmfC`zBgnBn|Dy@|jGxlFbvAfl@vxAya@faGp{DpiCdtBl_G`oAh~DlcBr{@kQ~wCusCr}@gRbdA~e@`oBve@rlAkjAt{F~]lyBnEvmBjtBv~@vbAd[rb@to@a]r_AchBrkAqb@ptAlw@plAqb@dpBig@eu@cyBov@ogAiDwmBguAsrDonBunFyRovFgS{nA|h@sz@fhC\\xpAunFzoAkpApsA[nqB_Q~dAjWfpAco@ltC}}D||BcfA|kA}jD~t@m}@fiAzr@|n@cjBvt@iLh{@`oAraAjQjh@blAdn@bt@fa@_X|_Bmk@zsBE`|Ayj@thDlPnmB_b@fvAalAdeB|d@tm@xC|h@gy@`pBosA|CemDhyDkmHzxAccBjsBxUxbD~YhlCdaEntDljA~nAtw@vq@uT|r@knAz_A|A`jD~bD|sBd@xvCiP`_Dj{BrqBzt@haBic@xbB}oAvzEi^z_B|Ir|ArzA`kC`vAbxDizAdqCcsEz{BssBduDud@niJpeErnBj|Aj}BaZzoIwGnvGjuDbsAjC|tBwt@neFtjBlcBwr@x`A~k@brDrgAbpCgLj_DdvA|wAso@v~@`d@|cCbOfgA~F|lAz_CltB~{@tlB@noB{r@fZabBpu@aq@l{ClSh`Ets@neB~fAtz@fbC`}Ap_E`lBrgAtn@vhCzkC`sFx`Gt~IdmGx{GtsDhwOxfBvmCh`CzNrcEnjD|mB`xAvPtsBfkA~yDdvAreGvb@tu@~oCfNxr@y\\zcBtBdyAx}@dkBwaAx~AhVh_B|Qt`CeS|lEnAphCgb@zaGm`@rhFodC|eEgpBdkCel@zsB|n@`xFz{BvvB~xB|h@bt@tXss@bh@zVpz@ag@zcArw@rE|x@vs@nK",
+            "routes": [
+                       {
+                       "start": "52.529526,13.378539",
+                       "end": "48.218936,11.624482",
+                       "points": [
+                                  "49.252858,12.125769"
+                                  ],
+
+                       "type": "Blue"
+                       }
+                       ]
+        },
+        "a9": {
+            "key": "a9",
+            "title": "A9",
+            "info": "Achtung",
+            "center": "50.423242210110814,12.501510499999995",
+            "zoom": 7,
+            "markers": {
+                "start": {
+                    "point": "52.529526,13.378539",
+                    "lat": 52.529526,
+                    "lng": 13.378539,
+                    "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
+                },
+                "end": {
+                    "point": "48.218936,11.624482",
+                    "lat": 48.218936,
+                    "lng": 11.624482,
+                    "title": "Allianz Arena"
+                }
+            },
+            "points" : "ayp_I{cypAnp@|~PvWxbE`e@`\\hxFfsHheEz~EhxB_^xmAzuAjo@xoCty@tw@|_AlBdwAxy@`rBrWpmApjEhcCzlBhXtpAlLr|Fq_@llFnpAryM~lBxs@jnBrGddB_s@l{A|t@|rBv{BtqAdoDn~AvyChp@fmDvoA|qDtvCplDpiE~oIlpAjfCv}B|{BjqBhaBbp@`cBl}Ab|Cv`EpfIjeC|oId~ArqEhxFp{BbdCrkEv~CdeDtjCzwHhsEzuDxnAjnBjvCrjCrgB`bD|uAjbAl~GzmA`pKhtA~zBbr@ddCl_@d|Cwb@z|AlHlkBmg@hdDkXpoBga@hrCeiAlhC`f@jqHboDl|Gwe@luFzfDfkDh}DjiGluKbhGlwGtoLb}In~@tl@t}B~GlsFj[bjD|eAbhGfeDpvAj`GdvA~rAlk@v~A~cAbz@b_Fep@`nHydAfoDmfC`zBgnB~nBgQnlAlOv}AzsAdlD|wCbvAfl@vxAya@faGp{DpiCdtBl_G`oAh~DlcBr{@kQxiB_zAdm@ux@r}@gRbdA~e@`oBve@rlAkjAt{F~]rkAuTxl@d[vmBjtBv~@vbAd[rb@to@a]r_AchB~^eh@rk@rDptAlw@plAqb@lvAcP~hAkq@fsEmuAzrChxA|~BtuBncBsSlcDffA~aCx|B~x@d]pjAsWpfDt~@rbGnoKxfAb_F~_@jtAtz@ho@fpDrdA|hB`Ex|@sZx{Eh\\xcEnFltEfC|jBpo@~Vhy@jXfrFbe@|gCzZhf@hqAtK|iClgB|vBzI~q@v@zt@db@tcA{rBj}A~]x_Fip@rm@dp@jf@jwCb}Af}AfgAtIhrDcNnzAxzBbZlpAfm@xj@ndClxDzaAz{DfcAzdBxrDr`CpgDrjAfcBxf@h~AjbBhyCr_DjiCtuCphBtaBnuCxcDxwA|y@vlBqh@loBlDbkHq^plK{n@lkH_iB|wE{sDfnFsy@tuEkxAxzCep@jfBatD|yByuCrXumAdbAiq@x^aN|u@p`Adl@hKvp@okAxfBkvClcAqq@j_@shAvxBueDxqCqvDdvDfAldDIvtBdK|uBwn@xwD|r@tbD|T~~ApQphBqc@~jCkfBx}Gi~Ch`IaaCl|DoyFnzA}~CjsCbNjl@mWljB~WpgBdf@dtAq`AtpBfk@hwAcDzgCuHzvFcAn{Agk@`}C|I|mBkt@v`Fo`CrlEmlBh{Ba`@twClgAlcF`qBfdArn@j_@djA~]f`@p\\so@fi@fXla@se@hp@hTjq@pw@xHph@~d@hD",
+            "routes": [
+                       {
+                       "start": "52.529526,13.378539",
+                       "end": "48.218936,11.624482",
+                       "points": [],
+                       "type": "Blue"
+                       }
+                       ]
+        }
+    }
 }

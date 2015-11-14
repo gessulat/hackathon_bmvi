@@ -20,22 +20,87 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjN-nI-BIA">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="dec-kb-wQ4"/>
+                                    <outletCollection property="gestureRecognizers" destination="9aI-KO-qne" appends="YES" id="dU1-Eq-0QZ"/>
+                                </connections>
                             </mapView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Som-bs-mJF">
+                                <rect key="frame" x="0.0" y="535" width="600" height="65"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1t8-a8-DSt">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="geb-CE-bGD">
+                                            <rect key="frame" x="8" y="8" width="584" height="49"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ef3-Ef-qHe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="502" height="49"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="von Berlin nach München über A9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aak-MV-rms">
+                                                            <rect key="frame" x="0.0" y="0.0" width="259" height="21"/>
+                                                            <animations/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mautkosten: 102€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vk-Du-45b">
+                                                            <rect key="frame" x="0.0" y="29" width="138" height="21"/>
+                                                            <animations/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <animations/>
+                                                </stackView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8N-ew-gxA">
+                                                    <rect key="frame" x="510" y="0.0" width="74" height="49"/>
+                                                    <animations/>
+                                                    <state key="normal" title="Alternative"/>
+                                                    <connections>
+                                                        <action selector="didTapAlternative:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tte-pS-zhz"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                        </stackView>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="geb-CE-bGD" secondAttribute="trailing" constant="8" id="3QR-pC-eEr"/>
+                                        <constraint firstItem="geb-CE-bGD" firstAttribute="leading" secondItem="1t8-a8-DSt" secondAttribute="leading" constant="8" id="3dc-G9-hKS"/>
+                                        <constraint firstItem="geb-CE-bGD" firstAttribute="top" secondItem="1t8-a8-DSt" secondAttribute="top" constant="8" id="MnH-WQ-34P"/>
+                                        <constraint firstAttribute="bottom" secondItem="geb-CE-bGD" secondAttribute="bottom" constant="8" id="R64-Ic-nWs"/>
+                                    </constraints>
+                                </view>
+                                <animations/>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="rjN-nI-BIA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="GA1-YJ-aXH"/>
                             <constraint firstAttribute="trailing" secondItem="rjN-nI-BIA" secondAttribute="trailing" id="Hw8-ZN-O3U"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Som-bs-mJF" secondAttribute="bottom" id="TKz-Wt-aP8"/>
                             <constraint firstItem="rjN-nI-BIA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b1U-Sp-k4m"/>
+                            <constraint firstItem="Som-bs-mJF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rm0-8d-Ruf"/>
+                            <constraint firstAttribute="trailing" secondItem="Som-bs-mJF" secondAttribute="trailing" id="sOj-Jb-wI7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rjN-nI-BIA" secondAttribute="bottom" id="wCy-e4-1Dj"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="alternativeButton" destination="C8N-ew-gxA" id="ILA-dN-q14"/>
+                        <outlet property="costLabel" destination="2Vk-Du-45b" id="Pcg-wi-VN9"/>
+                        <outlet property="longPress" destination="9aI-KO-qne" id="o9H-2n-Ort"/>
                         <outlet property="mapview" destination="rjN-nI-BIA" id="Wsn-hq-4l5"/>
+                        <outlet property="routeLabel" destination="Aak-MV-rms" id="u2t-c4-2ph"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="1" id="9aI-KO-qne"/>
             </objects>
             <point key="canvasLocation" x="250" y="389"/>
         </scene>

@@ -33,6 +33,7 @@
 		8798F87A1BF6810D00A4C680 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798F8791BF6810D00A4C680 /* libicucore.tbd */; };
 		8798F87C1BF682EA00A4C680 /* routes.json in Resources */ = {isa = PBXBuildFile; fileRef = 8798F87B1BF682EA00A4C680 /* routes.json */; };
 		8798F87E1BF6833300A4C680 /* BadmapAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798F87D1BF6833300A4C680 /* BadmapAPIClient.swift */; };
+		8798F8801BF71FA500A4C680 /* MapCameraProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8798F87F1BF71FA500A4C680 /* MapCameraProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		8798F8791BF6810D00A4C680 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		8798F87B1BF682EA00A4C680 /* routes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = routes.json; sourceTree = "<group>"; };
 		8798F87D1BF6833300A4C680 /* BadmapAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadmapAPIClient.swift; sourceTree = "<group>"; };
+		8798F87F1BF71FA500A4C680 /* MapCameraProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCameraProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				8798F8541BF6764F00A4C680 /* PathProvider.swift */,
 				8798F87B1BF682EA00A4C680 /* routes.json */,
 				8798F87D1BF6833300A4C680 /* BadmapAPIClient.swift */,
+				8798F87F1BF71FA500A4C680 /* MapCameraProvider.swift */,
 			);
 			path = badmap;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				8798F8551BF6764F00A4C680 /* PathProvider.swift in Sources */,
 				8798F8431BF672A000A4C680 /* ViewController.swift in Sources */,
 				8798F87E1BF6833300A4C680 /* BadmapAPIClient.swift in Sources */,
+				8798F8801BF71FA500A4C680 /* MapCameraProvider.swift in Sources */,
 				8798F8411BF672A000A4C680 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +388,7 @@
 				8798F8511BF672A000A4C680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
