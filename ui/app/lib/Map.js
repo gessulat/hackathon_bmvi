@@ -1,6 +1,7 @@
 sap.ui.define([
     "jquery.sap.global",
-    "sap/ui/core/Control"
+    "sap/ui/core/Control",
+    "sap/ui/thirdparty/d3"
 ], function (jQuery, Control) {
     "use strict";
 
@@ -128,6 +129,21 @@ sap.ui.define([
      */
     MapControl.prototype.init = function () {
         this._oDirectionsService = new google.maps.DirectionsService();
+        this._d3scale = function (val) {
+            var greenToYellow = d3.scale.linear()
+                .domain([0, 0.55])
+                .interpolate(d3.interpolateRgb)
+                .range(["#00ff00", "#faff00"]);
+
+            var yellowToRed = d3.scale.linear()
+                .domain([0, 0.55])
+                .interpolate(d3.interpolateRgb)
+                .range(["#faff00", "#ff0000"]);
+            if (val < 0.25) {
+                return greenToYellow(val);
+            }
+            return yellowToRed(val);
+        };
     };
 
     /**
@@ -152,14 +168,7 @@ sap.ui.define([
         ];
 
         if (this.getSimplified()) {
-            aStyles.push({
-                featureType: "landscape",
-                stylers: [
-                    {
-                        color: "#eeeeee"
-                    }
-                ]
-            });
+            aStyles = this.getModel("mapstyle").getProperty("/");
         }
 
         var oMap = new google.maps.Map(this.getDomRef(), {
@@ -170,6 +179,8 @@ sap.ui.define([
             styles: aStyles,
             zoom: this.getZoom()
         });
+
+        window.map = oMap;
 
         if (this.getKml()) {
             this._oLayer = new google.maps.KmlLayer({
@@ -190,13 +201,14 @@ sap.ui.define([
         this.getLines().forEach(function (mLine) {
             var oPolyline = new google.maps.Polyline({
                 path: google.maps.geometry.encoding.decodePath(mLine.line),
-                strokeColor: "#007cc0",
+                strokeColor: this._d3scale(mLine.usage || 0.4),
                 strokeOpacity: 0.8,
                 map: oMap
             });
             google.maps.event.addListener(oPolyline, "click", function (oEvent) {
                 new google.maps.InfoWindow({
-                    content: mLine.name,
+                    disableAutoPan: true,
+                    content: mLine.name + "<br />" + ((mLine.usage || 0.4) * 4 * 0.11).toFixed(2) + "€/km",
                     map: oMap,
                     position: oEvent.latLng
                 });
@@ -224,15 +236,74 @@ sap.ui.define([
                     suppressMarkers: true
                 });
             }, this));
+            if (oRoute.getWindow()) {
+                oRoute.infoWindow = new google.maps.InfoWindow({
+                    disableAutoPan: true,
+                    position: Map.decodePosition(oRoute.getWindow().position),
+                    map: oMap,
+                    content: this._getContentHtml(oRoute.getWindow().data)
+                });
+            }
         }, this);
 
         this.getDrivers().forEach(function (oDriver) {
             oDriver.infoWindow = new google.maps.InfoWindow({
+                disableAutoPan: true,
                 position: Map.decodePosition(oDriver.getPoint()),
                 map: oMap,
                 content: oDriver.getName()
             });
         }, this);
+    };
+
+    MapControl.prototype._getContentHtml = function (mData) {
+        var sHtml = "";
+        sHtml += "<div class='row'>";
+        sHtml += "<span class='labelColumn'>";
+        sHtml += this.getModel("i18n").getResourceBundle().getText("WINDOW_BASE");
+        sHtml += "</span>";
+        sHtml += "<span class='valueColumn'>";
+        sHtml += mData.base;
+        sHtml += "</span>";
+        sHtml += "</div>";
+
+        sHtml += "<div class='row'>";
+        sHtml += "<span class='labelColumn'>";
+        sHtml += this.getModel("i18n").getResourceBundle().getText("WINDOW_AXLES");
+        sHtml += "</span>";
+        sHtml += "<span class='valueColumn'>";
+        sHtml += mData.axles;
+        sHtml += "</span>";
+        sHtml += "</div>";
+
+        sHtml += "<div class='row'>";
+        sHtml += "<span class='labelColumn'>";
+        sHtml += this.getModel("i18n").getResourceBundle().getText("WINDOW_WHEATHER");
+        sHtml += "</span>";
+        sHtml += "<span class='valueColumn'>";
+        sHtml += mData.wheather;
+        sHtml += "</span>";
+        sHtml += "</div>";
+
+        sHtml += "<div class='row'>";
+        sHtml += "<span class='labelColumn'>";
+        sHtml += this.getModel("i18n").getResourceBundle().getText("WINDOW_TRAFFIC");
+        sHtml += "</span>";
+        sHtml += "<span class='valueColumn'>";
+        sHtml += mData.traffic;
+        sHtml += "</span>";
+        sHtml += "</div>";
+
+        sHtml += "<div class='row'>";
+        sHtml += "<span class='labelColumn'>";
+        sHtml += this.getModel("i18n").getResourceBundle().getText("WINDOW_RESULT");
+        sHtml += "</span>";
+        sHtml += "<span class='valueColumn'>";
+        sHtml += mData.result;
+        sHtml += "</span>";
+        sHtml += "</div>";
+
+        return sHtml;
     };
 
     return MapControl;

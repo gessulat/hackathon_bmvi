@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController, MKMapViewDelegate {
+class ViewController: UIViewController, MKMapViewDelegate, AlternateRoutesDelegate {
 
     @IBOutlet weak var mapview: MKMapView!
     
@@ -20,7 +20,12 @@ class ViewController: UIViewController, MKMapViewDelegate {
     @IBOutlet var longPress: UILongPressGestureRecognizer!
     
     @IBAction func didTapAlternative(sender: AnyObject) {
-        self.switchToAlternateRoute()
+        guard let alternateRoutes = self.storyboard?.instantiateViewControllerWithIdentifier("AlternateRoutesViewController") as? AlternateRoutesViewController else { return }
+        
+        alternateRoutes.delegate = self
+        alternateRoutes.routes = self.paths
+        self.cameraTimer?.invalidate()
+        self.presentViewController(alternateRoutes, animated: true, completion: nil)
     }
     
     func handleLongPress(longPress:UILongPressGestureRecognizer) {
@@ -32,7 +37,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
                 message: "Die Maut für die Route hat sich auf 201€ erhöht", preferredStyle: .Alert)
             
             let alternateAction = UIAlertAction(title: "Alternative Route", style: .Default, handler: { (action) -> Void in
-                self.switchToAlternateRoute()
+                self.didTapAlternative(action)
             })
             
             alert.addAction(alternateAction)
@@ -80,40 +85,40 @@ class ViewController: UIViewController, MKMapViewDelegate {
             let a93path = paths.pathForKey("a93")
             
             self.paths["a93"] = a93path
+            
+            self.cameraProvider = MapCameraProvider(a9path!.points)
+
         }
     }
     
     override func viewDidAppear(animated: Bool) {
-        guard let path = paths["a9"] else { return }
-        self.cameraProvider = MapCameraProvider(path.points)
     }
     
     func setNextCamera() {
-        let index = cameraProvider.currentIndex
+        let index = self.cameraProvider.currentIndex
         let nextIndex = index + 1
         
-        let camera = cameraProvider.cameraAtIndex(nextIndex)
+        let camera = self.cameraProvider.cameraAtIndex(nextIndex)
         
         self.mapview.setCamera(camera, animated: true)
     }
     
     func setCameraIndex(idx : Int ) {
         self.cameraTimer?.invalidate()
-
-        let camera = cameraProvider.cameraAtIndex(idx)
+        
+        let camera = self.cameraProvider.cameraAtIndex(idx)
+        self.cameraProvider.currentIndex = idx
         self.mapview.setCamera(camera, animated: true)
         
         self.cameraTimer = NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "setNextCamera", userInfo: nil, repeats: true)
     }
 
-    func switchToAlternateRoute() {
+    func switchToAlternateRoute(route:Path) {
         if currentOverlay != nil {
             self.mapview.removeOverlay(self.currentOverlay!)
         }
         
-        let a93Path = paths["a93"]
-        
-        guard let polyline = a93Path?.polyline else { return }
+        let polyline = route.polyline
         
         self.currentOverlay = polyline
         
@@ -121,17 +126,15 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         let index = self.cameraProvider.currentIndex
         
-        NSObject.cancelPreviousPerformRequestsWithTarget(self)
-        
-        self.cameraProvider = MapCameraProvider(a93Path!.points)
+        self.cameraProvider = MapCameraProvider(route.points)
 
-        self.setCameraIndex(index-12)
+        self.setCameraIndex(index)
         
         self.alternativeButton.hidden = true
         
-        self.costLabel.text = "Mautkosten: 120€"
+        self.costLabel.text = "Mautkosten: \(route.totalCost)€"
         
-        self.routeLabel.text = "Von Berlin nach München über A93"
+        self.routeLabel.text = "Von Berlin nach München über \(route.name)"
         
     }
     
@@ -157,5 +160,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
             self.setCameraIndex(90)
         }
     }
+
+    func didSelectAlternateRoute(route: Path?) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+        
+        if let route = route {
+            self.switchToAlternateRoute(route)
+        }
+    }
+
 }
 

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -39,14 +40,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="502" height="49"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="von Berlin nach München über A9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aak-MV-rms">
-                                                            <rect key="frame" x="0.0" y="0.0" width="259" height="21"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="258.5" height="20.5"/>
                                                             <animations/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mautkosten: 102€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vk-Du-45b">
-                                                            <rect key="frame" x="0.0" y="29" width="138" height="21"/>
+                                                            <rect key="frame" x="0.0" y="28.5" width="137.5" height="20.5"/>
                                                             <animations/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -78,6 +79,13 @@
                                 <animations/>
                                 <blurEffect style="light"/>
                             </visualEffectView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yK8-lV-O93">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Alternative" id="Bjp-kb-oqV"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -90,6 +98,11 @@
                             <constraint firstAttribute="trailing" secondItem="Som-bs-mJF" secondAttribute="trailing" id="sOj-Jb-wI7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rjN-nI-BIA" secondAttribute="bottom" id="wCy-e4-1Dj"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="yK8-lV-O93"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="alternativeButton" destination="C8N-ew-gxA" id="ILA-dN-q14"/>
@@ -103,6 +116,132 @@
                 <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="1" id="9aI-KO-qne"/>
             </objects>
             <point key="canvasLocation" x="250" y="389"/>
+        </scene>
+        <!--Alternate Routes View Controller-->
+        <scene sceneID="78R-KG-FFY">
+            <objects>
+                <viewController storyboardIdentifier="AlternateRoutesViewController" id="a0g-1V-l0G" customClass="AlternateRoutesViewController" customModule="badmap" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lrh-Jc-px8"/>
+                        <viewControllerLayoutGuide type="bottom" id="vdP-F1-xtK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cuK-BF-RXY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tCH-ZK-lWK">
+                                <rect key="frame" x="0.0" y="44" width="600" height="393"/>
+                                <animations/>
+                                <connections>
+                                    <outlet property="delegate" destination="a0g-1V-l0G" id="Sag-Mz-ZxM"/>
+                                </connections>
+                            </mapView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="67" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="51R-4f-5VV">
+                                <rect key="frame" x="0.0" y="436" width="600" height="164"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="164" id="NZn-qt-sHC"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RouteCell" rowHeight="67" id="Syj-pp-yTO" customClass="RouteCell" customModule="badmap" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="67"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Syj-pp-yTO" id="syH-UR-8RZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="66.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" A9  " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssn-ZU-CqX">
+                                                    <rect key="frame" x="8" y="24" width="33.5" height="19.5"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                    <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mautkosten: 123€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnN-KE-dZV">
+                                                    <rect key="frame" x="49" y="8" width="130" height="19.5"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strecke: 570km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47s-GE-oPP">
+                                                    <rect key="frame" x="49" y="38" width="114" height="19.5"/>
+                                                    <animations/>
+                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uO9-oq-iX6">
+                                                    <rect key="frame" x="541" y="19" width="51" height="30"/>
+                                                    <animations/>
+                                                    <state key="normal" title="Wählen"/>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstItem="47s-GE-oPP" firstAttribute="leading" secondItem="ssn-ZU-CqX" secondAttribute="trailing" constant="7.5" id="Edq-Mr-jQg"/>
+                                                <constraint firstItem="uO9-oq-iX6" firstAttribute="centerY" secondItem="syH-UR-8RZ" secondAttribute="centerY" id="P27-Df-OCT"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="uO9-oq-iX6" secondAttribute="trailing" id="X1W-0c-jHz"/>
+                                                <constraint firstItem="HnN-KE-dZV" firstAttribute="leading" secondItem="ssn-ZU-CqX" secondAttribute="trailing" constant="7.5" id="ate-At-foY"/>
+                                                <constraint firstAttribute="topMargin" secondItem="HnN-KE-dZV" secondAttribute="top" id="cYW-Ga-qLS"/>
+                                                <constraint firstItem="ssn-ZU-CqX" firstAttribute="centerY" secondItem="syH-UR-8RZ" secondAttribute="centerY" id="k6d-FS-oHp"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="ssn-ZU-CqX" secondAttribute="leading" id="qux-IK-5sk"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="47s-GE-oPP" secondAttribute="bottom" constant="0.5" id="yEX-rc-boh"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <outlet property="distanceLabel" destination="47s-GE-oPP" id="B1O-WH-vaE"/>
+                                            <outlet property="mautCostLabel" destination="HnN-KE-dZV" id="hRp-l9-YBt"/>
+                                            <outlet property="routeLabel" destination="ssn-ZU-CqX" id="lTs-CV-gAg"/>
+                                            <outlet property="selectButton" destination="uO9-oq-iX6" id="xen-vd-9w4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="a0g-1V-l0G" id="Abw-Po-0OA"/>
+                                    <outlet property="delegate" destination="a0g-1V-l0G" id="8AR-Xk-v6c"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jp2-1o-xHp">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Alternative" id="wv4-C8-ytE">
+                                        <barButtonItem key="leftBarButtonItem" title="Fertig" id="rLN-fD-Er7">
+                                            <connections>
+                                                <action selector="didTapDone:" destination="a0g-1V-l0G" id="Hgh-Gn-p0j"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tCH-ZK-lWK" firstAttribute="leading" secondItem="cuK-BF-RXY" secondAttribute="leading" id="5FV-wo-cKB"/>
+                            <constraint firstItem="51R-4f-5VV" firstAttribute="top" secondItem="tCH-ZK-lWK" secondAttribute="bottom" id="8WL-mo-GA5"/>
+                            <constraint firstItem="jp2-1o-xHp" firstAttribute="top" secondItem="Lrh-Jc-px8" secondAttribute="bottom" constant="-20" id="DWD-rY-GNc"/>
+                            <constraint firstItem="vdP-F1-xtK" firstAttribute="top" secondItem="51R-4f-5VV" secondAttribute="bottom" id="I4w-8H-QY8"/>
+                            <constraint firstItem="51R-4f-5VV" firstAttribute="leading" secondItem="cuK-BF-RXY" secondAttribute="leading" id="Inz-Ys-2wv"/>
+                            <constraint firstAttribute="trailing" secondItem="jp2-1o-xHp" secondAttribute="trailing" id="Kj0-MI-Dme"/>
+                            <constraint firstAttribute="trailing" secondItem="51R-4f-5VV" secondAttribute="trailing" id="Osd-ps-JEr"/>
+                            <constraint firstAttribute="trailing" secondItem="tCH-ZK-lWK" secondAttribute="trailing" id="VVJ-Rn-toH"/>
+                            <constraint firstItem="jp2-1o-xHp" firstAttribute="leading" secondItem="cuK-BF-RXY" secondAttribute="leading" id="doP-Ww-1uO"/>
+                            <constraint firstItem="tCH-ZK-lWK" firstAttribute="top" secondItem="jp2-1o-xHp" secondAttribute="bottom" id="nFf-pm-2Pb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapview" destination="tCH-ZK-lWK" id="4H3-cm-u4L"/>
+                        <outlet property="tableview" destination="51R-4f-5VV" id="HMj-pM-tog"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H67-w2-dvK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031" y="389"/>
         </scene>
     </scenes>
 </document>

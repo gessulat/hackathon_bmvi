@@ -106,7 +106,7 @@ module.exports = function (grunt) {
         watch: {
             libStyle: {
                 files: [
-                    "ui/app/lib/themes/**.less"
+                    "ui/app/lib/themes/**/*.less"
                 ],
                 tasks: ["openui5_theme"],
                 options: {
