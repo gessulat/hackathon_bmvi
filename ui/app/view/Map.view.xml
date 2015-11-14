@@ -10,17 +10,21 @@
                 </contentRight>
             </Bar>
         </customHeader>
-        <bmvi:Map center="{center}" zoom="{zoom}">
+        <bmvi:Map center="{center}" zoom="{zoom}" drivers="{drivers}" routes="{routes}">
             <bmvi:markers>
                 <bmvi:Marker point="{markers/start/point}" title="{markers/start/title}" />
                 <bmvi:Marker point="{markers/end/point}" title="{markers/end/title}" />
             </bmvi:markers>
-            <bmvi:route>
-                <bmvi:Route end="{markers/end/point}" start="{markers/start/point}" routes="{routes}" />
-            </bmvi:route>
+            <bmvi:routes>
+                <bmvi:Route end="{end}" start="{start}" points="{points}" type="type" />
+            </bmvi:routes>
+            <bmvi:drivers>
+                <bmvi:Driver point="{point}" name="{name}" />
+            </bmvi:drivers>
         </bmvi:Map>
         <footer>
             <Toolbar>
+                <Text text="{i18n>DATE}" />
                 <ToolbarSpacer />
                 <Button icon="sap-icon://home-share" text="{i18n>NOTIFY_DRIVER}" press=".onNotifyPress" />
             </Toolbar>

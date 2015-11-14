@@ -3,19 +3,16 @@
         "a2": {
             "key": "a2",
             "title": "Bremen - Berlin",
+            "count": 2,
             "center": "52.80356660165128,11.092962499999999",
             "zoom": 8,
             "markers": {
                 "start": {
                     "point": "53.075891,8.807386",
-                    "lat": 53.075891,
-                    "lng": 8.807386,
                     "title": "Bremen Roland"
                 },
                 "end": {
                     "point": "52.529526,13.378539",
-                    "lat": 52.529526,
-                    "lng": 13.378539,
                     "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
                 }
             },
@@ -24,27 +21,66 @@
                     "start": "53.075891,8.807386",
                     "end": "52.529526,13.378539",
                     "points": [],
-                    "type": "Blue"
+                    "type": "#007cc0",
+                    "price": 47
+                }
+            ],
+            "drivers": [
+                {
+                    "point": "52.498721,9.829357",
+                    "name": "Manni"
+                }, {
+                    "point": "52.225843,11.743991",
+                    "name": "Günter"
+                }
+            ]
+        },
+        "a2back": {
+            "key": "a2back",
+            "title": "Berlin - Bremen",
+            "count": 1,
+            "center": "52.80356660165128,11.092962499999999",
+            "zoom": 8,
+            "markers": {
+                "start": {
+                    "point": "52.529526,13.378539",
+                    "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
+                },
+                "end": {
+                    "point": "53.075891,8.807386",
+                    "title": "Bremen Roland"
+                }
+            },
+            "routes": [
+                {
+                    "start": "52.529526,13.378539",
+                    "end": "53.075891,8.807386",
+                    "points": [],
+                    "type": "#007cc0",
+                    "price": 48
+                }
+            ],
+            "drivers": [
+                {
+                    "point": "52.974619,9.226103",
+                    "name": "Benny"
                 }
             ]
         },
         "a93": {
             "key": "a93",
             "title": "Frankenschnellweg",
-            "info": "Achtung",
+            "count": 1,
+            "action": true,
             "center": "50.423242210110814,12.501510499999995",
             "zoom": 7,
             "markers": {
                 "start": {
                     "point": "52.529526,13.378539",
-                    "lat": 52.529526,
-                    "lng": 13.378539,
                     "title": "Bundesministerium für Verkehr und digitale Infrastruktur"
                 },
                 "end": {
                     "point": "48.218936,11.624482",
-                    "lat": 48.218936,
-                    "lng": 11.624482,
                     "title": "Allianz Arena"
                 }
             },
@@ -53,42 +89,71 @@
                     "start": "52.529526,13.378539",
                     "end": "50.331555,11.789035",
                     "points": [],
-                    "type": "Blue"
+                    "type": "#007cc0"
                 }, {
                     "start": "50.331555,11.789035",
                     "end": "48.579930,11.590296",
                     "points": [],
-                    "type": "Red"
+                    "type": "#cc1919"
                 }, {
                     "start": "50.331555,11.789035",
                     "end": "48.579930,11.590296",
                     "points": [
                         "49.252858,12.125769"
                     ],
-                    "type": "Green"
+                    "type": "#007833"
                 }, {
                     "start": "48.579930,11.590296",
                     "end": "48.218936,11.624482",
                     "points": [],
-                    "type": "Blue"
+                    "type": "#007cc0"
+                }
+            ],
+            "drivers": [
+                {
+                    "point": "50.592889,11.783458",
+                    "name": "Engin"
                 }
             ]
         },
         "a7": {
             "key": "a7",
-            "title": "Hamburg - Frankfurt"
+            "title": "Hamburg - Frankfurt",
+            "count": 0
         },
         "ds": {
             "key": "ds",
-            "title": "Düsseldorf - Saarbrücken"
+            "title": "Düsseldorf - Saarbrücken",
+            "count": 0
         },
         "mh": {
             "key": "mh",
-            "title": "Mannheim - Hamburg"
+            "title": "Mannheim - Hamburg",
+            "count": 0
         },
         "sm": {
             "key": "sm",
-            "title": "Stuttgart - München"
+            "title": "Stuttgart - München",
+            "count": 0
         }
+    },
+    "toll": {
+        "center": "52.80356660165128,11.092962499999999",
+        "zoom": 8,
+        "routes": [
+            {
+                "start": "50.331555,11.789035",
+                "end": "48.579930,11.590296",
+                "points": [],
+                "type": "#cc1919"
+            }, {
+                "start": "50.331555,11.789035",
+                "end": "48.579930,11.590296",
+                "points": [
+                    "49.252858,12.125769"
+                ],
+                "type": "#007833"
+            }
+        ]
     }
 }

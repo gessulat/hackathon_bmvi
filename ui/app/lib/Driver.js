@@ -5,33 +5,33 @@ sap.ui.define([
     "use strict";
 
     /**
-     * Constructor for a new Marker.
+     * Constructor for a new Driver.
      *
      * @param {string} [sId] id for the new control, generated automatically if no id is given
      * @param {object} [mSettings] initial settings for the new control
      *
      * @class
-     * The Marker element holds information about a marker on a Map.
+     * The Driver element holds information about a driver on a Map.
      * @extends sap.ui.core.Element
      *
      * @constructor
-     * @alias bmvi.ui.app.lib.Marker
+     * @alias bmvi.ui.app.lib.Driver
      */
-    var Marker = Element.extend("bmvi.ui.app.lib.Marker", {
+    var Driver = Element.extend("bmvi.ui.app.lib.Driver", {
         metadata: {
             library: "bmvi.ui.app.lib",
             properties: {
                 /**
-                 * Position of the Marker as point.
+                 * Position of the Driver as point.
                  */
                 point: {
                     type: "bmvi.ui.app.lib.Position",
                     group: "Data"
                 },
                 /**
-                 * Rollover text.
+                 * Name of the driver.
                  */
-                title: {
+                name: {
                     type: "string",
                     group: "Data"
                 }
@@ -39,5 +39,5 @@ sap.ui.define([
         }
     });
 
-    return Marker;
+    return Driver;
 });

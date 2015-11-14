@@ -2,7 +2,7 @@
     <Page title="{i18n>HOME_TITLE}">
         <TileContainer>
             <bmvi:Tile icon="sap-icon://map" key="routes" title="{i18n>TILE_ROUTES}" press=".onTilePressed" />
-            <bmvi:Tile icon="sap-icon://action" key="other" title="{i18n>TILE_MONITOR}" press=".onTilePressed" />
+            <bmvi:Tile icon="sap-icon://map-2" key="toll" title="{i18n>TILE_MONITOR}" press=".onTilePressed" />
         </TileContainer>
     </Page>
 </mvc:View>

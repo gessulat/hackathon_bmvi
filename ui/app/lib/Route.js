@@ -36,11 +36,18 @@ sap.ui.define([
                     group: "Data"
                 },
                 /**
-                 * Alternative routes from start to end.
+                 * Waypoints to refine the route.
                  */
-                routes: {
-                    type: "object[]",
+                points: {
+                    type: "bmvi.ui.app.lib.Position[]",
                     group: "Data"
+                },
+                /**
+                 * Type of the Route that defines the color.
+                 */
+                type: {
+                    type: "string",
+                    group: "Appearance"
                 }
             }
         }

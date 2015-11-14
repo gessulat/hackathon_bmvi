@@ -1,0 +1,27 @@
+<mvc:View controllerName="bmvi.ui.app.controller.Toll" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:bmvi="bmvi.ui.app.lib">
+    <Page>
+        <customHeader>
+            <Bar>
+                <contentLeft>
+                    <Button type="Back" press=".onNavBack" />
+                </contentLeft>
+                <contentMiddle>
+                    <Title text="{i18n>TOLL_TITLE}" />
+                </contentMiddle>
+                <contentRight>
+                    <Button icon="sap-icon://customer" text="{i18n>TOLL_USER}" />
+                </contentRight>
+            </Bar>
+        </customHeader>
+        <bmvi:Map center="{/toll/center}" zoom="{/toll/zoom}" routes="{/toll/routes}">
+            <bmvi:routes>
+                <bmvi:Route end="{end}" start="{start}" points="{points}" type="{type}" />
+            </bmvi:routes>
+        </bmvi:Map>
+        <footer>
+            <Toolbar>
+                <Button icon="sap-icon://filter" text="{i18n>MAP_FILTER}" press=".onFilterPress" />
+            </Toolbar>
+        </footer>
+    </Page>
+</mvc:View>

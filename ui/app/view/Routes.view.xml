@@ -6,7 +6,7 @@
         <masterPages>
             <Page showNavButton="true" title="{i18n>ROUTES_TITLE}" navButtonPress=".onNavBack">
                 <List mode="SingleSelectMaster" items="{/routes}" selectionChange=".onItemSelected">
-                    <StandardListItem info="{info}" infoState="{= !!${info} ? 'Warning' : 'Warning'}" selected="{= ${/selectedRoute} === ${key}}" title="{title}" />
+                    <StandardListItem description="{count} {i18n>ROUTE_DESCRIPTION}" icon="{= ${count} > 0 ? 'sap-icon://shipping-status' : ''}" info="{= ${action} ? ${i18n>ROUTE_INFO} : ''}" infoState="Warning" selected="{= ${/selectedRoute} === ${key}}" title="{title}" />
                 </List>
                 <footer>
                     <Toolbar>

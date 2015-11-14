@@ -27,7 +27,9 @@ sap.ui.define([
             "bmvi.ui.app.lib.Map"
         ],
         elements: [
-            "bmvi.ui.app.lib.Marker"
+            "bmvi.ui.app.lib.Driver",
+            "bmvi.ui.app.lib.Marker",
+            "bmvi.ui.app.lib.Route"
         ]
     });
 

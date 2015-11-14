@@ -55,6 +55,14 @@ sap.ui.define([
             defaultAggregation: "markers",
             aggregations: {
                 /**
+                 * List of Drivers on this Map.
+                 */
+                drivers: {
+                    type: "bmvi.ui.app.lib.Driver",
+                    multiple: true,
+                    singleName: "driver"
+                },
+                /**
                  * List of Markers on this Map.
                  */
                 markers: {
@@ -65,9 +73,10 @@ sap.ui.define([
                 /**
                  * Route on this Map.
                  */
-                route: {
+                routes: {
                     type: "bmvi.ui.app.lib.Route",
-                    multiple: false
+                    multiple: true,
+                    singleName: "route"
                 }
             }
         }
@@ -94,7 +103,6 @@ sap.ui.define([
      * @override
      */
     MapControl.prototype.init = function () {
-        this._mMarkers = {};
         this._oDirectionsService = new google.maps.DirectionsService();
     };
 
@@ -134,31 +142,36 @@ sap.ui.define([
             });
         }, this);
 
-        var oRoute = this.getRoute();
-        if (oRoute) {
-            oRoute.getRoutes().forEach(function (oRouteLine) {
-                this._oDirectionsService.route({
-                    destination: Map.decodePosition(oRouteLine.end),
-                    origin: Map.decodePosition(oRouteLine.start),
-                    travelMode: google.maps.TravelMode.DRIVING,
-                    waypoints: Map.decodePositions(oRouteLine.points).map(function (mPoint) {
-                        return {
-                            location: mPoint
-                        };
-                    })
-                }, jQuery.proxy(function (oDirectionsResult) {
-                    return new google.maps.DirectionsRenderer({
-                        directions: oDirectionsResult,
-                        map: this._oMap,
-                        polylineOptions: {
-                            strokeColor: oRouteLine.type
-                        },
-                        preserveViewport: true,
-                        suppressMarkers: true
-                    });
-                }, this));
-            }, this);
-        }
+        this.getRoutes().forEach(function (oRoute) {
+            this._oDirectionsService.route({
+                destination: Map.decodePosition(oRoute.getEnd()),
+                origin: Map.decodePosition(oRoute.getStart()),
+                travelMode: google.maps.TravelMode.DRIVING,
+                waypoints: Map.decodePositions(oRoute.getPoints() || []).map(function (mPoint) {
+                    return {
+                        location: mPoint
+                    };
+                })
+            }, jQuery.proxy(function (oDirectionsResult) {
+                return new google.maps.DirectionsRenderer({
+                    directions: oDirectionsResult,
+                    map: this._oMap,
+                    polylineOptions: {
+                        strokeColor: oRoute.getType()
+                    },
+                    preserveViewport: true,
+                    suppressMarkers: true
+                });
+            }, this));
+        }, this);
+
+        this.getDrivers().forEach(function (oDriver) {
+            oDriver.infoWindow = new google.maps.InfoWindow({
+                position: Map.decodePosition(oDriver.getPoint()),
+                map: this._oMap,
+                content: oDriver.getName()
+            });
+        }, this);
     };
 
     return MapControl;
