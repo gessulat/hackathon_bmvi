@@ -13,6 +13,10 @@ class Path {
     let totalCost : Double
     let polyline : MKPolyline
     let points : [CLLocationCoordinate2D]
+    var name : String?
+    var key : String?
+    var length : String?
+    
     
     init(points : [CLLocationCoordinate2D], pl : MKPolyline, cost : Double) {
         self.totalCost = cost;
@@ -48,7 +52,13 @@ class PathProvider {
         
         let polyline = MKGeodesicPolyline(coordinates: UnsafeMutablePointer(coords), count: count)
     
-        return Path(points:coords, pl: polyline, cost: 0.0)
+        let cost = routeDict["maut_cost"] as? Double ?? 0.0
+        let path = Path(points:coords, pl: polyline, cost: cost)
+        path.name = key.capitalizedString
+        path.key = key
+        path.length = routeDict["length"] as? String
+        
+        return path
     }
 
 }

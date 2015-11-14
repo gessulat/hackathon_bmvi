@@ -2,6 +2,8 @@
     "routes": {
         "a93": {
             "key": "a93",
+            "length": "613km",
+            "maut_cost" : 120.0,
             "title": "Frankenschnellweg",
             "info": "Achtung",
             "center": "50.423242210110814,12.501510499999995",
@@ -34,8 +36,10 @@
                        ]
         },
         "a9": {
+            "length": "570km",
             "key": "a9",
             "title": "A9",
+            "maut_cost" : 200.0,
             "info": "Achtung",
             "center": "50.423242210110814,12.501510499999995",
             "zoom": 7,

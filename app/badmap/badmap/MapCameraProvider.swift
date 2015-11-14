@@ -9,7 +9,7 @@
 import UIKit
 import MapKit
 
-class MapCameraProvider {
+class MapCameraProvider : NSObject {
 
     let points : [CLLocationCoordinate2D]
     var currentIndex = 0
