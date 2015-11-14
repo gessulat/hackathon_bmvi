@@ -208,7 +208,7 @@ sap.ui.define([
             google.maps.event.addListener(oPolyline, "click", function (oEvent) {
                 new google.maps.InfoWindow({
                     disableAutoPan: true,
-                    content: mLine.name + "<br />" + (mLine.usage * 3 * 0.11).toFixed(2) + "€/km",
+                    content: mLine.name + "<br />" + ((mLine.usage || 0.4) * 4 * 0.11).toFixed(2) + "€/km",
                     map: oMap,
                     position: oEvent.latLng
                 });
