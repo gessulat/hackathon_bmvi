@@ -10,7 +10,7 @@ case class WeatherInfo(
     temperature: Double, 
     rain: Option[Double], 
     snow: Option[Double],
-    datetime: Int // UNIX timestamp
+    datetime: org.joda.time.DateTime // UNIX timestamp
 )
 
 /*
@@ -26,5 +26,6 @@ case class WeatherInfo(
  */
 
 object WeatherInfo {
+    import utils.JsonUtils.dateTimeWrites
     implicit val writes: Writes[WeatherInfo] = Json.writes[WeatherInfo]
 }

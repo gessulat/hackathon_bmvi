@@ -1,5 +1,6 @@
 package services
 
+import org.joda.time.DateTime
 import scala.concurrent.Future
 import play.api.libs.ws._
 import play.api.libs.json._
@@ -8,6 +9,20 @@ import play.api.libs.functional.syntax._
 import scala.concurrent.ExecutionContext.Implicits.global
 
 object WeatherService {
+    
+    def historicFor(city: String, date: DateTime): Future[Option[WeatherInfo]] = Future {
+      val fileName = city match {
+        case "Regensburg" => "../weather/regensburg_2014_03.json"
+        case "Nuremberg" => "../weather/nuremberg_2014_03.json"
+        case otherwise => throw new IllegalArgumentException(s"Unknown city: $otherwise")
+      }    
+      
+      val json = Json.parse(
+          scala.io.Source.fromFile(play.api.Play.getFile(fileName)(play.api.Play.current)).mkString)
+      val weatherInfos = json.as[List[WeatherInfo]](historicReads)
+      println(weatherInfos)
+      weatherInfos.filter({ _.datetime.isAfter(date) }).headOption
+    }
     
     def weatherFor(city: String): Future[WeatherInfo] = current(s"q=$city")
     def weatherFor(lat: Double, lon: Double): Future[WeatherInfo] = current(s"lat=$lat&lon=$lon")
@@ -45,18 +60,20 @@ object WeatherService {
         (__ \ "main" \ "temp")  .read[Double] and
         (__ \ "rain" \ "3h")    .readNullable[Double].orElse(Reads.pure(None)) and
         (__ \ "snow" \ "3h")    .readNullable[Double].orElse(Reads.pure(None)) and
-        (__ \ "dt")             .read[Int]
+        Reads.pure(DateTime.now())
     )(WeatherInfo.apply _)  
     
-    private val forecastReads: Reads[List[WeatherInfo]] = (
+    private val historicReads = multiReads("data")
+    private val forecastReads = multiReads("list")
+    private def multiReads(dataColumn: String): Reads[List[WeatherInfo]] = (
         (__ \ "city" \ "coord" \ "lon")  .read[Double] and
         (__ \ "city" \ "coord" \ "lat")  .read[Double] and
         (__ \ "city" \ "name")  .read[String] and
-        (__ \ "list").read(Reads.seq((
+        (__ \ dataColumn).read(Reads.seq((
             (__ \ "main" \ "temp") .read[Double] and
             (__ \ "rain" \ "3h")   .readNullable[Double].orElse(Reads.pure(None)) and
             (__ \ "snow" \ "3h")   .readNullable[Double].orElse(Reads.pure(None)) and
-            (__ \ "dt")            .read[Int]    
+            (__ \ "dt_txt")        .read[DateTime](utils.JsonUtils.dateTimeReads("yyyy-MM-dd HH:mm:ss"))   
         ).tupled))
     )({ (lon, lat, name, infos)  => infos.map({ case (temperature, rain, snow, time) => 
         WeatherInfo(lon, lat, name, temperature, rain, snow, time)

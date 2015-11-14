@@ -2,6 +2,10 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+GET     /api/price/:kilometers/:city/:date          controllers.Application.priceFor(kilometers: Int, city: String, date: org.joda.time.DateTime)
+
+GET     /api/weather/historic/city/:city/:date      controllers.Application.historicForCity(city: String, date: org.joda.time.DateTime)
+
 GET     /api/weather/current/city/:city             controllers.Application.weatherForCity(city: String)
 GET     /api/weather/current/coords/:lat/:lon       controllers.Application.weatherForCoords(lat: Double, lon: Double)
 
