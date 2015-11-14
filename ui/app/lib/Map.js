@@ -132,7 +132,7 @@ sap.ui.define([
             return;
         }
 
-        this._oMap = new google.maps.Map(this.getDomRef(), {
+        var oMap = new google.maps.Map(this.getDomRef(), {
             center: Map.decodePosition(this.getCenter()),
             mapTypeControl: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -152,7 +152,7 @@ sap.ui.define([
 
         if (this.getKml()) {
             this._oLayer = new google.maps.KmlLayer({
-                map: this._oMap,
+                map: oMap,
                 preserveViewport: true,
                 url: "https://www.dropbox.com/s/a7v4unrbej8ogv4/bayern.kml?raw=1"
             });
@@ -161,19 +161,24 @@ sap.ui.define([
         this.getMarkers().forEach(function (oMarker) {
             oMarker.googleMarker = new google.maps.Marker({
                 position: Map.decodePosition(oMarker.getPoint()),
-                map: this._oMap,
+                map: oMap,
                 title: oMarker.getTitle()
             });
         }, this);
 
-        this.getLines().forEach(function (sLine) {
-            return new google.maps.Polyline({
-                path: google.maps.geometry.encoding.decodePath(sLine),
-                //                levels: decodedLevels,
-                //                strokeColor: "#FF0000",
-                //                strokeOpacity: 1.0,
-                //                strokeWeight: 2,
-                map: this._oMap
+        this.getLines().forEach(function (mLine) {
+            var oPolyline = new google.maps.Polyline({
+                path: google.maps.geometry.encoding.decodePath(mLine.line),
+                //strokeColor: "#FF0000",
+                strokeOpacity: 0.8,
+                map: oMap
+            });
+            google.maps.event.addListener(oPolyline, "click", function (oEvent) {
+                new google.maps.InfoWindow({
+                    content: mLine.name,
+                    map: oMap,
+                    position: oEvent.latLng
+                });
             });
         }, this);
 
@@ -193,7 +198,7 @@ sap.ui.define([
                 window.poly.push(oDirectionsResult.routes[0].overview_polyline);
                 return new google.maps.DirectionsRenderer({
                     directions: oDirectionsResult,
-                    map: this._oMap,
+                    map: oMap,
                     polylineOptions: {
                         strokeColor: oRoute.getType()
                     },
@@ -206,7 +211,7 @@ sap.ui.define([
         this.getDrivers().forEach(function (oDriver) {
             oDriver.infoWindow = new google.maps.InfoWindow({
                 position: Map.decodePosition(oDriver.getPoint()),
-                map: this._oMap,
+                map: oMap,
                 content: oDriver.getName()
             });
         }, this);
