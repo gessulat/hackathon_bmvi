@@ -53,6 +53,14 @@ sap.ui.define([
                     defaultValue: []
                 },
                 /**
+                 * Whether to simplify the Map features.
+                 */
+                simplified: {
+                    type: "boolean",
+                    group: "Appearance",
+                    defaultValue: false
+                },
+                /**
                  * Width of the Map.
                  */
                 width: {
@@ -132,21 +140,34 @@ sap.ui.define([
             return;
         }
 
+        var aStyles = [
+            {
+                featureType: "poi",
+                stylers: [
+                    {
+                        visibility: "off"
+                    }
+                ]
+            }
+        ];
+
+        if (this.getSimplified()) {
+            aStyles.push({
+                featureType: "landscape",
+                stylers: [
+                    {
+                        color: "#eeeeee"
+                    }
+                ]
+            });
+        }
+
         var oMap = new google.maps.Map(this.getDomRef(), {
             center: Map.decodePosition(this.getCenter()),
             mapTypeControl: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             streetViewControl: false,
-            styles: [
-                {
-                    featureType: "poi",
-                    stylers: [
-                        {
-                            visibility: "off"
-                        }
-                    ]
-                }
-            ],
+            styles: aStyles,
             zoom: this.getZoom()
         });
 
@@ -169,7 +190,7 @@ sap.ui.define([
         this.getLines().forEach(function (mLine) {
             var oPolyline = new google.maps.Polyline({
                 path: google.maps.geometry.encoding.decodePath(mLine.line),
-                //strokeColor: "#FF0000",
+                strokeColor: "#007cc0",
                 strokeOpacity: 0.8,
                 map: oMap
             });
