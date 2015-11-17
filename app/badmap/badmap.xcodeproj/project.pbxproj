@@ -39,7 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8798F83D1BF672A000A4C680 /* badmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = badmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8798F83D1BF672A000A4C680 /* BADMaP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BADMaP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8798F8401BF672A000A4C680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8798F8421BF672A000A4C680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8798F8451BF672A000A4C680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		8798F83E1BF672A000A4C680 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8798F83D1BF672A000A4C680 /* badmap.app */,
+				8798F83D1BF672A000A4C680 /* BADMaP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8798F83C1BF672A000A4C680 /* badmap */ = {
+		8798F83C1BF672A000A4C680 /* BADMaP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8798F84F1BF672A000A4C680 /* Build configuration list for PBXNativeTarget "badmap" */;
+			buildConfigurationList = 8798F84F1BF672A000A4C680 /* Build configuration list for PBXNativeTarget "BADMaP" */;
 			buildPhases = (
 				8798F8391BF672A000A4C680 /* Sources */,
 				8798F83A1BF672A000A4C680 /* Frameworks */,
@@ -177,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = badmap;
+			name = BADMaP;
 			productName = badmap;
-			productReference = 8798F83D1BF672A000A4C680 /* badmap.app */;
+			productReference = 8798F83D1BF672A000A4C680 /* BADMaP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8798F83C1BF672A000A4C680 /* badmap */,
+				8798F83C1BF672A000A4C680 /* BADMaP */,
 			);
 		};
 /* End PBXProject section */
@@ -391,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8798F84F1BF672A000A4C680 /* Build configuration list for PBXNativeTarget "badmap" */ = {
+		8798F84F1BF672A000A4C680 /* Build configuration list for PBXNativeTarget "BADMaP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8798F8501BF672A000A4C680 /* Debug */,
